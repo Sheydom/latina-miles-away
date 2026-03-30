@@ -6,7 +6,7 @@ class PageController extends Controller
 {
     public function home()
     {
-        return view('pages.hom');
+        return view('home');
     }
 
     public function about()

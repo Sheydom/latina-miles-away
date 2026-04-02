@@ -12,8 +12,9 @@
     --color-soft: #eaefef;
     --color-primary: #34a0a9;
     --color-primary-light: #4cc9d4;
-    --color-secundary: #5a7d80;
+    --color-secondary: #5a7d80;
     --color-neutral: #737878;
+    --color-tertiary: #cd7f4a;
 }
 
 @layer base {

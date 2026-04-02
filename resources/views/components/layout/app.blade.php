@@ -13,7 +13,7 @@
 
 <body class="min-h-screen flex bg-soft flex-col  font-sanse">
     <x-header />
-    <main class="grow flex flex-col items-center">{{ $slot }}</main>
+    <main class="grow flex flex-col items-center px-5">{{ $slot }}</main>
     <x-footer />
 </body>
 

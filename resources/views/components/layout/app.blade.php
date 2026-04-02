@@ -8,11 +8,12 @@
     <title>Latina Miles Away</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body class="min-h-screen flex flex-col">
+<body class="min-h-screen flex bg-soft flex-col  font-sanse">
     <x-header />
-    <main class="grow">{{ $slot }}</main>
+    <main class="grow flex flex-col items-center">{{ $slot }}</main>
     <x-footer />
 </body>
 

@@ -1,4 +1,4 @@
 <x-layout.app>
-test
-    
+    <x-secure />
+    <x-lastCallToAction />
 </x-layout.app>

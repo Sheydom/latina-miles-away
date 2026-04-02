@@ -7,12 +7,12 @@
 
 @theme {
     --font-sans:
-        "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+        "Manrope", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
         "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --color-soft: #eaefef;
     --color-primary: #34a0a9;
     --color-primary-light: #4cc9d4;
-    --color-secunday: #5a7d80;
+    --color-secundary: #5a7d80;
     --color-neutral: #737878;
 }
 

@@ -1,4 +1,4 @@
-<nav class="flex bg-soft px-5 sticky top-0 z-50">
+<nav class="flex bg-soft px-2.5 sticky top-0 z-50">
     <div class="flex w-full justify-between">
         <div class="flex gap-5  items-center">
             <img class="w-15 h-15 shrink-0 absolut overflow-hidden" src="{{ Vite::asset('resources/images/lma.svg') }}"

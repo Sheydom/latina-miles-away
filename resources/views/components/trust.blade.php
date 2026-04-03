@@ -36,7 +36,7 @@
                 </svg>Verified Qualifications</h3>
             <div class="bg-tertiary w-full h-0.75 mb-4"></div>
         </div>
-        <div class="bg-white rounded-xl p-4">
+        <div class="bg-white rounded-xl p-4 shadow-md border border-neutral-200">
             <img class="rounded-xl shadow " src="{{ Vite::asset('resources/images/lawyer.png') }}"
                 alt="law-certificate">
         </div>

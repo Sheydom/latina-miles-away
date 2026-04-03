@@ -8,7 +8,9 @@
                 <path
                     d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
             </svg> --}}
-            <button
+            <button   data-cal-link="sheyla-solis-qbslzw/consultation"
+  data-cal-namespace="consultation"
+  data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":true}'
                 class="p-1 rounded-xl
           font-semibold text-white
           bg-linear-to-r 
@@ -27,6 +29,64 @@
                     d="M351.9 280l-190.9 0c2.9 64.5 17.2 123.9 37.5 167.4 11.4 24.5 23.7 41.8 35.1 52.4 11.2 10.5 18.9 12.2 22.9 12.2s11.7-1.7 22.9-12.2c11.4-10.6 23.7-28 35.1-52.4 20.3-43.5 34.6-102.9 37.5-167.4zM160.9 232l190.9 0C349 167.5 334.7 108.1 314.4 64.6 303 40.2 290.7 22.8 279.3 12.2 268.1 1.7 260.4 0 256.4 0s-11.7 1.7-22.9 12.2c-11.4 10.6-23.7 28-35.1 52.4-20.3 43.5-34.6 102.9-37.5 167.4zm-48 0C116.4 146.4 138.5 66.9 170.8 14.7 78.7 47.3 10.9 131.2 1.5 232l111.4 0zM1.5 280c9.4 100.8 77.2 184.7 169.3 217.3-32.3-52.2-54.4-131.7-57.9-217.3L1.5 280zm398.4 0c-3.5 85.6-25.6 165.1-57.9 217.3 92.1-32.7 159.9-116.5 169.3-217.3l-111.4 0zm111.4-48C501.9 131.2 434.1 47.3 342 14.7 374.3 66.9 396.4 146.4 399.9 232l111.4 0z" />
             </svg> --}}
             <p>ES|EN</p>
+            <!-- Cal element-click embed code begins -->
+            <script type="text/javascript">
+                (function(C, A, L) {
+                    let p = function(a, ar) {
+                        a.q.push(ar);
+                    };
+                    let d = C.document;
+                    C.Cal = C.Cal || function() {
+                        let cal = C.Cal;
+                        let ar = arguments;
+                        if (!cal.loaded) {
+                            cal.ns = {};
+                            cal.q = cal.q || [];
+                            d.head.appendChild(d.createElement("script")).src = A;
+                            cal.loaded = true;
+                        }
+                        if (ar[0] === L) {
+                            const api = function() {
+                                p(api, arguments);
+                            };
+                            const namespace = ar[1];
+                            api.q = api.q || [];
+                            if (typeof namespace === "string") {
+                                cal.ns[namespace] = cal.ns[namespace] || api;
+                                p(cal.ns[namespace], ar);
+                                p(cal, ["initNamespace", namespace]);
+                            } else p(cal, ar);
+                            return;
+                        }
+                        p(cal, ar);
+                    };
+                })(window, "https://app.cal.com/embed/embed.js", "init");
+                Cal("init", "consultation", {
+                    origin: "https://app.cal.com"
+                });
+
+
+                // Important: Please add the following attributes to the element that should trigger the calendar to open upon clicking.
+                // `data-cal-link="sheyla-solis-qbslzw/consultation"`
+                // data-cal-namespace="consultation"
+                // `data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'`
+
+
+
+                Cal.ns.consultation("ui", {
+                    "cssVarsPerTheme": {
+                        "light": {
+                            "cal-brand": "#34a0a9"
+                        },
+                        "dark": {
+                            "cal-brand": "#34a0a9"
+                        }
+                    },
+                    "hideEventTypeDetails": false,
+                    "layout": "month_view"
+                });
+            </script>
+            <!-- Cal element-click embed code ends -->
         </div>
     </div>
 </nav>

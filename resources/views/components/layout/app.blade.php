@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body class="min-h-screen flex bg-white flex-col  font-sans">
+<body class="min-h-screen flex bg-white flex-col font-sans">
     <x-header />
     <main class="grow flex flex-col items-center bg-soft px-5">{{ $slot }}</main>
     <x-footer />

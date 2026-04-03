@@ -3,7 +3,7 @@
         class="h-auto w-[85%] mb-6  rounded-3xl object-cover">
     <div>
         <h2 class="text-black ">I've Been in your Shoes</h2>
-        <div class="w-[40%] mb-5 bg-tertiary h-[3px]"></div>
+        <div class="w-[40%] mb-5 bg-tertiary h-0.75"></div>
     </div>
     <p>Originally a <strong>Criminal Lawyer from Peru</strong>, i arrived in Australia with the same dreams and
         uncertainties you might be feeling today. My path to residency wasn't a straight line-it was a journey of

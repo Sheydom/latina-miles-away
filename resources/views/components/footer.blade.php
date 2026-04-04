@@ -33,16 +33,16 @@
 
     </div>
 
-    <div class="flex flex-wrap text-sm text-gray-500 justify-around ">
+    <div class="flex gap-x-4 flex-wrap text-sm text-gray-500 justify-around ">
         <a href="{{ route('legal.terms') }}" class="hover:underline">Terms of Service</a>
         <a href="{{ route('legal.privacy') }}" class="hover:underline">Privacy Policy</a>
         <a href="{{ route('legal.refunds') }}" class="hover:underline">Refund Policy</a>
         <a href="{{ route('legal.disclaimer') }}" class="hover:underline">Disclaimer</a>
-        <a href="{{ route('contact') }}" class="basis-full hover:underline">Contact</a>
+        <a href="{{ route('contact') }}" class="hover:underline">Contact</a>
     </div>
     <p class="text-center text-xs mb-6 sm:mb-0 ">© 2026 Latina Miles Away.
         All rights reserved.</p>
-    <div class="flex justify-around bg-white w-full py-2 sm:hidden">
+    <div class="flex justify-around bg-white w-full pt-2 sm:hidden">
         @if (request()->routeIs('legal.*') || request()->routeIs('contact'))
             <a href="{{ route('home') }}"
                 class="flex flex-col border-b-2 items-center border-b-transparent cursor-pointer hover:border-b-primary-light transition duration-500 ease-in-out">

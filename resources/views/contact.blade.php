@@ -17,27 +17,6 @@
             <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5">
 
                 <h2 class="font-semibold mb-3">
-                    WhatsApp
-                </h2>
-
-                <p class="text-sm text-neutral-600 mb-3">
-                    For quick questions, you can message us on WhatsApp.
-                </p>
-
-                <a href="https://wa.me/614XXXXXXXX"
-                    class="inline-block px-4 py-2 rounded-lg bg-green-500 text-white text-sm hover:bg-green-600 transition">
-
-                    Message on WhatsApp
-
-                </a>
-
-            </div>
-
-
-
-            <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5">
-
-                <h2 class="font-semibold mb-3">
                     Email
                 </h2>
 
@@ -46,7 +25,7 @@
                 </p>
 
                 <p class="text-sm font-medium">
-                    info@latinamilesaway.com
+                    latinamilesaway@gmail.com
                 </p>
 
             </div>

@@ -33,24 +33,28 @@
 
     </div>
 
-    <div class="flex text-sm text-gray-500 justify-around">
-        <p>Privacy Policy
-        </p>
-        <p>Terms of Service</p>
+    <div class="flex flex-wrap text-sm text-gray-500 justify-around ">
+        <a href="{{ route('legal.terms') }}" class="hover:underline">Terms of Service</a>
+        <a href="{{ route('legal.privacy') }}" class="hover:underline">Privacy Policy</a>
+        <a href="{{ route('legal.refunds') }}" class="hover:underline">Refund Policy</a>
+        <a href="{{ route('legal.disclaimer') }}" class="hover:underline">Disclaimer</a>
+        <a href="{{ route('contact') }}" class="basis-full hover:underline">Contact</a>
     </div>
-    <p class="text-center text-xs mb-6">© 2026 Latina Miles Away.
+    <p class="text-center text-xs mb-6 sm:mb-0 ">© 2026 Latina Miles Away.
         All rights reserved.</p>
-    <div class="flex justify-around bg-white w-full py-2">
-        <div
-            class="flex flex-col border-b-2 items-center border-b-transparent cursor-pointer hover:border-b-primary-light transition duration-500 ease-in-out">
-            <svg class="h-5 w-5 shrink-0" xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
-                <path fill="rgb(0, 0, 0)"
-                    d="M341.8 72.6C329.5 61.2 310.5 61.2 298.3 72.6L74.3 280.6C64.7 289.6 61.5 303.5 66.3 315.7C71.1 327.9 82.8 336 96 336L112 336L112 512C112 547.3 140.7 576 176 576L464 576C499.3 576 528 547.3 528 512L528 336L544 336C557.2 336 569 327.9 573.8 315.7C578.6 303.5 575.4 289.5 565.8 280.6L341.8 72.6zM264 320C264 289.1 289.1 264 320 264C350.9 264 376 289.1 376 320C376 350.9 350.9 376 320 376C289.1 376 264 350.9 264 320zM208 496C208 451.8 243.8 416 288 416L352 416C396.2 416 432 451.8 432 496C432 504.8 424.8 512 416 512L224 512C215.2 512 208 504.8 208 496z" />
-            </svg>
-            <p>HOME</p>
-        </div>
-        <div
+    <div class="flex justify-around bg-white w-full py-2 sm:hidden">
+        @if (request()->routeIs('legal.*') || request()->routeIs('contact'))
+            <a href="{{ route('home') }}"
+                class="flex flex-col border-b-2 items-center border-b-transparent cursor-pointer hover:border-b-primary-light transition duration-500 ease-in-out">
+                <svg class="h-5 w-5 shrink-0" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+                    <path fill="rgb(0, 0, 0)"
+                        d="M341.8 72.6C329.5 61.2 310.5 61.2 298.3 72.6L74.3 280.6C64.7 289.6 61.5 303.5 66.3 315.7C71.1 327.9 82.8 336 96 336L112 336L112 512C112 547.3 140.7 576 176 576L464 576C499.3 576 528 547.3 528 512L528 336L544 336C557.2 336 569 327.9 573.8 315.7C578.6 303.5 575.4 289.5 565.8 280.6L341.8 72.6zM264 320C264 289.1 289.1 264 320 264C350.9 264 376 289.1 376 320C376 350.9 350.9 376 320 376C289.1 376 264 350.9 264 320zM208 496C208 451.8 243.8 416 288 416L352 416C396.2 416 432 451.8 432 496C432 504.8 424.8 512 416 512L224 512C215.2 512 208 504.8 208 496z" />
+                </svg>
+                <p>HOME</p>
+            </a>
+        @else
+            {{-- <a href="#visas"
             class="flex flex-col items-center border-transparent border-b-2 cursor-pointer hover:border-b-2 hover:border-primary-light transition duration-500 ease-in-out">
             <svg class="h-5 w-5 shrink-0" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
@@ -58,25 +62,35 @@
                     d="M128 128C128 92.7 156.7 64 192 64L341.5 64C358.5 64 374.8 70.7 386.8 82.7L493.3 189.3C505.3 201.3 512 217.6 512 234.6L512 512C512 547.3 483.3 576 448 576L192 576C156.7 576 128 547.3 128 512L128 128zM336 122.5L336 216C336 229.3 346.7 240 360 240L453.5 240L336 122.5zM248 320C234.7 320 224 330.7 224 344C224 357.3 234.7 368 248 368L392 368C405.3 368 416 357.3 416 344C416 330.7 405.3 320 392 320L248 320zM248 416C234.7 416 224 426.7 224 440C224 453.3 234.7 464 248 464L392 464C405.3 464 416 453.3 416 440C416 426.7 405.3 416 392 416L248 416z" />
             </svg>
             <p>VISAS</p>
-        </div>
-        <div
-            class="flex flex-col items-center border-transparent border-b-2 cursor-pointer hover:border-b-2 hover:border-primary-light transition duration-500 ease-in-out">
-            <svg class="h-5 w-5 shrink-0" xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
-                <path fill="rgb(0, 0, 0)"
-                    d="M348 62.7C330.7 52.7 309.3 52.7 292 62.7L207.8 111.3C190.5 121.3 179.8 139.8 179.8 159.8L179.8 261.7L91.5 312.7C74.2 322.7 63.5 341.2 63.5 361.2L63.5 458.5C63.5 478.5 74.2 497 91.5 507L175.8 555.6C193.1 565.6 214.5 565.6 231.8 555.6L320.1 504.6L408.4 555.6C425.7 565.6 447.1 565.6 464.4 555.6L548.5 507C565.8 497 576.5 478.5 576.5 458.5L576.5 361.2C576.5 341.2 565.8 322.7 548.5 312.7L460.2 261.7L460.2 159.8C460.2 139.8 449.5 121.3 432.2 111.3L348 62.7zM296 356.6L296 463.1L207.7 514.1C206.5 514.8 205.1 515.2 203.7 515.2L203.7 409.9L296 356.6zM527.4 357.2C528.1 358.4 528.5 359.8 528.5 361.2L528.5 458.5C528.5 461.4 527 464 524.5 465.4L440.2 514C439 514.7 437.6 515.1 436.2 515.1L436.2 409.8L527.4 357.2zM412.3 159.8L412.3 261.7L320 315L320 208.5L411.2 155.9C411.9 157.1 412.3 158.5 412.3 159.9z" />
-            </svg>
-            <p>SERVICES</p>
-        </div>
-        <div
-            class="flex flex-col items-center border-transparent border-b-2 cursor-pointer  hover:border-b-2 hover:border-primary-light transition duration-500 ease-in-out">
-            <svg class="h-5 w-5 shrink-0" xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
-                <path fill="rgb(0, 0, 0)"
-                    d="M64 416L64 192C64 139 107 96 160 96L480 96C533 96 576 139 576 192L576 416C576 469 533 512 480 512L360 512C354.8 512 349.8 513.7 345.6 516.8L230.4 603.2C226.2 606.3 221.2 608 216 608C202.7 608 192 597.3 192 584L192 512L160 512C107 512 64 469 64 416z" />
-            </svg>
-            <p>CONTACT</p>
-        </div>
+        </a> --}}
+            <a href="#home"
+                class="flex flex-col border-b-2 items-center border-b-transparent cursor-pointer hover:border-b-primary-light transition duration-500 ease-in-out">
+                <svg class="h-5 w-5 shrink-0" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+                    <path fill="rgb(0, 0, 0)"
+                        d="M341.8 72.6C329.5 61.2 310.5 61.2 298.3 72.6L74.3 280.6C64.7 289.6 61.5 303.5 66.3 315.7C71.1 327.9 82.8 336 96 336L112 336L112 512C112 547.3 140.7 576 176 576L464 576C499.3 576 528 547.3 528 512L528 336L544 336C557.2 336 569 327.9 573.8 315.7C578.6 303.5 575.4 289.5 565.8 280.6L341.8 72.6zM264 320C264 289.1 289.1 264 320 264C350.9 264 376 289.1 376 320C376 350.9 350.9 376 320 376C289.1 376 264 350.9 264 320zM208 496C208 451.8 243.8 416 288 416L352 416C396.2 416 432 451.8 432 496C432 504.8 424.8 512 416 512L224 512C215.2 512 208 504.8 208 496z" />
+                </svg>
+                <p>HOME</p>
+            </a>
+            <a href="#services"
+                class="flex flex-col items-center border-transparent border-b-2 cursor-pointer hover:border-b-2 hover:border-primary-light transition duration-500 ease-in-out">
+                <svg class="h-5 w-5 shrink-0" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+                    <path fill="rgb(0, 0, 0)"
+                        d="M348 62.7C330.7 52.7 309.3 52.7 292 62.7L207.8 111.3C190.5 121.3 179.8 139.8 179.8 159.8L179.8 261.7L91.5 312.7C74.2 322.7 63.5 341.2 63.5 361.2L63.5 458.5C63.5 478.5 74.2 497 91.5 507L175.8 555.6C193.1 565.6 214.5 565.6 231.8 555.6L320.1 504.6L408.4 555.6C425.7 565.6 447.1 565.6 464.4 555.6L548.5 507C565.8 497 576.5 478.5 576.5 458.5L576.5 361.2C576.5 341.2 565.8 322.7 548.5 312.7L460.2 261.7L460.2 159.8C460.2 139.8 449.5 121.3 432.2 111.3L348 62.7zM296 356.6L296 463.1L207.7 514.1C206.5 514.8 205.1 515.2 203.7 515.2L203.7 409.9L296 356.6zM527.4 357.2C528.1 358.4 528.5 359.8 528.5 361.2L528.5 458.5C528.5 461.4 527 464 524.5 465.4L440.2 514C439 514.7 437.6 515.1 436.2 515.1L436.2 409.8L527.4 357.2zM412.3 159.8L412.3 261.7L320 315L320 208.5L411.2 155.9C411.9 157.1 412.3 158.5 412.3 159.9z" />
+                </svg>
+                <p>SERVICES</p>
+            </a>
+            {{-- <a href="{{ route('contact') }}"
+                class="flex flex-col items-center border-transparent border-b-2 cursor-pointer  hover:border-b-2 hover:border-primary-light transition duration-500 ease-in-out">
+                <svg class="h-5 w-5 shrink-0" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+                    <path fill="rgb(0, 0, 0)"
+                        d="M64 416L64 192C64 139 107 96 160 96L480 96C533 96 576 139 576 192L576 416C576 469 533 512 480 512L360 512C354.8 512 349.8 513.7 345.6 516.8L230.4 603.2C226.2 606.3 221.2 608 216 608C202.7 608 192 597.3 192 584L192 512L160 512C107 512 64 469 64 416z" />
+                </svg>
+                <p>CONTACT</p>
+            </a> --}}
+        @endif
     </div>
 
 </footer>

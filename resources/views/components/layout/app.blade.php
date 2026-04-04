@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="scroll-smooth" >
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
     <link rel="icon" type="image/svg+xml" href="{{ asset('lma.svg') }}">
 </head>
 
-<body class="min-h-screen flex bg-white flex-col font-sans">
+<body id="home" class="min-h-screen flex bg-white flex-col font-sanse">
     <x-header />
     <main class="grow flex flex-col items-center bg-soft px-2.5">{{ $slot }}</main>
     <x-footer />

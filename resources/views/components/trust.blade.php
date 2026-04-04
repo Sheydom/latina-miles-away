@@ -5,7 +5,8 @@
         <h2 class="text-black ">I've Been in your Shoes</h2>
         <div class="w-[40%] mb-5 bg-tertiary h-0.75"></div>
     </div>
-    <p>Originally a <strong>Criminal Lawyer from Peru</strong>, i arrived in Australia with the same dreams and
+    <p>Originally trained and qualified as <strong>Criminal Lawyer from Peru</strong>, i arrived in Australia with the
+        same dreams and
         uncertainties you might be feeling today. My path to residency wasn't a straight line-it was a journey of
         resilience.</p>
     <div class="mt-6 mb-8 border-l-tertiary border-l-2 w-full rounded-2xl p-5 bg-gray-100">
@@ -13,9 +14,10 @@
         <p class="text-sm">Student -> COVID Hardship -> Working Holiday<br> -> Sponsorship -> Permanent Residency</p>
     </div>
     <p>
-        I started Latina Miles Away because i've been in your sheos. Today, as a <strong>Migration Support Consultant
-            and future MARA agent</strong>, I combine legal expertise with deep empathy. I succesfully travled this
-        path, and now I'm here to ensure you do too.
+        I started Latina Miles Away because i've been in your sheos. Today, as a <strong> Migration Support Consultant
+            and future
+            registered Migration Agent </strong>, I combine legal training with deep empathy. I succesfully travled this
+        path, and now I'm here to support you on your journey.
     </p>
     <div class="flex mt-6 gap-5 items-center text-left w-full">
         <div class="bg-primary rounded-2xl  p-3">

@@ -1,36 +1,150 @@
-<section class="w-full mb-10">
+<section id="services" class="w-full mb-10 items-center">
     <div>
         <h2>Our Services</h2>
-        <p class="mb-5">We guide you through every step of your Australia journey.</p>
+        <p class="mb-5">We provide guidance and support throughout your journey in Australia.</p>
     </div>
-    <div class="overflow-x-scroll pb-2 scrollbar-visible snap-x snap-mandatory">
-        <div class="flex gap-5">
 
-            <div class="min-w-50 min-h-50 rounded-2xl snap-center border border-primary text-center shadow-md ">
-                <h3>Visa Consultation</h3>
-                <p>learning</p>
-            </div>
-            <div class="min-w-50 min-h-50 rounded-2xl snap-center border border-primary text-center shadow-md ">
-                <h3>Resume Review</h3>
-                <p>learning</p>
-            </div>
-            <div class="min-w-50 min-h-50 rounded-2xl snap-center border border-primary text-center shadow-md ">
-                <h3>TFN & ABN Number</h3>
-                <p>learning</p>
-            </div>
-            <div class="min-w-50 min-h-50 rounded-2xl snap-center border border-primary text-center shadow-md ">
-                <h3>Working Holiday Visa</h3>
-                <p>learning</p>
-            </div>
-            <div class="min-w-50 min-h-50 rounded-2xl snap-center border border-primary text-center shadow-md ">
-                <h3>Student Visa</h3>
-                <p>learning</p>
-            </div>
-            <div class="min-w-50 min-h-50 rounded-2xl snap-center border border-primary text-center shadow-md ">
-                <h3>Australia Guide</h3>
-                <p>learning</p>
-            </div>
+
+    <div id="serviceContainer" style="-webkit-overflow-scrolling: touch;"
+        class="flex gap-5 overflow-x-scroll services pb-2 scrollbar-visible snap-x snap-mandatory">
+
+        <div
+            class="min-w-60 rounded-2xl snap-center 
+border border-primary
+bg-white 
+p-5 
+text-center 
+shadow-md
+transition">
+
+            <div class="text-2xl mb-3">🧭</div>
+
+            <h3 class="font-semibold text-sm mb-2 ">
+                Migration Support Consultation
+            </h3>
+
+            <p class="text-xs text-neutral-600">
+                One-on-one session to review your situation
+                and explain available public information.
+            </p>
 
         </div>
+        <div
+            class="min-w-60 rounded-2xl snap-center border borde border-neutral-200  bg-white  p-5 
+                text-center 
+                shadow-sm 
+                hover:shadow-md 
+                transition">
+
+            <div class="text-2xl mb-3">
+                📋
+            </div>
+
+            <h3 class="font-semibold text-sm mb-2">
+                Document Review
+            </h3>
+
+            <p class="text-xs text-neutral-600 leading-relaxed">
+                Review your prepared documents for clarity,
+                formatting, and completeness.
+            </p>
+
+        </div>
+        <div
+            class="min-w-60 rounded-2xl snap-center 
+border border-neutral-200 
+bg-white 
+p-5 
+text-center 
+shadow-sm 
+hover:shadow-md 
+transition">
+
+            <div class="text-2xl mb-3">🧾</div>
+
+            <h3 class="font-semibold text-sm mb-2">
+                TFN & ABN Guidance
+            </h3>
+
+            <p class="text-xs text-neutral-600">
+                Step-by-step help understanding
+                application requirements.
+            </p>
+
+        </div>
+        <<div
+            class="min-w-60 rounded-2xl snap-center 
+border border-neutral-200 
+bg-white 
+p-5 
+text-center 
+shadow-sm 
+hover:shadow-md 
+transition">
+
+            <div class="text-2xl mb-3">📑</div>
+
+            <h3 class="font-semibold text-sm mb-2">
+                Resume Review
+            </h3>
+
+            <p class="text-xs text-neutral-600">
+                Improve your resume to match
+                Australian expectations.
+            </p>
+
+    </div>
+    <div
+        class="min-w-60 rounded-2xl snap-center 
+border border-neutral-200 
+bg-white 
+p-5 
+text-center 
+shadow-sm 
+hover:shadow-md 
+transition">
+
+        <div class="text-2xl mb-3">💬</div>
+
+        <h3 class="font-semibold text-sm mb-2">
+            Migration Information Session
+        </h3>
+
+        <p class="text-xs text-neutral-600">
+            General discussion using
+            publicly available information.
+        </p>
+
+    </div>
+    <div
+        class="min-w-60 rounded-2xl snap-center 
+border border-neutral-200 
+bg-white 
+p-5 
+text-center 
+shadow-sm 
+hover:shadow-md 
+transition">
+
+        <div class="text-2xl mb-3">🎯</div>
+
+        <h3 class="font-semibold text-sm mb-2">
+            Work Readiness Package
+        </h3>
+
+        <p class="text-xs text-neutral-600">
+            TFN guidance, resume review,
+            and workplace preparation.
+        </p>
+
+    </div>
+
+    </div>
+
+
+    <div class="flex gap-10 w-full justify-center">
+        <p class="text-sm text-neutral-500 mb-2 sm:hidden">
+            Swipe to see more →
+        </p>
     </div>
 </section>

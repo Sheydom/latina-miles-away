@@ -72,7 +72,7 @@ transition">
             </p>
 
         </div>
-        <<div
+        <div
             class="min-w-60 rounded-2xl snap-center 
 border border-neutral-200 
 bg-white 
@@ -93,9 +93,9 @@ transition">
                 Australian expectations.
             </p>
 
-    </div>
-    <div
-        class="min-w-60 rounded-2xl snap-center 
+        </div>
+        <div
+            class="min-w-60 rounded-2xl snap-center 
 border border-neutral-200 
 bg-white 
 p-5 
@@ -104,20 +104,20 @@ shadow-sm
 hover:shadow-md 
 transition">
 
-        <div class="text-2xl mb-3">💬</div>
+            <div class="text-2xl mb-3">💬</div>
 
-        <h3 class="font-semibold text-sm mb-2">
-            Migration Information Session
-        </h3>
+            <h3 class="font-semibold text-sm mb-2">
+                Migration Information Session
+            </h3>
 
-        <p class="text-xs text-neutral-600">
-            General discussion using
-            publicly available information.
-        </p>
+            <p class="text-xs text-neutral-600">
+                General discussion using
+                publicly available information.
+            </p>
 
-    </div>
-    <div
-        class="min-w-60 rounded-2xl snap-center 
+        </div>
+        <div
+            class="min-w-60 rounded-2xl snap-center 
 border border-neutral-200 
 bg-white 
 p-5 
@@ -126,18 +126,18 @@ shadow-sm
 hover:shadow-md 
 transition">
 
-        <div class="text-2xl mb-3">🎯</div>
+            <div class="text-2xl mb-3">🎯</div>
 
-        <h3 class="font-semibold text-sm mb-2">
-            Work Readiness Package
-        </h3>
+            <h3 class="font-semibold text-sm mb-2">
+                Work Readiness Package
+            </h3>
 
-        <p class="text-xs text-neutral-600">
-            TFN guidance, resume review,
-            and workplace preparation.
-        </p>
+            <p class="text-xs text-neutral-600">
+                TFN guidance, resume review,
+                and workplace preparation.
+            </p>
 
-    </div>
+        </div>
 
     </div>
 

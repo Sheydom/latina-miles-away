@@ -26,19 +26,21 @@
 
 
 
-    <div class="text-center mt-6">
+    <div class="text-center mt-6 mb-6">
 
         <p class="text-sm text-neutral-600">
 
             Have a quick question before booking?
+            Send us a quick email <br>
+            For full guidance, please book a consultation.
 
         </p>
 
-        <a href="https://wa.me/614XXXXXXXX?text=Hi%20I%20have%20a%20quick%20question%20before%20booking."
-            class="inline-block mt-3 px-4 py-2 text-sm rounded-lg border border-neutral-300 hover:bg-neutral-100 hover:border-green-400 transition cursor-pointer">
-
-            Ask a quick question on WhatsApp
-
+        <a href="mailto:info@latinamilesaway.com"
+            class="inline-block px-5 py-2 rounded-xl
+       bg-primary text-white font-semibold
+       hover:opacity-90 transition">
+            Send us a quick email
         </a>
 
         <p class="text-xs text-neutral-500 mt-2">

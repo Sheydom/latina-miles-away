@@ -1,4 +1,4 @@
-<section class="bg-linear-to-br from-[primary-light] to-primary p-5 rounded-xl mb-10 mt-10">
+<section class=" bg-linear-to-br from-[primary-light] to-primary p-5 rounded-xl mb-10 mt-10">
     <div class="flex justify-end">
         <p class=" bg-blue-100 h-max p-1 text-xs rounded-2xl mb-5 flex items-center"><svg class="w-5 h-5 shrink-0"
                 xmlns="http://www.w3.org/2000/svg"
@@ -8,13 +8,14 @@
             </svg>MELBOURNE BASED</p>
     </div>
     <h1 class="mb-5">Your New <br>Horizon</h1>
-    <p class="">Connecting the Latin community with Australian opportunities through expert migration pathways.</p>
+    <p class="">Connecting the Latin community with Australian opportunities through guidance and reliable support.
+    </p>
     <button type="button" data-cal-link="sheyla-solis-qbslzw/consultation" data-cal-namespace="consultation"
         data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":true}'
         class="w-full mt-6 rounded-2xl py-4 font-bold text-xl  text-amber-50 bg-[#4CC9D4] 
             shadow-[0_10px_25px_rgba(52,160,169,0.45)] border border-transparent  hover:from-[#2f8f97] hover:to-[#6fcfd8]
             hover:-translate-y-1 cursor-pointer">Start
-        your journey -></button>
+        your journey today -></button>
     <!-- Cal element-click embed code begins -->
     <script type="text/javascript">
         (function(C, A, L) {

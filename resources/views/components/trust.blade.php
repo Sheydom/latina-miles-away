@@ -16,7 +16,7 @@
     <p>
         I started Latina Miles Away because i've been in your sheos. Today, as a <strong> Migration Support Consultant
             and future
-            registered Migration Agent </strong>, I combine legal training with deep empathy. I succesfully travled this
+            registered Migration Agent </strong>, I combine legal training with deep empathy. I succesfully traveled this
         path, and now I'm here to support you on your journey.
     </p>
     <div class="flex mt-6 gap-5 items-center text-left w-full">

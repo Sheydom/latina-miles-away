@@ -28,16 +28,15 @@
 
     <div class="text-center mt-6 mb-6">
 
-        <p class="text-sm text-neutral-600">
+        <p class="text-sm text-neutral-600 mb-2">
 
-            Have a quick question before booking?
-            Send us a quick email <br>
-            For full guidance, please book a consultation.
+            Have a quick question before booking?<br>
+            Send us a quick email
 
         </p>
 
-        <a href="mailto:info@latinamilesaway.com"
-            class="inline-block px-5 py-2 rounded-xl
+        <a href="mailto:latinamilesaway@gmail.com"
+            class="cursor-pointer inline-block px-5 py-2 rounded-xl
        bg-primary text-white font-semibold
        hover:opacity-90 transition">
             Send us a quick email

@@ -1,4 +1,4 @@
-<section id="services" class="w-full mb-10 items-center ">
+<section id="services" class="w-full mb-10 items-center m">
     <div class="flex flex-col items-center p-2">
         <h2>Our Services</h2>
         <p class="mb-5">We provide guidance and support throughout your journey in Australia.</p>
@@ -7,15 +7,15 @@
 
     <div class="flex w-full justify-center">
         <div id="serviceContainer" style="-webkit-overflow-scrolling: touch;"
-            class="flex  gap-4 overflow-x-scroll services pb-2 scrollbar-visible snap-x snap-mandatory max-w-6xl   md:overflow-x-hidden md:grid grid-cols-[repeat(auto-fit,minmax(350px,1fr))]">
+            class=" flex gap-4 overflow-x-scroll services pb-2 scrollbar-visible snap-x snap-mandatory   md:overflow-visible md:grid lg:grid-cols-3 md:grid-cols-2 md:justify-items-center">
             <div
                 class="w-[85vw] max-w-xs min-h-60 shrink-0 rounded-2xl snap-center
-                    border border-primary
+                    border-2 border-primary
                     bg-white
                     p-5
                     text-center
                     shadow-md
-                    transition md:w-full md:max-w-none md:shrink">
+                    transition md:w-full md:max-w-lg md:shrink md:hover:border-primary-light md:hover:scale-105 md:hover:z-50">
                 <div class="text-2xl mb-3">🧭</div>
                 <h3 class="font-semibold text-sm mb-2 ">
                     Migration Support Consultation
@@ -30,14 +30,14 @@
                     text-center
                     shadow-sm
                     hover:shadow-md
-                    transition md:w-full md:max-w-none md:shrink">
+                    transition md:w-full md:max-w-lg md:shrink md:hover:border-primary-light md:hover:scale-105">
                 <div class="text-2xl mb-3">
                     📋
                 </div>
                 <h3 class="font-semibold text-sm mb-2">
                     Document Review
                 </h3>
-                <p class="text-xs text-neutral-600 leading-relaxed">
+                <p class="text-xs text-neutral-700 leading-relaxed">
                     Review your prepared documents for clarity,
                     formatting, and completeness.
                 </p>
@@ -50,7 +50,7 @@
                     text-center
                     shadow-sm
                     hover:shadow-md
-                    transition md:w-full md:max-w-none md:shrink">
+                    transition md:w-full md:max-w-lg md:shrink md:hover:border-primary-light md:hover:scale-105">
                 <div class="text-2xl mb-3">🧾</div>
                 <h3 class="font-semibold text-sm mb-2">
                     TFN & ABN Guidance
@@ -68,7 +68,7 @@
                     text-center
                     shadow-sm
                     hover:shadow-md
-                    transition md:w-full md:max-w-none md:shrink">
+                    transition md:w-full md:max-w-lg md:shrink md:hover:border-primary-light md:hover:scale-105">
                 <div class="text-2xl mb-3">📑</div>
                 <h3 class="font-semibold text-sm mb-2">
                     Resume Review
@@ -86,7 +86,7 @@
                         text-center
                         shadow-sm
                         hover:shadow-md
-                        transition md:w-full md:max-w-none md:shrink">
+                        transition md:w-full md:max-w-lg md:shrink md:hover:border-primary-light md:hover:scale-105">
                 <div class="text-2xl mb-3">💬</div>
                 <h3 class="font-semibold text-sm mb-2">
                     Migration Information Session
@@ -104,7 +104,7 @@
                     text-center
                     shadow-sm
                     hover:shadow-md
-                    transition md:w-full md:max-w-none md:shrink">
+                    transition md:w-full md:max-w-lg md:shrink md:hover:border-primary-light md:hover:scale-105">
                 <div class="text-2xl mb-3">🎯</div>
                 <h3 class="font-semibold text-sm mb-2">
                     Work Readiness Package

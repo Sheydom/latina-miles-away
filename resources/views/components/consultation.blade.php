@@ -102,10 +102,10 @@
         Cal.ns.consultation("ui", {
             "cssVarsPerTheme": {
                 "light": {
-                    "cal-brand": "#34a0a9"
+                    "cal-brand": "#cd7f4a"
                 },
                 "dark": {
-                    "cal-brand": "#34a0a9"
+                    "cal-brand": "#cd7f4a"
                 }
             },
             "hideEventTypeDetails": false,

@@ -1,15 +1,14 @@
 <section id="services" class="w-full mb-10 items-center">
-    <div>
+    <div class="flex flex-col items-center p-2">
         <h2>Our Services</h2>
         <p class="mb-5">We provide guidance and support throughout your journey in Australia.</p>
     </div>
 
 
     <div id="serviceContainer" style="-webkit-overflow-scrolling: touch;"
-        class="flex gap-5 overflow-x-scroll services pb-2 scrollbar-visible snap-x snap-mandatory">
-
+        class="flex  gap-4 overflow-x-scroll services pb-2 scrollbar-visible snap-x snap-mandatory">
         <div
-            class="min-w-60 rounded-2xl snap-center 
+            class="w-[85vw] max-w-xs min-h-60  shrink-0 rounded-2xl snap-center 
 border border-primary
 bg-white 
 p-5 
@@ -30,7 +29,7 @@ transition">
 
         </div>
         <div
-            class="min-w-60 rounded-2xl snap-center border borde border-neutral-200  bg-white  p-5 
+            class="w-[85vw] max-w-xs min-h-60 shrink-0 rounded-2xl snap-center border borde border-neutral-200  bg-white  p-5 
                 text-center 
                 shadow-sm 
                 hover:shadow-md 
@@ -51,7 +50,7 @@ transition">
 
         </div>
         <div
-            class="min-w-60 rounded-2xl snap-center 
+            class="w-[85vw] max-w-xs min-h-60  shrink-0  rounded-2xl snap-center 
 border border-neutral-200 
 bg-white 
 p-5 
@@ -73,7 +72,7 @@ transition">
 
         </div>
         <div
-            class="min-w-60 rounded-2xl snap-center 
+            class="w-[85vw] max-w-xs min-h-60  shrink-0 rounded-2xl snap-center 
 border border-neutral-200 
 bg-white 
 p-5 
@@ -95,7 +94,7 @@ transition">
 
         </div>
         <div
-            class="min-w-60 rounded-2xl snap-center 
+            class="w-[85vw] max-w-xs min-h-60  shrink-0 rounded-2xl snap-center 
 border border-neutral-200 
 bg-white 
 p-5 
@@ -117,7 +116,7 @@ transition">
 
         </div>
         <div
-            class="min-w-60 rounded-2xl snap-center 
+            class="w-[85vw] max-w-xs min-h-60  shrink-0  rounded-2xl snap-center 
 border border-neutral-200 
 bg-white 
 p-5 
@@ -138,13 +137,12 @@ transition">
             </p>
 
         </div>
-
     </div>
 
 
     <div class="flex gap-10 w-full justify-center">
-        <p class="text-sm text-neutral-500 mb-2 sm:hidden">
-            Swipe to see more →
+        <p class="text-sm flex text-neutral-500 mb-2 sm:hidden">
+            Swipe to see more <span class="text-white flex w-5 h-5 items-center bg-tertiary rounded-full p-1">→</span>
         </p>
     </div>
 </section>

@@ -1,5 +1,5 @@
 <section class="flex flex-col items-center mb-12 w-full">
-    <div class="w-full bg-white rounded-3xl pt-5 pb-5  flex flex-col items-center mb-5">
+    <div class="w-full bg-white rounded-3xl pt-5 pb-5 px-5 flex flex-col items-center mb-5">
         <h2 class="text-black mb-5">Secure & Confidential</h2>
         <ul>
             <li class="flex gap-5"><svg class="w-5 h-5 shrink-0 text-primary" xmlns="http://www.w3.org/2000/svg"
@@ -11,7 +11,7 @@
                     viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
                     <path fill="currentColor"
                         d="M256 160L256 224L384 224L384 160C384 124.7 355.3 96 320 96C284.7 96 256 124.7 256 160zM192 224L192 160C192 89.3 249.3 32 320 32C390.7 32 448 89.3 448 160L448 224C483.3 224 512 252.7 512 288L512 512C512 547.3 483.3 576 448 576L192 576C156.7 576 128 547.3 128 512L128 288C128 252.7 156.7 224 192 224z" />
-                </svg> Encrypted data storage and secure transmission
+                </svg> Encrypted data storage
             </li>
             <li class="flex gap-5"><svg class="w-5 h-5 shrink-0 text-primary" xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 640 640">
@@ -19,7 +19,7 @@
                         d="M96 96C96 78.3 110.3 64 128 64L512 64C529.7 64 544 78.3 544 96L544 192C544 209.7 529.7 224 512 224L128 224C110.3 224 96 209.7 96 192L96 96zM128 256L512 256C529.7 256 544 270.3 544 288L544 384C544 401.7 529.7 416 512 416L128 416C110.3 416 96 401.7 96 384L96 288C96 270.3 110.3 256 128 256zM128 448L512 448C529.7 448 544 462.3 544 480L544 544C544 561.7 529.7 576 512 576L128 576C110.3 576 96 561.7 96 544L96 480C96 462.3 110.3 448 128 448z" />
                 </svg>
 
-                Self-hosted infrastructure with controlled access
+                Self-hosted with controlled access
             </li>
             <li class="flex gap-5"><svg class="w-5 h-5 shrink text-primary" xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 640 640"><!--!Font Awesome Pro v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2026 Fonticons, Inc.-->

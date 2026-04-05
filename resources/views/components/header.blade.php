@@ -1,4 +1,4 @@
-<nav class="flex bg-soft px-2.5 sticky top-0 z-50 md:px-10">
+<nav class="flex bg-soft/90 px-2.5 sticky top-0 z-50 md:px-10 ">
     <div class="flex w-full md:justify-between">
         <div class="flex gap-5  items-center md:w-full ">
             <a class="cursor-pointer" href="{{ route('home') }}">

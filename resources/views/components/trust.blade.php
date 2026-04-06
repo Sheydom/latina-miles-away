@@ -9,7 +9,7 @@
                             class="underline decoration-tertiary">I've Been</span> in your Shoes</h2>
                 </div>
                 <p class="leading-relaxed">Originally trained and <button type="button" id="openCertModal"
-                        class="bg-white/30 shadow-md rounded-full px-2 cursor-pointer md:hover:border-primary-light border border-transparent md:hover:border">qualified</button>
+                        class="bg-white/80  rounded-full px-2 cursor-pointer underline md:hover:border-primary-light border border-transparent md:hover:border hover:text-white hover:bg-primary">qualified</button>
                     as <strong> Lawyer from Peru</strong>, i arrived in
                     Australia with
                     the

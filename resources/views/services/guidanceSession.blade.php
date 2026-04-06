@@ -1,8 +1,8 @@
 <x-layout.app>
-    <section class="w-full text-center flex flex-col items-center">
-        <div class="w-full bg-primary p-2.5 md:p-15 md:grid md:grid-cols-2">
+    <section class="w-full text-center bg-linear-to-b from-primary to-#EAEFEF flex flex-col items-center">
+        <div class="w-full md:max-w-300  p-2.5 md:px-15 md:grid md:grid-cols-2 ">
             <div
-                class="w-full mx-auto  bg-white rounded-tl-2xl rounded-tr-2xl text-left md:text-left md:rounded-tr-none md:rounded-bl-2xl shadow-md p-6 md:p-25">
+                class="w-fit mx-auto  bg-white rounded-tl-2xl rounded-tr-2xl text-left md:text-left md:rounded-tr-none md:rounded-bl-2xl shadow-md p-6 md:p-15">
                 <!-- Title -->
                 <h2 class="text-xl md:text-3xl font-semibold text-center md:text-left mb-2">
                     1:1 Guidance Session
@@ -51,11 +51,11 @@
                     unnecessary mistakes.”
                 </p>
             </div>
-            <div class="w-full bg-white md:rounded-r-2xl md:flex md:flex-col md:items-center md:p-25 ">
+            <div class="w-full bg-white md:rounded-r-2xl md:flex md:flex-col md:items-center md:p-15 ">
                 <div class=""><img class="md:rounded-2xl md:max-h-100"
                         src="{{ Vite::asset('resources/images/profile.jpg') }}" alt="profilePhoto">
                 </div>
-                <div class="bg-white rounded-br-2xl rounded-bl-2xl md:rounded-bl-none">
+                <div class="bg-white rounded-b-2xl  md:rounded-bl-none">
                     <!-- Experience -->
                     <div class="mb-5  p-5 md:text-left">
                         <h3 class="font-semibold text-lg md:text-2xl mb-2 text-primary">
@@ -79,9 +79,9 @@
             </div>
         </div>
 
-        <div class="text-center mt-6 mb-6">
+        <div class="text-center md:mt-6 mb-8">
 
-            <p class="text-sm text-neutral-600 mb-2">
+            <p class="text-sm  mb-2">
 
                 Have a quick question before booking?<br>
                 Send us a quick email
@@ -90,12 +90,12 @@
 
             <a href="mailto:latinamilesaway@gmail.com"
                 class="cursor-pointer inline-block px-5 py-2 rounded-xl
-       bg-primary text-white font-semibold
+       bg-[#4CC9D4] text-white font-semibold
        hover:opacity-90 transition hover:-translate-y-1 duration-200 ease-in-out">
                 Send us a quick email
             </a>
 
-            <p class="text-xs text-neutral-500">
+            <p class="text-xs ">
 
                 For full guidance, please book a consultation.
 

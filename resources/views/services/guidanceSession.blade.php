@@ -2,9 +2,9 @@
     <section class="w-full text-center flex flex-col items-center">
         <div class="bg-white rounded-2xl shadow-md border border-neutral-200 p-5 mb-6">
 
-            <h3 class="text-lg font-semibold mb-4">
+            <h2 class=" font-semibold mb-4">
                 What to expect during your consultation
-            </h3>
+            </h2>
 
             <ul class="space-y-2 text-neutral-700 text-sm flex flex-col">
 

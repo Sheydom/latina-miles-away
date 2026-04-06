@@ -27,7 +27,7 @@
 
         <div class="flex items-center gap-2 md:gap-3">
             <button
-                class="hidden rounded-2xl p-2 text-primary transition duration-200 ease-in-out hover:bg-primary hover:text-white md:block md:text-lg">
+                class="hidden rounded-2xl cursor-pointer p-2 text-primary transition duration-200 ease-in-out hover:bg-primary hover:text-white md:block md:text-lg">
                 Resources
             </button>
 

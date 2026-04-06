@@ -8,13 +8,15 @@
                     <h2 class="text-black md:text-[clamp(2rem,4vw,3rem)] md:mb-5 "><span
                             class="underline decoration-tertiary">I've Been</span> in your Shoes</h2>
                 </div>
-                <p class="leading-relaxed">Originally trained and qualified as <strong>Criminal Lawyer from Peru</strong>, i arrived in
+                <p class="leading-relaxed">Originally trained and <button type="button" id="openCertModal"
+                        class="bg-white/30 shadow-md rounded-full px-2 cursor-pointer md:hover:border-primary-light border border-transparent md:hover:border">qualified</button>
+                    as <strong> Lawyer from Peru</strong>, i arrived in
                     Australia with
                     the
                     same dreams and
                     uncertainties you might be feeling today. My path to residency wasn't a straight line-it was a
                     journey of
-                    resilience. <button id="openCertModal" type="button"
+                    {{-- resilience. <button id="openCertModal" type="button"
                         class="group 
                    max-w-xs 
                    md:w-max
@@ -30,7 +32,7 @@
                             See License
                         </div>
 
-                    </button></p>
+                    </button></p> --}}
             </div>
             <div
                 class="mt-6 mb-6 border-l-tertiary border-l-3 md:border-l-4 w-full rounded-2xl p-5 bg-gray-100 md:w-max">
@@ -38,7 +40,7 @@
                 <p class="text-sm">Student -> COVID Hardship -> Working Holiday<br> -> Sponsorship -> Permanent
                     Residency</p>
             </div>
-            <div class="flex gap-3 mb-6 items-center text-left justify-center w-full">
+            {{-- <div class="flex gap-3 mb-6 items-center text-left justify-center w-full">
                 <div class="bg-primary rounded-2xl  p-2">
                     <svg class="w-4 h-4 shrink-0 " xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
@@ -47,7 +49,7 @@
                     </svg>
                 </div>
                 <p class="text-sm"><strong>Experience meet Empathy.</strong></p>
-            </div>
+            </div> --}}
             <div class="flex flex-col p-2">
                 <p class="leading-relaxed">
                     I started Latina Miles Away because i've been in your sheos. Today, as a <strong> Migration Support
@@ -72,7 +74,7 @@
         <div class="relative w-full max-w-5xl">
 
             <!-- Close Button -->
-            {{-- <button id="closeCertModal" type="button"
+            <button id="closeCertModalx" type="button"
                 class="absolute 
                    top-2 right-2 
                    md:-top-10 md:right-0
@@ -85,7 +87,7 @@
                    hover:bg-black/70 
                    transition cursor-pointer">
                 ✕
-            </button> --}}
+            </button>
 
             <!-- Certificate -->
             <img id="closeCertModal" src="{{ Vite::asset('resources/images/lawyer.png') }}"

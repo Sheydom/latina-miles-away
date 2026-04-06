@@ -13,7 +13,7 @@
     <link rel="icon" type="image/svg+xml" href="{{ asset('lma.svg') }}">
 </head>
 
-<body id="home" class="min-h-screen flex bg-white flex-col font-sanse">
+<body id="home" class="min-h-screen flex bg-white flex-col font-sans">
     <x-header />
     <main class="grow flex flex-col items-center bg-soft px-2.5 md:p-10">{{ $slot }}</main>
     <x-footer />

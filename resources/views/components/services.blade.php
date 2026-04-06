@@ -1,4 +1,4 @@
-<section id="services" class="w-full mb-10 items-center m">
+<section id="services" class="w-full mb-10 items-center p-2.5">
     <div class="flex flex-col items-center p-2">
         <h2>Our Services</h2>
         <p class="mb-5">We provide guidance and support throughout your journey in Australia.</p>
@@ -9,13 +9,13 @@
         <div id="serviceContainer" style="-webkit-overflow-scrolling: touch;"
             class=" flex gap-4 overflow-x-scroll services pb-2 scrollbar-visible snap-x snap-mandatory   md:overflow-visible md:grid lg:grid-cols-3 md:grid-cols-2 md:justify-items-center">
             <div
-                class="w-[85vw] max-w-xs min-h-60 shrink-0 rounded-2xl snap-center
+                class="w-[85vw] max-w-xs min-h-80 shrink-0 rounded-2xl snap-center
                     border-2 border-primary
                     bg-white
                     p-5
                     text-center
                     shadow-md
-                    transition md:w-full md:max-w-lg md:shrink md:hover:border-primary-light md:hover:scale-105 md:hover:z-50">
+                    transition md:w-full md:max-w-sm md:h-full md:max-h-lg md:shrink md:hover:border-primary-light md:hover:scale-105 md:hover:z-50">
                 <div class="text-2xl mb-3">🧭</div>
                 <h3 class="font-semibold text-sm mb-2 ">
                     Migration Support Consultation
@@ -26,11 +26,11 @@
                 </p>
             </div>
             <div
-                class="w-[85vw] max-w-xs min-h-60 shrink-0 rounded-2xl snap-center border borde border-neutral-200  bg-white  p-5
+                class="w-[85vw] max-w-xs min-h-80 shrink-0 rounded-2xl snap-center border borde border-neutral-200  bg-white  p-5
                     text-center
                     shadow-sm
                     hover:shadow-md
-                    transition md:w-full md:max-w-lg md:shrink md:hover:border-primary-light md:hover:scale-105">
+                    transition md:w-full md:max-w-sm md:shrink md:hover:border-primary-light md:hover:scale-105">
                 <div class="text-2xl mb-3">
                     📋
                 </div>
@@ -43,14 +43,14 @@
                 </p>
             </div>
             <div
-                class="w-[85vw] max-w-xs min-h-60  shrink-0  rounded-2xl snap-center
+                class="w-[85vw] max-w-xs min-h-80  shrink-0  rounded-2xl snap-center
                     border border-neutral-200
                     bg-white
                     p-5
                     text-center
                     shadow-sm
                     hover:shadow-md
-                    transition md:w-full md:max-w-lg md:shrink md:hover:border-primary-light md:hover:scale-105">
+                    transition md:w-full md:max-w-sm md:shrink md:hover:border-primary-light md:hover:scale-105">
                 <div class="text-2xl mb-3">🧾</div>
                 <h3 class="font-semibold text-sm mb-2">
                     TFN & ABN Guidance
@@ -61,14 +61,14 @@
                 </p>
             </div>
             <div
-                class="w-[85vw] max-w-xs min-h-60  shrink-0 rounded-2xl snap-center
+                class="w-[85vw] max-w-xs min-h-80  shrink-0 rounded-2xl snap-center
                     border border-neutral-200
                     bg-white
                     p-5
                     text-center
                     shadow-sm
                     hover:shadow-md
-                    transition md:w-full md:max-w-lg md:shrink md:hover:border-primary-light md:hover:scale-105">
+                    transition md:w-full md:max-w-sm md:shrink md:hover:border-primary-light md:hover:scale-105">
                 <div class="text-2xl mb-3">📑</div>
                 <h3 class="font-semibold text-sm mb-2">
                     Resume Review
@@ -79,14 +79,14 @@
                 </p>
             </div>
             <div
-                class="w-[85vw] max-w-xs min-h-60  shrink-0 rounded-2xl snap-center
+                class="w-[85vw] max-w-xs min-h-80  shrink-0 rounded-2xl snap-center
                         border border-neutral-200
                         bg-white
                         p-5
                         text-center
                         shadow-sm
                         hover:shadow-md
-                        transition md:w-full md:max-w-lg md:shrink md:hover:border-primary-light md:hover:scale-105">
+                        transition md:w-full md:max-w-sm md:shrink md:hover:border-primary-light md:hover:scale-105">
                 <div class="text-2xl mb-3">💬</div>
                 <h3 class="font-semibold text-sm mb-2">
                     Migration Information Session
@@ -97,14 +97,14 @@
                 </p>
             </div>
             <div
-                class="w-[85vw] max-w-xs min-h-60  shrink-0  rounded-2xl snap-center
+                class="w-[85vw] max-w-xs min-h-80  shrink-0  rounded-2xl snap-center
                     border border-neutral-200
                     bg-white
                     p-5
                     text-center
                     shadow-sm
                     hover:shadow-md
-                    transition md:w-full md:max-w-lg md:shrink md:hover:border-primary-light md:hover:scale-105">
+                    transition md:w-full md:max-w-sm md:shrink md:hover:border-primary-light md:hover:scale-105">
                 <div class="text-2xl mb-3">🎯</div>
                 <h3 class="font-semibold text-sm mb-2">
                     Work Readiness Package

@@ -11,9 +11,9 @@
 
             <p class="hidden md:block text-2xl">Latina Miles Away</p>
 
-            @if (request()->routeIs('legal.*') || request()->routeIs('contact'))
+            @if (request()->routeIs('legal.*') || request()->routeIs('contact')|| request()->routeIs('services.*'))
                 <a href="{{ route('home') }}"
-                    class="ml-2 hidden items-center gap-1 rounded-2xl p-2 text-primary transition duration-300 ease-in-out hover:bg-primary-light hover:text-white group md:flex">
+                    class="ml-2 flex items-center gap-1 rounded-2xl p-2 text-primary transition duration-300 ease-in-out hover:bg-primary-light hover:text-white group md:flex">
                     <svg class="h-6 w-6 shrink-0 text-primary transition duration-300 ease-in-out group-hover:text-white"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 640 640">

@@ -5,6 +5,7 @@ console.log("hi");
 document.addEventListener("DOMContentLoaded", () => {
     const openBtn = document.getElementById("openCertModal");
     const closeBtn = document.getElementById("closeCertModal");
+    const closeBtnX = document.getElementById("closeCertModalx");
     const modal = document.getElementById("certModal");
 
     console.log("openBtn:", openBtn);
@@ -22,6 +23,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     closeBtn.addEventListener("click", () => {
+        console.log("Close button clicked");
+        modal.style.display = "none";
+    });
+    closeBtnX.addEventListener("click", () => {
         console.log("Close button clicked");
         modal.style.display = "none";
     });

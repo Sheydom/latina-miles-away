@@ -10,15 +10,14 @@
         <div id="serviceContainer" style="-webkit-overflow-scrolling: touch;"
             class=" flex gap-4 overflow-x-scroll services pb-2 scrollbar-visible snap-x snap-mandatory   md:overflow-visible md:grid lg:grid-cols-3 md:grid-cols-2 md:justify-items-center">
             <div
-                class="w-[85vw] max-w-xs min-h-50 md:flex md:flex-col md:text-start shrink-0 rounded-2xl snap-center
+                class="w-[85vw] max-w-xs min-h-60 flex flex-col text-start shrink-0 rounded-2xl snap-center
                     border-2 border-primary
                     bg-white
                     p-5
-                    text-center
                     shadow-md
                     transition relative md:w-full md:max-w-xs  md:shrink md:hover:border-primary-light md:hover:scale-105 md:hover:z-50">
-                <div class="text-2xl mb-3"><svg
-                        class="w-5 h-5 md:w-10 md:h-10 mb-10 md:p-1 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
+                <div class="text-2xl"><svg
+                        class="w-10 h-10 mb-7 p-1 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 512 512"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
                         <path fill="currentColor"
@@ -46,14 +45,13 @@
                 </div>
             </div>
             <div
-                class="w-[85vw] max-w-xs md:flex md:flex-col md:text-start min-h-80 shrink-0 rounded-2xl snap-center border borde border-neutral-200  bg-white  p-5
-                    text-center
+                class="w-[85vw] max-w-xs flex flex-col text-start min-h-60 shrink-0 rounded-2xl snap-center border borde border-neutral-200  bg-white  p-5
                     shadow-sm
                     hover:shadow-md
                     relative
                     transition md:w-full md:max-w-xs md:shrink md:hover:border-primary-light md:hover:scale-105">
-                <div class="text-2xl mb-3">
-                    <svg class="w-5 h-5 mb-10 md:w-10 md:h-10 md:p-1 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
+                <div class="text-2xl">
+                    <svg class="mb-7 w-10 h-10 p-1 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 320 512"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
                         <path fill="currentColor"
@@ -73,17 +71,16 @@
                 </div>
             </div>
             <div
-                class="w-[85vw] max-w-xs min-h-80  shrink-0  rounded-2xl snap-center
+                class="w-[85vw] max-w-xs min-h-60  shrink-0  rounded-2xl snap-center
                     border border-neutral-200
                     bg-white
                     p-5
                     relative
-                    text-center
                     shadow-sm
                     hover:shadow-md
-                    transition md:w-full md:max-w-sx md:flex md:flex-col md:text-start md:shrink md:hover:border-primary-light md:hover:scale-105">
-                <div class="text-2xl mb-3"><svg
-                        class="w-5 h-5 md:w-10 md:h-10 md:p-1 mb-10 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
+                    transition md:w-full md:max-w-sx flex flex-col text-start md:shrink md:hover:border-primary-light md:hover:scale-105">
+                <div class="text-2xl"><svg
+                        class=" w-10 h-10 p-1 mb-7 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 512 512"><!--!Font Awesome Pro v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2026 Fonticons, Inc.-->
                         <path fill="currentColor"
@@ -103,17 +100,16 @@
                 </div>
             </div>
             <div
-                class="w-[85vw] max-w-xs min-h-80  shrink-0 rounded-2xl snap-center
+                class="w-[85vw] max-w-xs min-h-60  shrink-0 rounded-2xl snap-center
                     border border-neutral-200
                     bg-white
                     relative
                     p-5
-                    text-center
                     shadow-sm
                     hover:shadow-md
-                    transition md:w-full md:max-w-xs md:flex md:flex-col md:text-start md:shrink md:hover:border-primary-light md:hover:scale-105">
-                <div class="text-2xl mb-3"><svg
-                        class="w-5 h-5 md:w-10 md:h-10 md:p-1 mb-10 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
+                    transition md:w-full md:max-w-xs flex flex-col text-start md:shrink md:hover:border-primary-light md:hover:scale-105">
+                <div class="text-2xl"><svg
+                        class="w-10 h-10 p-1 mb-7 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 384 512"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
                         <path fill="currentColor"
@@ -133,17 +129,16 @@
                 </div>
             </div>
             <div
-                class="w-[85vw] max-w-xs min-h-80  shrink-0 rounded-2xl snap-center
+                class="w-[85vw] max-w-xs min-h-60  shrink-0 rounded-2xl snap-center
                         border border-neutral-200
                         bg-white
                         p-5
-                        text-center
                         shadow-sm
                         relative
                         hover:shadow-md
-                        transition md:w-full md:max-w-xs md:flex md:flex-col md:text-start md:shrink md:hover:border-primary-light md:hover:scale-105">
-                <div class="text-2xl mb-3"><svg
-                        class="w-5 h-5 md:w-10 md:h-10 md:p-1 mb-10 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
+                        transition md:w-full md:max-w-xs flex flex-col text-start md:shrink md:hover:border-primary-light md:hover:scale-105">
+                <div class="text-2xl"><svg
+                        class="w-10 h-10 p-1 mb-7 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 512 512"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
                         <path fill="currentColor"
@@ -163,17 +158,16 @@
                 </div>
             </div>
             <div
-                class="w-[85vw] max-w-xs min-h-80  shrink-0  rounded-2xl snap-center
+                class="w-[85vw] max-w-xs min-h-60  shrink-0  rounded-2xl snap-center
                     border border-neutral-200
                     bg-white
                     p-5
-                    text-center
                     relative
                     shadow-sm
                     hover:shadow-md
-                    transition md:w-full md:max-w-xs md:flex md:flex-col md:text-start md:shrink md:hover:border-primary-light md:hover:scale-105">
-                <div class="text-2xl mb-3"><svg
-                        class="w-5 h-5 md:w-10 md:h-10 md:p-1 mb-10 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
+                    transition md:w-full md:max-w-xs flex flex-col text-start md:shrink md:hover:border-primary-light md:hover:scale-105">
+                <div class="text-2xl"><svg
+                        class="w-10 h-10 p-1 mb-10 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 512 512"><!--!Font Awesome Pro v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2026 Fonticons, Inc.-->
                         <path fill="currentColor"

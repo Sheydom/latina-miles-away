@@ -2,7 +2,7 @@
     <section class="w-full text-center flex flex-col items-center">
         <div class="w-full bg-primary p-2.5 md:p-15 md:grid md:grid-cols-2">
             <div
-                class="w-full mx-auto  bg-white rounded-tl-2xl rounded-tr-2xl md:text-left md:rounded-tr-none md:rounded-bl-2xl shadow-md p-6 md:p-25">
+                class="w-full mx-auto  bg-white rounded-tl-2xl rounded-tr-2xl text-left md:text-left md:rounded-tr-none md:rounded-bl-2xl shadow-md p-6 md:p-25">
                 <!-- Title -->
                 <h2 class="text-xl md:text-3xl font-semibold text-center md:text-left mb-2">
                     1:1 Guidance Session
@@ -12,7 +12,7 @@
                 </p>
                 <!-- Who it's for -->
                 <div class="mb-5">
-                    <h3 class="font-semibold text-sm md:text-2xl mb-2 text-primary">
+                    <h3 class="font-semibold text-lg md:text-2xl mb-2 text-primary">
                         Who it's for
                     </h3>
                     <p class="text-sm md:text-base text-neutral-700">
@@ -21,7 +21,7 @@
                 </div>
                 <!-- What we talk about -->
                 <div class="mb-5">
-                    <h3 class="font-semibold text-sm md:text-2xl mb-2 text-primary">
+                    <h3 class="font-semibold text-lg md:text-2xl mb-2 text-primary">
                         What we can talk about
                     </h3>
                     <ul class="space-y-2 text-sm md:text-base text-neutral-700">
@@ -35,7 +35,7 @@
 
                 <!-- What you get -->
                 <div class="mb-6">
-                    <h3 class="font-semibold text-sm md:text-2xl mb-2 text-primary">
+                    <h3 class="font-semibold text-lg md:text-2xl mb-2 text-primary">
                         What you get
                     </h3>
                     <ul class="space-y-2 text-sm md:text-base text-neutral-700">
@@ -57,18 +57,22 @@
                 </div>
                 <div class="bg-white rounded-br-2xl rounded-bl-2xl md:rounded-bl-none">
                     <!-- Experience -->
-                    <div class="mb-5 md:text-left">
-                        <h3 class="font-semibold text-sm md:text-2xl mb-2 text-primary">
+                    <div class="mb-5  p-5 md:text-left">
+                        <h3 class="font-semibold text-lg md:text-2xl mb-2 text-primary">
                             My experience
                         </h3>
-                        <ul class="space-y-2 text-sm md:text-base text-neutral-700">
-                            <li>• Student visa</li>
-                            <li>• COVID visa (408)</li>
-                            <li>• Partner sponsorship</li>
-                            <li>• Permanent Residency</li>
+                        <ul class="space-y-2 flex justify-around text-left text-sm md:text-base text-neutral-700">
+                            <div>
+                                <li>• Student visa</li>
+                                <li>• COVID visa (408)</li>
+                            </div>
+                            <div>
+                                <li>• Partner sponsorship</li>
+                                <li>• Permanent Residency</li>
+                            </div>
                         </ul>
-                        <p class="text-sm md:text-base text-neutral-600 mt-2">
-                            I understand the process from real experience — not theory.
+                        <p class="text-sm text-center md:text-base text-neutral-600 mt-2">
+                            I understand the process <br md:hidden> from real experience — not theory.
                         </p>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
-<section class="mb-10 flex flex-col items-center w-full">
+<section class="mb-10 flex flex-col items-center w-full p-2.5">
     <div class="flex flex-col items-center md:flex-row md:gap-15  ">
         <img src="{{ Vite::asset('resources/images/profile.jpg') }}" alt="profilepicture"
-            class="h-auto w-[85vw] max-w-90 mb-6  rounded-3xl object-cover md:max-w-[25vw]">
+            class="h-auto w-[85vw] max-w-90 mb-6  rounded-3xl object-cover md:max-w-[35vw]">
         <div class="md:flex md:flex-col md:p-5 md:max-w-150 ">
             <div class="flex flex-col p-2">
                 <div class="text-center mb-2">
@@ -33,7 +33,7 @@
                     </button></p>
             </div>
             <div
-                class="mt-6 mb-6 border-l-tertiary border-l-2 md:border-l-4 w-full rounded-2xl p-5 bg-gray-100 md:w-max">
+                class="mt-6 mb-6 border-l-tertiary border-l-3 md:border-l-4 w-full rounded-2xl p-5 bg-gray-100 md:w-max">
                 <h3 class="text-black">MY AUSTRALIAN PATH:</h3>
                 <p class="text-sm">Student -> COVID Hardship -> Working Holiday<br> -> Sponsorship -> Permanent
                     Residency</p>

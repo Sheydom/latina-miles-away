@@ -1,10 +1,10 @@
 <section class="mb-10 flex flex-col items-center w-full p-2.5">
-    <div class="flex flex-col items-center md:flex-row md:gap-15  ">
+    <div class="flex flex-col items-center md:flex-row md:gap-1  ">
         <img src="{{ Vite::asset('resources/images/profile.jpg') }}" alt="profilepicture"
-            class="h-auto w-[85vw] max-w-90 mb-6  rounded-3xl object-cover md:max-w-[35vw]">
+            class="h-auto w-[85vw] max-w-90 mb-6  rounded-3xl object-cover md:max-w-[25vw]">
         <div class="md:flex md:flex-col md:p-5 md:max-w-150 ">
             <div class="flex flex-col p-2">
-                <div class="text-center mb-2">
+                <div class="text-center md:text-left mb-2">
                     <h2 class="text-black md:text-[clamp(2rem,4vw,3rem)] md:mb-5 "><span
                             class="underline decoration-tertiary">I've Been</span> in your Shoes</h2>
                 </div>

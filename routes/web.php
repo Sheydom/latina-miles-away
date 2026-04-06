@@ -10,4 +10,14 @@ Route::prefix('legal')->group(function () {
     Route::view('privacy', 'legal.privacy')->name('legal.privacy');
     Route::view('disclaimer', 'legal.disclaimer')->name('legal.disclaimer');
 });
-Route::view('contact','contact')->name('contact');
+Route::view('contact', 'contact')->name('contact');
+
+Route::prefix('services')->group(function () {
+    Route::view('guidanceSession', 'services.guidanceSession')->name('services.guidanceSession');
+    Route::view('startHere', 'services.startHere')->name('services.startHere');
+    Route::view('accomodationGuide', 'services.accomodationGuide')->name('services.accomodationGuide');
+    Route::view('resumeReview', 'services.resumeReview')->name('services.resumeReview');
+    Route::view('documentReview', 'services.documentReview')->name('services.documentReview');
+    Route::view('workReadiness', 'services.workReadiness')->name('services.workReadiness');
+
+});

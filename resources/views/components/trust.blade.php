@@ -6,7 +6,7 @@
             <div class="flex flex-col p-2">
                 <div class="text-center md:text-left mb-2">
                     <h2 class="text-black md:text-[clamp(2rem,4vw,3rem)] md:mb-5 "><span
-                            class="underline decoration-tertiary">I've Been</span> in your Shoes</h2>
+                            class="text-primary">I've Been</span> in your Shoes</h2>
                 </div>
                 <p class="leading-relaxed">Originally trained and <button type="button" id="openCertModal"
                         class="bg-white/80  rounded-full px-2 cursor-pointer underline md:hover:border-primary-light border border-transparent md:hover:border hover:text-white hover:bg-primary">qualified</button>

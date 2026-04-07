@@ -58,9 +58,7 @@
                 <!-- Right column -->
                 <div class="flex flex-col bg-neutral-50">
                     <div class="h-72 w-full md:h-80 lg:h-[420px]">
-                        <img
-                            class="h-full w-full object-cover"
-                            src="{{ Vite::asset('resources/images/profile.jpg') }}"
+                        <img class="h-full w-full object-cover" src="{{ Vite::asset('resources/images/profile.jpg') }}"
                             alt="Profile photo">
                     </div>
 
@@ -69,31 +67,40 @@
                             My experience
                         </h3>
 
-                        <ul class="grid grid-cols-1 gap-3 text-sm text-neutral-700 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 md:text-base">
+                        <ul
+                            class="grid grid-cols-1 gap-3 text-sm text-neutral-700 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 md:text-base">
                             <li class="flex items-center gap-2">
-                                <svg class="h-5 w-5 shrink-0 text-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-                                    <path fill="currentColor" d="M320 576C178.6 576 64 461.4 64 320C64 178.6 178.6 64 320 64C461.4 64 576 178.6 576 320C576 461.4 461.4 576 320 576zM438 209.7C427.3 201.9 412.3 204.3 404.5 215L285.1 379.2L233 327.1C223.6 317.7 208.4 317.7 199.1 327.1C189.8 336.5 189.7 351.7 199.1 361L271.1 433C276.1 438 282.9 440.5 289.9 440C296.9 439.5 303.3 435.9 307.4 430.2L443.3 243.2C451.1 232.5 448.7 217.5 438 209.7z"/>
+                                <svg class="h-5 w-5 shrink-0 text-primary" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 640 640">
+                                    <path fill="currentColor"
+                                        d="M320 576C178.6 576 64 461.4 64 320C64 178.6 178.6 64 320 64C461.4 64 576 178.6 576 320C576 461.4 461.4 576 320 576zM438 209.7C427.3 201.9 412.3 204.3 404.5 215L285.1 379.2L233 327.1C223.6 317.7 208.4 317.7 199.1 327.1C189.8 336.5 189.7 351.7 199.1 361L271.1 433C276.1 438 282.9 440.5 289.9 440C296.9 439.5 303.3 435.9 307.4 430.2L443.3 243.2C451.1 232.5 448.7 217.5 438 209.7z" />
                                 </svg>
                                 Partner sponsorship
                             </li>
 
                             <li class="flex items-center gap-2">
-                                <svg class="h-5 w-5 shrink-0 text-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-                                    <path fill="currentColor" d="M320 576C178.6 576 64 461.4 64 320C64 178.6 178.6 64 320 64C461.4 64 576 178.6 576 320C576 461.4 461.4 576 320 576zM438 209.7C427.3 201.9 412.3 204.3 404.5 215L285.1 379.2L233 327.1C223.6 317.7 208.4 317.7 199.1 327.1C189.8 336.5 189.7 351.7 199.1 361L271.1 433C276.1 438 282.9 440.5 289.9 440C296.9 439.5 303.3 435.9 307.4 430.2L443.3 243.2C451.1 232.5 448.7 217.5 438 209.7z"/>
+                                <svg class="h-5 w-5 shrink-0 text-primary" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 640 640">
+                                    <path fill="currentColor"
+                                        d="M320 576C178.6 576 64 461.4 64 320C64 178.6 178.6 64 320 64C461.4 64 576 178.6 576 320C576 461.4 461.4 576 320 576zM438 209.7C427.3 201.9 412.3 204.3 404.5 215L285.1 379.2L233 327.1C223.6 317.7 208.4 317.7 199.1 327.1C189.8 336.5 189.7 351.7 199.1 361L271.1 433C276.1 438 282.9 440.5 289.9 440C296.9 439.5 303.3 435.9 307.4 430.2L443.3 243.2C451.1 232.5 448.7 217.5 438 209.7z" />
                                 </svg>
                                 Permanent Residency
                             </li>
 
                             <li class="flex items-center gap-2">
-                                <svg class="h-5 w-5 shrink-0 text-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-                                    <path fill="currentColor" d="M320 576C178.6 576 64 461.4 64 320C64 178.6 178.6 64 320 64C461.4 64 576 178.6 576 320C576 461.4 461.4 576 320 576zM438 209.7C427.3 201.9 412.3 204.3 404.5 215L285.1 379.2L233 327.1C223.6 317.7 208.4 317.7 199.1 327.1C189.8 336.5 189.7 351.7 199.1 361L271.1 433C276.1 438 282.9 440.5 289.9 440C296.9 439.5 303.3 435.9 307.4 430.2L443.3 243.2C451.1 232.5 448.7 217.5 438 209.7z"/>
+                                <svg class="h-5 w-5 shrink-0 text-primary" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 640 640">
+                                    <path fill="currentColor"
+                                        d="M320 576C178.6 576 64 461.4 64 320C64 178.6 178.6 64 320 64C461.4 64 576 178.6 576 320C576 461.4 461.4 576 320 576zM438 209.7C427.3 201.9 412.3 204.3 404.5 215L285.1 379.2L233 327.1C223.6 317.7 208.4 317.7 199.1 327.1C189.8 336.5 189.7 351.7 199.1 361L271.1 433C276.1 438 282.9 440.5 289.9 440C296.9 439.5 303.3 435.9 307.4 430.2L443.3 243.2C451.1 232.5 448.7 217.5 438 209.7z" />
                                 </svg>
                                 COVID visa (408)
                             </li>
 
                             <li class="flex items-center gap-2">
-                                <svg class="h-5 w-5 shrink-0 text-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-                                    <path fill="currentColor" d="M320 576C178.6 576 64 461.4 64 320C64 178.6 178.6 64 320 64C461.4 64 576 178.6 576 320C576 461.4 461.4 576 320 576zM438 209.7C427.3 201.9 412.3 204.3 404.5 215L285.1 379.2L233 327.1C223.6 317.7 208.4 317.7 199.1 327.1C189.8 336.5 189.7 351.7 199.1 361L271.1 433C276.1 438 282.9 440.5 289.9 440C296.9 439.5 303.3 435.9 307.4 430.2L443.3 243.2C451.1 232.5 448.7 217.5 438 209.7z"/>
+                                <svg class="h-5 w-5 shrink-0 text-primary" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 640 640">
+                                    <path fill="currentColor"
+                                        d="M320 576C178.6 576 64 461.4 64 320C64 178.6 178.6 64 320 64C461.4 64 576 178.6 576 320C576 461.4 461.4 576 320 576zM438 209.7C427.3 201.9 412.3 204.3 404.5 215L285.1 379.2L233 327.1C223.6 317.7 208.4 317.7 199.1 327.1C189.8 336.5 189.7 351.7 199.1 361L271.1 433C276.1 438 282.9 440.5 289.9 440C296.9 439.5 303.3 435.9 307.4 430.2L443.3 243.2C451.1 232.5 448.7 217.5 438 209.7z" />
                                 </svg>
                                 Student visa
                             </li>
@@ -128,8 +135,9 @@
             </div>
 
             <!-- Cal inline embed -->
-            <div class="mt-8 w-full rounded-2xl bg-white p-2 shadow-sm md:p-4">
-                <div id="my-cal-inline-consultation" class="w-full" style="min-height: 700px; -webkit-overflow-scrolling: touch;"></div>
+            <div class="mt-8 w-full rounded-2xl bg-white p-2 shadow-sm md:p-8">
+                <div id="my-cal-inline-consultation" class="w-full"
+                    style="min-height: 500px; -webkit-overflow-scrolling: touch;"></div>
             </div>
         </div>
     </section>

@@ -70,8 +70,8 @@
                     </div>
                     <!-- Mobile preview image -->
                     <div class="block md:hidden">
-                        <img src="{{ asset('downloads/rent guide26.pdf') }}"
-                            alt="Preview of the accommodation guide" class="w-full rounded-2xl shadow-md border">
+                        <img src="{{ asset('downloads/rent guide26.pdf') }}" alt="Preview of the accommodation guide"
+                            class="w-full rounded-2xl shadow-md border">
 
                         <div class="mt-4 flex flex-col gap-3">
                             <a href="{{ asset('downloads/rent guide26.pdf') }}" target="_blank"
@@ -79,7 +79,7 @@
                                 Open PDF
                             </a>
 
-                            <a href="{{ asset('downloads/rent-guide26.pdf') }}" download
+                            <a href="{{ asset('downloads/rent guide26.pdf') }}" download
                                 class="w-full text-center px-5 py-3 rounded-xl bg-primary text-white font-semibold">
                                 Download Full Guide
                             </a>

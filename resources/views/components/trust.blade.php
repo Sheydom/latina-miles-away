@@ -3,10 +3,8 @@
 
         <!-- Image -->
         <div class="w-full md:w-[38%]">
-            <img
-                src="{{ Vite::asset('resources/images/profile.jpg') }}"
-                alt="Profile picture"
-                class="mx-auto w-full max-w-sm rounded-3xl object-cover shadow-md md:max-w-none md:h-[540px]" />
+            <img src="{{ Vite::asset('resources/images/profile.jpg') }}" alt="Profile picture"
+                class="mx-auto w-full max-w-sm rounded-3xl object-cover shadow-md md:max-w-none md:h-135" />
         </div>
 
         <!-- Content -->
@@ -20,9 +18,7 @@
             <div class="space-y-5">
                 <p class="leading-relaxed text-neutral-800">
                     Originally trained and
-                    <button
-                        type="button"
-                        id="openCertModal"
+                    <button type="button" id="openCertModal"
                         class="inline-flex items-center rounded-full border border-transparent bg-white/80 px-2 py-0.5 underline transition cursor-pointer hover:bg-primary hover:text-white md:hover:border-primary-light">
                         qualified
                     </button>
@@ -43,7 +39,7 @@
                 <p class="leading-relaxed text-neutral-800">
                     I started Latina Miles Away because I've been in your shoes. Today, as a
                     <strong>Migration Support Consultant and future registered Migration Agent</strong>, I combine legal
-                    training with deep empathy. I successfully travelled this path, and now I’m here to support you on
+                    training with deep empathy. I successfully travelled this path, and now I'm here to support you on
                     your journey.
                 </p>
             </div>
@@ -51,21 +47,15 @@
     </div>
 
     <!-- Modal -->
-    <div
-        id="certModal"
-        class="fixed inset-0 z-50 hidden items-center justify-center bg-black/70 p-3 md:p-6">
+    <div id="certModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/70 p-3 md:p-6">
 
         <div class="relative w-full max-w-5xl">
-            <button
-                id="closeCertModalBtn"
-                type="button"
+            <button id="closeCertModalBtn" type="button"
                 class="absolute right-2 top-2 flex h-10 w-10 items-center justify-center rounded-full bg-black/50 text-2xl text-white transition hover:bg-black/70 md:-top-10 md:right-0 md:text-3xl">
                 ✕
             </button>
 
-            <img
-                id="certImage"
-                src="{{ Vite::asset('resources/images/lawyer.png') }}"
+            <img id="certImage" src="{{ Vite::asset('resources/images/lawyer.png') }}"
                 alt="Law degree certificate full size"
                 class="w-full max-h-[85vh] rounded-xl bg-white object-contain shadow-lg cursor-pointer" />
         </div>

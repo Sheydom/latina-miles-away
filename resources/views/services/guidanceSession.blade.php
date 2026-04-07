@@ -1,8 +1,8 @@
 <x-layout.app>
     <section class="w-full text-center bg-linear-to-b from-primary to-#EAEFEF flex flex-col items-center">
-        <div class="w-full md:max-w-300  p-2.5 md:px-15 md:grid md:grid-cols-2 ">
+        <div class="w-full md:max-w-300  p-5 md:px-5 md:grid md:grid-cols-2 ">
             <div
-                class="w-fit mx-auto  bg-white rounded-tl-2xl rounded-tr-2xl text-left md:text-left md:rounded-tr-none md:rounded-bl-2xl shadow-md p-6 md:p-15">
+                class="w-fit mx-auto  bg-white rounded-tl-2xl rounded-tr-2xl text-left md:text-left md:rounded-tr-none md:rounded-bl-2xl shadow-md p-6">
                 <!-- Title -->
                 <h2 class="text-xl md:text-3xl font-semibold text-center md:text-left mb-2">
                     1:1 Guidance Session
@@ -51,8 +51,8 @@
                     unnecessary mistakes.”
                 </p>
             </div>
-            <div class="w-full bg-white md:rounded-r-2xl md:flex md:flex-col md:items-center md:p-15 ">
-                <div class=""><img class="md:rounded-2xl md:max-h-100"
+            <div class="w-full bg-white md:rounded-r-2xl md:flex md:flex-col md:items-center md:p-5   ">
+                <div class=""><img class="md:rounded-2xl md:max-h-80"
                         src="{{ Vite::asset('resources/images/profile.jpg') }}" alt="profilePhoto">
                 </div>
                 <div class="bg-white rounded-b-2xl  md:rounded-bl-none">
@@ -71,7 +71,8 @@
                                 <li>• Permanent Residency</li>
                             </div>
                         </ul>
-                        <p class="text-sm text-center md:text-base text-neutral-600 mt-2">
+                        <p
+                            class="text-sm  bottom-5 text-center md:text-left md:text-base text-neutral-600 mt-2">
                             I understand the process <br md:hidden> from real experience — not theory.
                         </p>
                     </div>

@@ -1,5 +1,5 @@
 <section
-    class=" bg-linear-to-br from-[primary-light] to-primary p-5 rounded-xl mb-10  md:w-full md:max-w-[100vw] md:items-center md:flex md:justify-around">
+    class=" bg-linear-to-br from-[primary-light] to-primary p-5 rounded-xl md:rounded-none mb-10  md:w-full md:max-w-[100vw] md:items-center md:flex md:justify-around">
     <div>
         <div class="flex justify-end md:justify-start">
             <p class=" bg-blue-100 h-max p-1 text-xs rounded-2xl mb-5 flex items-center"><svg class="w-5 h-5 shrink-0"

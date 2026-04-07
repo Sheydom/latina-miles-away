@@ -104,6 +104,10 @@
        hover:opacity-90 transition hover:-translate-y-1 duration-200 ease-in-out">
                 Send us a quick email
             </a>
+             <p class="text-sm text-neutral-600 mt-2">
+        or email us at
+        <span class="font-medium">latinamilesaway@gmail.com</span>
+    </p>
 
             <p class="text-xs ">
 

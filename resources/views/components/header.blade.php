@@ -1,10 +1,10 @@
 <nav class="sticky top-0 z-50 bg-soft/90 px-3 md:px-10">
-    <div class="mx-auto flex w-full items-center justify-between py-2">
+    <div class="mx-auto flex w-full items-center justify-between">
         
         <div class="flex items-center gap-3 md:gap-5">
             <a href="{{ route('home') }}" class="shrink-0">
                 <img
-                    class="block h-14 w-14 md:h-20 md:w-20"
+                    class="block h-14 w-14 md:h-20 md:w-20 "
                     src="{{ Vite::asset('resources/images/lma.svg') }}"
                     alt="Latina Miles Away Logo">
             </a>

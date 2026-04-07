@@ -2,7 +2,7 @@
     <section class="w-full text-center bg-linear-to-b from-primary to-#EAEFEF flex flex-col items-center">
         <div class="w-full md:w-max  p-5 md:px-5 md:grid md:grid-cols-[400px_max(600px)] ">
             <div
-                class="w-fit mx-auto  bg-white rounded-tl-2xl rounded-tr-2xl text-left md:text-left md:rounded-tr-none md:rounded-bl-2xl shadow-md p-5">
+                class="w-fit mx-auto  bg-white rounded-t-2xl text-left md:text-left md:rounded-tr-none md:rounded-br-none md:rounded-bl-2xl shadow-md p-5">
                 <!-- Title -->
                 <h2 class="text-xl md:text-3xl font-semibold text-center md:text-left mb-2">
                     1:1 Guidance Session
@@ -51,12 +51,12 @@
                     unnecessary mistakes.”
                 </p>
             </div>
-            <div class="w-full bg-white md:rounded-r-2xl md:flex md:flex-col md:items-end md:p-5   ">
+            <div class="w-full bg-white rounded-b-2xl md:rounded-bl-none md:rounded-r-2xl md:flex md:flex-col md:items-end md:p-5 ">
                 <div>
                     <div class=""><img class="md:rounded-2xl md:max-h-80"
                             src="{{ Vite::asset('resources/images/profile.jpg') }}" alt="profilePhoto">
                     </div>
-                    <div class="bg-white rounded-b-2xl  md:rounded-bl-none">
+                    <div class="md:rounded-bl-none">
                         <!-- Experience -->
                         <div class="mb-5 md:mt-5  p-5 md:p-0 md:text-left md:w-full">
                             <h3 class="font-semibold text-lg md:text-2xl mb-2 ">

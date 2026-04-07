@@ -100,7 +100,7 @@
 
             <a href="mailto:latinamilesaway@gmail.com"
                 class="cursor-pointer inline-block px-5 py-2 rounded-xl
-       bg-[#4CC9D4] text-white font-semibold
+       bg-[#25959f] text-white font-semibold
        hover:opacity-90 transition hover:-translate-y-1 duration-200 ease-in-out">
                 Send us a quick email
             </a>

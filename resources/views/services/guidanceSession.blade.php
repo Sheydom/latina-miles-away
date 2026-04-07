@@ -17,7 +17,7 @@
 
                     <div class="mb-6">
                         <h3 class="mb-2 text-lg font-semibold md:text-2xl">
-                            Who it’s for
+                            Who it's for
                         </h3>
                         <p class="text-sm text-neutral-700 md:text-base leading-relaxed">
                             If you're planning to move to Australia or already here and feel unsure about your next
@@ -57,7 +57,7 @@
 
                 <!-- Right column -->
                 <div class="flex flex-col bg-neutral-50">
-                    <div class="h-72 w-full md:h-80 lg:h-[420px]">
+                    <div class="h-72 w-full md:h-80 lg:h-105">
                         <img class="h-full w-full object-cover" src="{{ Vite::asset('resources/images/profile.jpg') }}"
                             alt="Profile photo">
                     </div>

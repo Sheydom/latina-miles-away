@@ -82,7 +82,7 @@
                         </p>
 
                         <p class="mb-5 text-2xl font-semibold text-black md:text-3xl">
-                            $30 AUD
+                            $35 AUD
                         </p>
 
                         <a href="mailto:latinamilesaway@gmail.com?subject=Work%20Ready%20Setup%20Request&body=Hi,%0A%0AI%20would%20like%20support%20with%20the%20Work%20Ready%20Setup.%0A%0AName:%0A%0ACurrent%20situation:%0A"

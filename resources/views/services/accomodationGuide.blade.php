@@ -70,7 +70,7 @@
                     </div>
                     <!-- Mobile preview image -->
                     <div class="block md:hidden">
-                        <img src="{{ Vite::asset('resources/images/accomodationGuideScreenshot.png') }}" alt="Preview of the accommodation guide"
+                        <img src="{{ asset('images/accomodationGuideScreenshot.png') }}" alt="Preview of the accommodation guide"
                             class="w-full rounded-2xl shadow-md border">
 
                         <div class="mt-4 flex flex-col gap-3">
@@ -101,7 +101,7 @@
 
                     <div class="space-y-6">
                         <div>
-                            <h3 class="text-lg md:text-xl font-semibold text-neutral-900 mb-2">
+                            <h3 class="text-lg md:text-xl font-semibold text-neutral-900 mt-6 mb:mt-none mb-2">
                                 What you get
                             </h3>
                             <div class="grid gap-4 sm:grid-cols-3">

@@ -24,5 +24,5 @@
 
     </div>
     <img class="w-120 rounded-2xl hidden md:flex md:w-100 md:h-80 rotate-3"
-        src="{{ Vite::asset('resources/images/melbourne.jpg') }}" alt="melbourne">
+        src="{{ asset('images/melbourne.jpg') }}" alt="melbourne">
 </section>

@@ -11,7 +11,7 @@
                             Document Support
                         </p>
                         <h1 class="mb-4 text-3xl font-semibold text-black md:text-4xl">
-                            Resume Review
+                            Document Review
                         </h1>
                         <p class="max-w-xl leading-relaxed text-neutral-600">
                             Support for important documents in English, so your message feels clear,

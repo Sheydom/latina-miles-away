@@ -3,7 +3,7 @@
 
         <!-- Image -->
         <div class="w-full md:w-[38%]">
-            <img src="{{ Vite::asset('resources/images/profile.jpg') }}" alt="Profile picture"
+            <img src="{{ asset('images/profile.jpg') }}" alt="Profile picture"
                 class="mx-auto w-full max-w-sm rounded-3xl object-cover shadow-md md:max-w-none md:h-135" />
         </div>
 
@@ -55,8 +55,7 @@
                 ✕
             </button>
 
-            <img id="certImage" src="{{ Vite::asset('resources/images/lawyer.png') }}"
-                alt="Law degree certificate full size"
+            <img id="certImage" src="{{ asset('images/lawyer.png') }}" alt="Law degree certificate full size"
                 class="w-full max-h-[85vh] rounded-xl bg-white object-contain shadow-lg cursor-pointer" />
         </div>
     </div>

@@ -5,7 +5,7 @@
             <a href="{{ route('home') }}" class="shrink-0">
                 <img
                     class="block h-14 w-14 md:h-20 md:w-20 "
-                    src="{{ Vite::asset('resources/images/lma.svg') }}"
+                    src="{{ asset('images/lma.svg') }}"
                     alt="Latina Miles Away Logo">
             </a>
 

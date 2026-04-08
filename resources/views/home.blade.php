@@ -4,5 +4,4 @@
     <x-trust />
     <x-secure />
     <x-lastCallToAction />
-    {{-- <x-consultation /> --}}
 </x-layout.app>

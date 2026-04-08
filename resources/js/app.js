@@ -1,18 +1,12 @@
 import "./bootstrap";
 
-console.log("hi");
-
 document.addEventListener("DOMContentLoaded", () => {
     const openBtn = document.getElementById("openCertModal");
-    const closeBtn = document.getElementById("closeCertModal");
-    const closeBtnX = document.getElementById("closeCertModalx");
+    const closeBtnX = document.getElementById("closeCertModalX");
     const modal = document.getElementById("certModal");
+    const image = document.getElementById("certImage");
 
-    console.log("openBtn:", openBtn);
-    console.log("closeBtn:", closeBtn);
-    console.log("modal:", modal);
-
-    if (!openBtn || !closeBtn || !modal) {
+    if (!openBtn || !image || !modal) {
         console.log("One or more elements not found");
         return;
     }
@@ -22,10 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
         modal.style.display = "flex";
     });
 
-    closeBtn.addEventListener("click", () => {
-        console.log("Close button clicked");
-        modal.style.display = "none";
-    });
     closeBtnX.addEventListener("click", () => {
         console.log("Close button clicked");
         modal.style.display = "none";
@@ -34,6 +24,14 @@ document.addEventListener("DOMContentLoaded", () => {
     modal.addEventListener("click", (e) => {
         if (e.target === modal) {
             console.log("Modal background clicked");
+            modal.style.display = "none";
+        }
+    });
+    image.addEventListener("click", () => {
+        modal.style.display = "none";
+    });
+    document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
             modal.style.display = "none";
         }
     });

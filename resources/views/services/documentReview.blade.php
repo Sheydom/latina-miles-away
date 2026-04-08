@@ -88,13 +88,13 @@
 
                         <a href="mailto:latinamilesaway@gmail.com
 ?subject=Resume%20Review%20Request
-&body=Hi,%0A%0AI%20would%20like%20to%20submit%20my%20CV%20for%20review.%0A%0AName:%0A"
+&body=Hi,%0A%0AI%20would%20like%20to%20submit%20my%20CV%20for%20review.%0A%0A"
                             class="inline-flex w-full cursor-pointer items-center justify-center rounded-xl bg-white px-5 py-3 font-semibold text-primary transition hover:-translate-y-0.5 hover:shadow-md">
                             Submit your document
                         </a>
-                        <p class="mt-4 text-sm text-gray-600">
+                        <p class="mt-4 text-sm text-gray-800">
                             Or email me directly at
-                            <span class="font-medium text-gray-600">latinamilesaway@gmail.com</span>
+                            <span class="font-medium text-gray-800">latinamilesaway@gmail.com</span>
                         </p>
                     </div>
                 </div>

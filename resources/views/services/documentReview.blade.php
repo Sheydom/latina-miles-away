@@ -33,7 +33,7 @@
                         <h2 class="mb-4 text-xl font-semibold text-black">
                             What I can help with
                         </h2>
-                        <ul class="space-y-2 pl-5 text-neutral-600 marker:text-tertiary list-disc">
+                        <ul class="space-y-2 pl-5 text-neutral-600 leading-relaxed marker:text-tertiary list-disc">
                             <li>Statutory declarations</li>
                             <li>Personal statements</li>
                             <li>Visa-related supporting documents <span class="italic">(non-legal advice)</span></li>
@@ -79,7 +79,7 @@
                             Price
                         </p>
                         <p class="mb-5 text-3xl font-semibold">
-                            $5-10 AUD
+                            $15 AUD
                         </p>
 
                         <p class="mb-6 text-sm leading-relaxed text-white/90">

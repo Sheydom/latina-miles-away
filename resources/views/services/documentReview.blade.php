@@ -79,7 +79,7 @@
                             Price
                         </p>
                         <p class="mb-5 text-3xl font-semibold">
-                            $15 AUD
+                            $20 AUD
                         </p>
 
                         <p class="mb-6 text-sm leading-relaxed text-white/90">

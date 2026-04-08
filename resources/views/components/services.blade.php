@@ -9,6 +9,37 @@
     <div class="flex w-full justify-center">
         <div id="serviceContainer" style="-webkit-overflow-scrolling: touch;"
             class=" flex gap-4 overflow-x-scroll services pb-2 scrollbar-visible snap-x snap-mandatory   md:overflow-visible md:grid lg:grid-cols-3 md:grid-cols-2 md:justify-items-center">
+            <a href="{{ route('services.startHere') }}">
+                <div
+                    class="w-[85vw] max-w-xs flex flex-col text-start min-h-60 shrink-0 rounded-2xl snap-center border borde border-neutral-200  bg-white  p-5
+                    shadow-sm
+                    hover:shadow-md
+                    relative
+                    transition md:w-full md:max-w-xs md:shrink md:hover:border-primary-light md:hover:scale-105">
+                    <div class="text-2xl">
+                        <svg class="mb-7 w-10 h-10 p-1 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 320 512"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+                            <path fill="currentColor"
+                                d="M192 284.4C256.1 269.9 304 212.5 304 144 304 64.5 239.5 0 160 0S16 64.5 16 144c0 68.5 47.9 125.9 112 140.4L128 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-195.6zM168 96c-30.9 0-56 25.1-56 56 0 13.3-10.7 24-24 24s-24-10.7-24-24c0-57.4 46.6-104 104-104 13.3 0 24 10.7 24 24s-10.7 24-24 24z" />
+                        </svg>
+
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-sm mb-2">
+                            Start Here — Free
+                        </h3>
+                        <p class="text-xs text-neutral-700 leading-relaxed">
+                            Access free guides, checklists, and essential tips to help you prepare before arriving and
+                            avoid common mistakes.
+
+                        </p>
+                    </div>
+                    <div>
+                        <span class="absolute bottom-5">Learn More -></span>
+                    </div>
+                </div>
+            </a>
             <a href="{{ route('services.guidanceSession') }}">
                 <div
                     class="w-[85vw] max-w-xs min-h-60 flex flex-col text-start shrink-0 rounded-2xl snap-center
@@ -47,37 +78,7 @@
                     </div>
                 </div>
             </a>
-            <a href="{{ route('services.startHere') }}">
-                <div
-                    class="w-[85vw] max-w-xs flex flex-col text-start min-h-60 shrink-0 rounded-2xl snap-center border borde border-neutral-200  bg-white  p-5
-                    shadow-sm
-                    hover:shadow-md
-                    relative
-                    transition md:w-full md:max-w-xs md:shrink md:hover:border-primary-light md:hover:scale-105">
-                    <div class="text-2xl">
-                        <svg class="mb-7 w-10 h-10 p-1 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 320 512"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
-                            <path fill="currentColor"
-                                d="M192 284.4C256.1 269.9 304 212.5 304 144 304 64.5 239.5 0 160 0S16 64.5 16 144c0 68.5 47.9 125.9 112 140.4L128 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-195.6zM168 96c-30.9 0-56 25.1-56 56 0 13.3-10.7 24-24 24s-24-10.7-24-24c0-57.4 46.6-104 104-104 13.3 0 24 10.7 24 24s-10.7 24-24 24z" />
-                        </svg>
 
-                    </div>
-                    <div>
-                        <h3 class="font-semibold text-sm mb-2">
-                            Start Here — Free
-                        </h3>
-                        <p class="text-xs text-neutral-700 leading-relaxed">
-                            Access free guides, checklists, and essential tips to help you prepare before arriving and
-                            avoid common mistakes.
-
-                        </p>
-                    </div>
-                    <div>
-                        <span class="absolute bottom-5">Learn More -></span>
-                    </div>
-                </div>
-            </a>
             <a href="{{ route('services.accomodationGuide') }}">
                 <div
                     class="w-[85vw] max-w-xs min-h-60  shrink-0  rounded-2xl snap-center

@@ -9,7 +9,7 @@
     <div class="flex w-full justify-center">
         <div id="serviceContainer" style="-webkit-overflow-scrolling: touch;"
             class=" flex gap-4 overflow-x-scroll services pb-2 scrollbar-visible snap-x snap-mandatory   md:overflow-visible md:grid lg:grid-cols-3 md:grid-cols-2 md:justify-items-center">
-            <a href="{{ route('services.startHere') }}">
+            {{-- <a href="{{ route('services.startHere') }}">
                 <div
                     class="w-[85vw] max-w-xs flex flex-col text-start min-h-60 shrink-0 rounded-2xl snap-center border borde border-neutral-200  bg-white  p-5
                     shadow-sm
@@ -39,7 +39,7 @@
                         <span class="absolute bottom-5">Learn More -></span>
                     </div>
                 </div>
-            </a>
+            </a> --}}
             <a href="{{ route('services.guidanceSession') }}">
                 <div
                     class="w-[85vw] max-w-xs min-h-60 flex flex-col text-start shrink-0 rounded-2xl snap-center

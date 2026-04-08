@@ -70,16 +70,16 @@
                     </div>
                     <!-- Mobile preview image -->
                     <div class="block md:hidden">
-                        <img src="{{ asset('downloads/rent guide26.pdf') }}" alt="Preview of the accommodation guide"
+                        <img src="{{ Vite::asset('resources/images/accomodationGuideScreenshot.png') }}" alt="Preview of the accommodation guide"
                             class="w-full rounded-2xl shadow-md border">
 
                         <div class="mt-4 flex flex-col gap-3">
-                            <a href="{{ asset('downloads/rent guide26.pdf') }}" target="_blank"
+                            <a href="{{ asset('downloads/rentGuide26.pdf') }}" target="_blank"
                                 class="w-full text-center px-5 py-3 rounded-xl bg-white border border-primary text-primary font-semibold">
                                 Open PDF
                             </a>
 
-                            <a href="{{ asset('downloads/rent guide26.pdf') }}" download
+                            <a href="{{ asset('downloads/rentGuide26.pdf') }}" download
                                 class="w-full text-center px-5 py-3 rounded-xl bg-primary text-white font-semibold">
                                 Download Full Guide
                             </a>
@@ -87,13 +87,13 @@
                     </div>
                     <div
                         class="overflow-hidden hidden md:block rounded-2xl border border-neutral-200 shadow-sm mb-6 bg-white">
-                        <iframe src="{{ asset('downloads/rent guide26.pdf') }}" class="w-full h-105 md:h-140"
+                        <iframe src="{{ asset('downloads/rentGuide26.pdf') }}" class="w-full h-105 md:h-140"
                             loading="lazy">
                         </iframe>
                     </div>
 
                     <div class=" hidden md:flex justify-center md:justify-start mb-8">
-                        <a href="{{ asset('downloads/rent guide26.pdf') }}" download
+                        <a href="{{ asset('downloads/rentGuide26.pdf') }}" download
                             class="inline-flex items-center justify-center rounded-xl bg-primary px-5 py-3 text-sm md:text-base font-semibold text-white transition hover:opacity-90 hover:-translate-y-0.5">
                             Download Full Guide
                         </a>

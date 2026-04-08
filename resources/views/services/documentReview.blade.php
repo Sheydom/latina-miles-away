@@ -21,7 +21,7 @@
 
                     <div class="mb-8">
                         <h2 class="mb-3 text-xl font-semibold text-black">
-                            Who it’s for
+                            Who it's for
                         </h2>
                         <p class="leading-relaxed text-neutral-600">
                             Ideal if you need help reviewing important documents in English and want
@@ -79,7 +79,7 @@
                             Price
                         </p>
                         <p class="mb-5 text-3xl font-semibold">
-                            $5–10 AUD
+                            $5-10 AUD
                         </p>
 
                         <p class="mb-6 text-sm leading-relaxed text-white/90">

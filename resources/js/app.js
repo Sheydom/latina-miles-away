@@ -143,10 +143,10 @@ document.addEventListener("DOMContentLoaded", () => {
     Cal.ns.consultation("ui", {
         cssVarsPerTheme: {
             light: {
-                "cal-brand": "#cd7f4a",
+                "cal-brand": "#34a0a9",
             },
             dark: {
-                "cal-brand": "#cd7f4a",
+                "cal-brand": "#34a0a9",
             },
         },
         hideEventTypeDetails: false,

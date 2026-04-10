@@ -23,6 +23,6 @@
 
 
     </div>
-    <img class="w-120 rounded-2xl hidden md:flex md:w-100 md:h-80 rotate-3"
+    <img class="w-120 rounded-2xl hidden md:flex md:w-auto md:h-80 rotate-3"
         src="{{ asset('images/melbourne.jpg') }}" alt="melbourne">
 </section>

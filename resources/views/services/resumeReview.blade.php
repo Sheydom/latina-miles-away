@@ -86,11 +86,14 @@
 ?subject=Resume%20Review%20Request
 &body=Hi,%0A%0AI%20would%20like%20to%20submit%20my%20CV%20for%20review.%0A%0AName:%0A"
                             class="px-5 py-2 rounded-xl bg-primary text-white font-semibold">
-                            Submit your CV
+                            Pay Now
                         </a>
                         <p class="mt-4 text-sm text-neutral-600">
-                            Or email me directly at
-                            <span class="font-medium text-black">latinamilesaway@gmail.com</span>
+                            Prefer to ask a question first?
+                            <a href="mailto:latinamilesaway@gmail.com"
+                                class="font-medium text-primary underline hover:opacity-80">
+                                Email us
+                            </a>
                         </p>
                     </div>
                 </div>

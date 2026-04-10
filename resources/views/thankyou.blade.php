@@ -1,5 +1,5 @@
 <x-layout.app>
-    <section class="min-h-screen bg-linear-to-b from-primary to-white px-4 py-10 md:px-6 md:py-16">
+    <section class="min-h-screen w-full bg-linear-to-b from-primary to-white px-4 py-10 md:px-6 md:py-16">
         <div class="mx-auto max-w-3xl">
             <div class="overflow-hidden rounded-3xl bg-white shadow-xl ring-1 ring-black/5">
 

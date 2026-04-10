@@ -82,9 +82,7 @@
                             $15 AUD
                         </p>
 
-                        <a href="mailto:latinamilesaway@gmail.com
-?subject=Resume%20Review%20Request
-&body=Hi,%0A%0AI%20would%20like%20to%20submit%20my%20CV%20for%20review.%0A%0AName:%0A"
+                        <a href="https://buy.stripe.com/28E9AM0bf7Hu37Eeejcs800"
                             class="px-5 py-2 rounded-xl bg-primary text-white font-semibold">
                             Pay Now
                         </a>

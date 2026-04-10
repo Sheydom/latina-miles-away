@@ -74,27 +74,30 @@
                         </ul>
                     </div>
 
-                    <div class="rounded-2xl bg-primary p-6 text-white shadow-md">
-                        <p class="mb-2 text-sm uppercase tracking-wide text-white/80">
+                    <div class="rounded-2xl bg-white p-6  shadow-md">
+                        <p class="mb-2 text-sm uppercase tracking-wide">
                             Price
                         </p>
                         <p class="mb-5 text-3xl font-semibold">
                             $20 AUD
                         </p>
 
-                        <p class="mb-6 text-sm leading-relaxed text-white/90">
+                        <p class="mb-6 text-sm leading-relaxed ">
                             A simple review to help you submit your document with more confidence.
                         </p>
 
                         <a href="mailto:latinamilesaway@gmail.com
 ?subject=Resume%20Review%20Request
 &body=Hi,%0A%0AI%20would%20like%20to%20submit%20my%20CV%20for%20review.%0A%0A"
-                            class="inline-flex w-full cursor-pointer items-center justify-center rounded-xl bg-white px-5 py-3 font-semibold text-primary transition hover:-translate-y-0.5 hover:shadow-md">
+                            class="inline-flex w-full cursor-pointer items-center justify-center rounded-xl bg-primary px-5 py-3 font-semibold text-white transition hover:-translate-y-0.5 hover:shadow-md">
                             Submit your document
                         </a>
-                        <p class="mt-4 text-sm text-gray-800">
-                            Or email me directly at
-                            <span class="font-medium text-gray-800">latinamilesaway@gmail.com</span>
+                        <p class="mt-4 text-sm text-neutral-600">
+                            Prefer to ask a question first?
+                            <a href="mailto:latinamilesaway@gmail.com"
+                                class="font-medium text-primary underline hover:opacity-80">
+                                Email us
+                            </a>
                         </p>
                     </div>
                 </div>

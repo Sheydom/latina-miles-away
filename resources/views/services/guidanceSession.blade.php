@@ -37,7 +37,8 @@
                             <h2 class="mb-3 text-lg font-semibold text-black md:text-xl">
                                 What we can talk about
                             </h2>
-                            <ul class="space-y-2 pl-5 text-sm leading-relaxed text-neutral-700 marker:text-tertiary md:text-base list-disc">
+                            <ul
+                                class="space-y-2 pl-5 text-sm leading-relaxed text-neutral-700 marker:text-tertiary md:text-base list-disc">
                                 <li>Your visa pathway based on real personal experience</li>
                                 <li>What documents you may need</li>
                                 <li>How to prepare for your application process</li>
@@ -50,7 +51,8 @@
                             <h2 class="mb-3 text-lg font-semibold text-black md:text-xl">
                                 What you get
                             </h2>
-                            <ul class="space-y-2 pl-5 text-sm leading-relaxed text-neutral-700 marker:text-tertiary md:text-base list-disc">
+                            <ul
+                                class="space-y-2 pl-5 text-sm leading-relaxed text-neutral-700 marker:text-tertiary md:text-base list-disc">
                                 <li>Personalised guidance</li>
                                 <li>Clear next steps</li>
                                 <li>Honest insights based on real situations</li>
@@ -141,8 +143,11 @@
                 </a>
 
                 <p class="mt-4 text-sm text-neutral-600">
-                    Or email me directly at
-                    <span class="font-medium text-black">latinamilesaway@gmail.com</span>
+                    Prefer to ask a question first?
+                    <a href="mailto:latinamilesaway@gmail.com"
+                        class="font-medium text-primary underline hover:opacity-80">
+                        Email us
+                    </a>
                 </p>
             </div>
 

@@ -91,8 +91,11 @@
                         </a>
 
                         <p class="mt-4 text-sm text-neutral-600">
-                            Or email me directly at
-                            <span class="font-medium text-black">latinamilesaway@gmail.com</span>
+                            Prefer to ask a question first?
+                            <a href="mailto:latinamilesaway@gmail.com"
+                                class="font-medium text-primary underline hover:opacity-80">
+                                Email us
+                            </a>
                         </p>
                     </div>
                 </div>

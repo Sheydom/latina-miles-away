@@ -85,9 +85,9 @@
                             $35 AUD
                         </p>
 
-                        <a href="mailto:latinamilesaway@gmail.com?subject=Work%20Ready%20Setup%20Request&body=Hi,%0A%0AI%20would%20like%20support%20with%20the%20Work%20Ready%20Setup.%0A%0AName:%0A%0ACurrent%20situation:%0A"
+                        <a href="https://buy.stripe.com/bJe14gbTX0f25fM5HNcs802"
                             class="inline-block rounded-xl bg-primary px-5 py-2 font-semibold text-white transition hover:opacity-90">
-                            Get started
+                            Pay Now
                         </a>
 
                         <p class="mt-4 text-sm text-neutral-600">

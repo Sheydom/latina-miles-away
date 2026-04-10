@@ -86,11 +86,9 @@
                             A simple review to help you submit your document with more confidence.
                         </p>
 
-                        <a href="mailto:latinamilesaway@gmail.com
-?subject=Resume%20Review%20Request
-&body=Hi,%0A%0AI%20would%20like%20to%20submit%20my%20CV%20for%20review.%0A%0A"
+                        <a href="https://buy.stripe.com/28E9AM7DHd1O8rY8TZcs801"
                             class="inline-flex w-full cursor-pointer items-center justify-center rounded-xl bg-primary px-5 py-3 font-semibold text-white transition hover:-translate-y-0.5 hover:shadow-md">
-                            Submit your document
+                            Pay Now
                         </a>
                         <p class="mt-4 text-sm text-neutral-600">
                             Prefer to ask a question first?

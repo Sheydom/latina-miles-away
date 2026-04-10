@@ -1,5 +1,5 @@
 <x-layout.app>
-    <section class="w-full bg-linear-to-b from-primary to-white px-4 py-10 md:px-6 md:py-16">
+    <section class="w-full bg-linear-to-b from-primary to-[#EAEFEF] px-4 py-10 md:px-6 md:py-16">
         <div class="mx-auto max-w-6xl">
             <div class="grid overflow-hidden rounded-3xl bg-white shadow-lg md:grid-cols-[1.2fr_0.9fr]">
 

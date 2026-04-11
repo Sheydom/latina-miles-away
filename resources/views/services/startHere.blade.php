@@ -1,10 +1,18 @@
-@php
+{{-- @php
     $metaDescription =
         'Start your journey to Australia with clear step-by-step guidance. Learn what to prepare, what to expect, and how to avoid common mistakes.';
-@endphp
-@php
     $metaTitle = 'How to Move to Australia | Latina Miles Away';
+    $ogTitle = $metaTitle;
+    $ogDescription = $metaDescription;
+    $ogImage = asset('images/og-home.jpg');
+    $ogUrl = 'https://latinamilesaway.com';
 @endphp
-<x-layout.app :metaDescription="$metaDescription" :metaTitle="$metaTitle">
 
-</x-layout.app>
+<x-layout.app :metaTitle="$metaTitle"
+    :metaDescription="$metaDescription"
+    :ogTitle="$ogTitle"
+    :ogDescription="$ogDescription"
+    :ogImage="$ogImage"
+    :ogUrl="$ogUrl">
+
+</x-layout.app> --}}

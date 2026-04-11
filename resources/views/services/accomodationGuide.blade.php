@@ -1,12 +1,17 @@
 @php
     $metaDescription =
         'Learn how to find safe accommodation in Australia, avoid scams, understand leases, and protect your bond with clear step-by-step guidance.';
+    $metaTitle = 'Accommodation Guide Australia | Latina Miles Away';
+    $ogTitle = $metaTitle;
+    $ogDescription = $metaDescription;
+    $ogImage = asset('images/og-home.jpg');
+    $ogUrl = 'https://latinamilesaway.com';
+
 @endphp
 
-@php
-    $metaTitle = 'Accommodation Guide Australia | Latina Miles Away';
-@endphp
-<x-layout.app :metaDescription="$metaDescription" :metaTitle="$metaTitle">
+
+<x-layout.app :metaTitle="$metaTitle" :metaDescription="$metaDescription" :ogTitle="$ogTitle" :ogDescription="$ogDescription" :ogImage="$ogImage"
+    :ogUrl="$ogUrl">
     <section class="w-full bg-linear-to-b from-primary to-[#EAEFEF] py-10 md:py-16">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="grid gap-6 lg:grid-cols-[1.05fr_0.95fr] items-start">

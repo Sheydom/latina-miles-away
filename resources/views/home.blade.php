@@ -8,7 +8,7 @@
 
     $ogDescription = $metaDescription;
 
-    $ogImage = asset('images/home.png');
+    $ogImage = asset('images/lmaLogo.png');
 
     $ogUrl = 'https://latinamilesaway.com';
 @endphp

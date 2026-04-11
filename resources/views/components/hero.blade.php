@@ -50,6 +50,6 @@
 
 
     </div>
-    <img class="w-120 rounded-2xl hidden md:flex md:w-auto md:h-80 rotate-3" src="{{ asset('images/melbourne.webp') }}"
+    <img class="w-[clamp(280px,40vw,620px)] rounded-2xl hidden md:flex  md:max-h-80 rotate-3" src="{{ asset('images/melbourne.webp') }}"
         alt="melbourne">
 </section>

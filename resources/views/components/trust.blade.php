@@ -1,5 +1,5 @@
 <section class="mb-10 w-full px-3 py-4">
-    <div class="mx-auto flex max-w-6xl flex-col items-center gap-8 md:flex-row md:items-start md:gap-10">
+    <div class="mx-auto flex max-w-6xl flex-col items-center gap-8 md:flex-row md:items-center md:gap-10">
 
         <!-- Image -->
         <div class="w-full md:w-[38%]">

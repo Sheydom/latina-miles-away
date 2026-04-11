@@ -30,8 +30,8 @@
             <!-- Trust points -->
             <ul class="flex flex-col gap-1 text-xs text-neutral-700 pl-6 list-disc marker:text-tertiary">
 
-                <li>Real migration experience</li>
-                <li>Practical step-by-step guidance</li>
+                <li>Real-life guidance, not just theory</li>
+                <li>Easy-to-follow steps for your next move</li>
 
             </ul>
 
@@ -50,6 +50,6 @@
 
 
     </div>
-    <img class="w-120 rounded-2xl hidden  md:flex md:w-[clamp(280px,40vw,620px)] md:h-80 rotate-3" src="{{ asset('images/melbourne.webp') }}"
-        alt="melbourne">
+    <img class="w-120 rounded-2xl hidden  md:flex md:w-[clamp(280px,40vw,620px)] md:h-80 rotate-3"
+        src="{{ asset('images/melbourne.webp') }}" alt="melbourne">
 </section>

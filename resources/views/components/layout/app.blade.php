@@ -13,15 +13,13 @@
 <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
 <div id="google_translate_element"></div>
 
-<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <meta name="description"
-        content="{{ $metaDescription ?? 'Move to Australia with confidence. Get resume reviews, visa guidance, and practical support based on real experience from someone who has done it.' }}">
-    <meta name="robots" content="{{ $robots ?? 'index, follow' }}">
+    <meta name="description" content="{{ $metaDescription }}">
+    <meta name="robots" content="{{ $robots }}">
     <title>{{ $metaTitle ?? 'Move to Australia Guidance | Latina Miles Away' }}</title>
 
     <meta property="og:title" content="{{ $ogTitle ?? $metaTitle }}">

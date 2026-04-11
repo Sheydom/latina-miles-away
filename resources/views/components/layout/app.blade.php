@@ -11,11 +11,11 @@
 
     <meta property="og:title" content="{{ $ogTitle ?? $metaTitle }}">
     <meta property="og:description" content="{{ $ogDescription ?? $metaDescription }}">
-    <meta property="og:image" content="{{ $ogImage ?? asset('images/og-default.jpg') }}">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image" content="{{ $ogImage ?? asset('images/og-home.webp') }}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Latina Miles Away preview image">
-    <meta property="og:image:type" content="image/png">
     <meta property="og:url" content="{{ $ogUrl ?? url()->current() }}">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Latina Miles Away">
@@ -23,7 +23,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ $ogTitle ?? $metaTitle }}">
     <meta name="twitter:description" content="{{ $ogDescription ?? $metaDescription }}">
-    <meta name="twitter:image" content="{{ $ogImage ?? asset('images/og-default.jpg') }}">
+    <meta name="twitter:image" content="{{ $ogImage ?? asset('images/lmaLogo.png') }}">
 
 
 

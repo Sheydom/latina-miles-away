@@ -4,7 +4,7 @@
     $metaTitle = 'How to Move to Australia | Latina Miles Away';
     $ogTitle = $metaTitle;
     $ogDescription = $metaDescription;
-    $ogImage = asset('images/og-home.jpg');
+    $ogImage = asset('images/lmaLogo.png');
     $ogUrl = 'https://latinamilesaway.com';
 @endphp
 

@@ -36,7 +36,7 @@
                         </p>
 
                         <a href="mailto:latinamilesaway@gmail.com"
-                            class="inline-flex items-center rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-white transition hover:opacity-90">
+                            class="inline-flex items-center rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-white duration-200 ease-in-out md:hover:-translate-y-1 md:hover:opacity-90 hover:opacity-90">
                             latinamilesaway@gmail.com
                         </a>
                     </div>
@@ -81,12 +81,12 @@
 
                     <div class="mt-8 flex flex-col gap-3 sm:flex-row">
                         <a href="mailto:latinamilesaway@gmail.com?subject=Service%20Submission"
-                            class="inline-flex items-center justify-center rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-white transition hover:opacity-90">
+                            class="inline-flex items-center justify-center rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-white duration-200 ease-in-out md:hover:-translate-y-1 md:hover:opacity-90 hover:opacity-90">
                             Send Documents Now
                         </a>
 
                         <a href="{{ route('home') }}"
-                            class="inline-flex items-center justify-center rounded-xl border border-neutral-300 px-5 py-3 text-sm font-semibold text-neutral-800 transition hover:bg-neutral-50">
+                            class="inline-flex items-center justify-center rounded-xl border border-neutral-300 px-5 py-3 text-sm font-semibold text-neutral-800 duration-200 ease-in-out md:hover:-translate-y-1 md:hover:opacity-90 hover:opacity-90">
                             Back to Home
                         </a>
                     </div>

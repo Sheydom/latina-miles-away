@@ -1,4 +1,8 @@
-<x-layout.app>
+@php
+    $metaDescription =
+        'Get your documents checked before submitting visa or job applications. Avoid common mistakes and gain confidence with professional document review.';
+@endphp
+<x-layout.app :metaDescription="$metaDescription">
     <section class="w-full bg-linear-to-b from-primary to-[#EAEFEF] px-4 py-10 md:px-6 md:py-16">
         <div class="mx-auto max-w-6xl">
             <div class="grid overflow-hidden rounded-3xl bg-white shadow-lg md:grid-cols-[1.2fr_0.9fr]">
@@ -86,7 +90,8 @@
                             A simple review to help you submit your document with more confidence.
                         </p>
 
-                        <a rel="noopener noreferrer" target="_blank" href="https://buy.stripe.com/28E9AM7DHd1O8rY8TZcs801"
+                        <a rel="noopener noreferrer" target="_blank"
+                            href="https://buy.stripe.com/28E9AM7DHd1O8rY8TZcs801"
                             class="inline-flex w-full cursor-pointer items-center justify-center rounded-xl bg-primary px-5 py-3 font-semibold text-white duration-200 ease-in-out md:hover:-translate-y-1 md:hover:opacity-90 hover:shadow-md">
                             Pay Now
                         </a>

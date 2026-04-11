@@ -1,4 +1,8 @@
-<x-layout.app>
+@php
+    $metaDescription =
+        'Prepare for working in Australia with confidence. Learn workplace expectations, job tips, and essential skills to succeed from day one.';
+@endphp
+<x-layout.app :metaDescription="$metaDescription">
     <section class="w-full bg-linear-to-b from-primary to-[#EAEFEF] py-10 md:py-14">
         <div class="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
 

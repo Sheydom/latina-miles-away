@@ -1,4 +1,7 @@
-<x-layout.app>
+@php
+$metaDescription = "Professional resume review tailored to Australian standards. Improve your chances of getting hired with clear and practical feedback.";
+@endphp
+<x-layout.app :metaDescription="$metaDescription">
     <section class="w-full bg-linear-to-b from-primary to-[#EAEFEF] py-10 md:py-14">
         <div class="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
 

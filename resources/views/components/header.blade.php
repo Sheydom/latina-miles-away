@@ -1,4 +1,4 @@
-<nav class="sticky top-0 z-50 bg-soft/90 px-3 md:px-10">
+<nav class=" z-50 bg-soft/90 px-3 md:px-10">
     <div class="mx-auto flex w-full items-center justify-between">
 
         <div class="flex items-center gap-3 md:gap-5">

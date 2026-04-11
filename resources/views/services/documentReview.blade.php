@@ -86,7 +86,7 @@
                             A simple review to help you submit your document with more confidence.
                         </p>
 
-                        <a target="_blank" href="https://buy.stripe.com/28E9AM7DHd1O8rY8TZcs801"
+                        <a rel="noopener noreferrer" target="_blank" href="https://buy.stripe.com/28E9AM7DHd1O8rY8TZcs801"
                             class="inline-flex w-full cursor-pointer items-center justify-center rounded-xl bg-primary px-5 py-3 font-semibold text-white duration-200 ease-in-out md:hover:-translate-y-1 md:hover:opacity-90 hover:shadow-md">
                             Pay Now
                         </a>

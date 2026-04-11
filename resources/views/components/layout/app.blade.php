@@ -1,3 +1,13 @@
+@props([
+    'metaTitle' => 'Move to Australia Guidance | Latina Miles Away',
+    'metaDescription' => 'Move to Australia with confidence. Resume reviews and practical guidance.',
+    'robots' => 'index, follow',
+    'canonical' => null,
+    'ogTitle' => null,
+    'ogDescription' => null,
+    'ogImage' => null,
+    'ogUrl' => null,
+])
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="scroll-smooth">
 <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>

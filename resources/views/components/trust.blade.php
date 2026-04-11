@@ -3,7 +3,7 @@
 
         <!-- Image -->
         <div class="w-full md:w-[38%]">
-            <img src="{{ asset('images/profile.jpg') }}" alt="Profile picture"
+            <img src="{{ asset('images/profile.webp') }}" alt="Profile picture"
                 class="mx-auto w-full max-w-sm rounded-3xl object-cover shadow-md md:max-w-none md:h-135" />
         </div>
 

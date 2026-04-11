@@ -71,7 +71,7 @@
                 <!-- Right column -->
                 <div class="flex flex-col border-t border-neutral-200 bg-neutral-50 md:border-t-0 md:border-l">
                     <div class="w-full">
-                        <img src="{{ asset('images/profile.jpg') }}" alt="Profile photo"
+                        <img src="{{ asset('images/profile.webp') }}" alt="Profile photo"
                             class="h-72 w-full object-cover md:h-full md:min-h-80 lg:min-h-105">
                     </div>
 

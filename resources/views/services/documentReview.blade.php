@@ -4,7 +4,7 @@
     $metaTitle = 'Document Review Service Australia | Latina Miles Away';
     $ogTitle = $metaTitle;
     $ogDescription = $metaDescription;
-    $ogImage = asset('images/lmaLogo.png');
+    $ogImage = asset('images/lmaLogo.PNG');
     $ogUrl = 'https://latinamilesaway.com';
 @endphp
 

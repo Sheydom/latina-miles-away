@@ -14,7 +14,7 @@ export default defineConfig({
         host: true,
         cors: true,
         hmr: {
-            host: "192.168.0.135",
+            host: "192.168.0.139",
         },
         watch: {
             ignored: ["**/storage/framework/views/**"],

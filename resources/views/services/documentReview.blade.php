@@ -1,11 +1,19 @@
 @php
     $metaDescription =
         'Get your documents checked before submitting visa or job applications. Avoid common mistakes and gain confidence with professional document review.';
-@endphp
-@php
     $metaTitle = 'Document Review Service Australia | Latina Miles Away';
+    $ogTitle = $metaTitle;
+    $ogDescription = $metaDescription;
+    $ogImage = asset('images/og-home.jpg');
+    $ogUrl = 'https://latinamilesaway.com';
 @endphp
-<x-layout.app :metaDescription="$metaDescription" :metaTitle="$metaTitle">
+
+<x-layout.app :metaTitle="$metaTitle"
+    :metaDescription="$metaDescription"
+    :ogTitle="$ogTitle"
+    :ogDescription="$ogDescription"
+    :ogImage="$ogImage"
+    :ogUrl="$ogUrl">
     <section class="w-full bg-linear-to-b from-primary to-[#EAEFEF] px-4 py-10 md:px-6 md:py-16">
         <div class="mx-auto max-w-6xl">
             <div class="grid overflow-hidden rounded-3xl bg-white shadow-lg md:grid-cols-[1.2fr_0.9fr]">

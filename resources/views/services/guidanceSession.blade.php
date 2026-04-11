@@ -4,7 +4,7 @@
     $metaTitle = 'Personal Migration Guidance Australia | Latina Miles Away';
     $ogTitle = $metaTitle;
     $ogDescription = $metaDescription;
-    $ogImage = asset('images/lmaLogo.png');
+    $ogImage = asset('images/lmaLogo.PNG');
     $ogUrl = 'https://latinamilesaway.com';
 
 @endphp
@@ -88,7 +88,7 @@
                 <div class="flex flex-col border-t border-neutral-200 bg-neutral-50 md:border-t-0 md:border-l">
                     <div class="w-full">
                         <img src="{{ asset('images/profile.webp') }}" alt="Profile photo"
-                            class="h-72 w-full object-cover md:h-full md:min-h-80 lg:min-h-105">
+                            class="h-90  w-full object-cover md:h-full md:min-h-80 lg:min-h-105">
                     </div>
 
                     <div class="p-6 md:p-8">

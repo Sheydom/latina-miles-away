@@ -1,4 +1,9 @@
-<x-layout.app>
+@php
+    $metaDescription =
+        'Book a 1-on-1 guidance session for personalised advice on visas, jobs, and settling in Australia based on real-life experience.';
+@endphp
+<x-layout.app :metaDescription="$metaDescription">
+
     <section class="w-full bg-linear-to-b from-primary to-[#EAEFEF] py-10 md:py-14">
         <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
 

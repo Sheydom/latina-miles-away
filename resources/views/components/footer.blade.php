@@ -45,7 +45,7 @@
     </div>
    
         <p class="text-center text-xs sm:mb-0 mt-3 md:text-base">© 2026 Latina Miles Away.
-            All rights reserved.</p>
+            All rights reserved. <br> Website developed by Dominic Knabe.</p>
    
 
 </footer>

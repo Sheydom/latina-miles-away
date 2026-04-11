@@ -2,7 +2,10 @@
     $metaDescription =
         'Get your documents checked before submitting visa or job applications. Avoid common mistakes and gain confidence with professional document review.';
 @endphp
-<x-layout.app :metaDescription="$metaDescription">
+@php
+    $metaTitle = 'Document Review Service Australia | Latina Miles Away';
+@endphp
+<x-layout.app :metaDescription="$metaDescription" :metaTitle="$metaTitle">
     <section class="w-full bg-linear-to-b from-primary to-[#EAEFEF] px-4 py-10 md:px-6 md:py-16">
         <div class="mx-auto max-w-6xl">
             <div class="grid overflow-hidden rounded-3xl bg-white shadow-lg md:grid-cols-[1.2fr_0.9fr]">

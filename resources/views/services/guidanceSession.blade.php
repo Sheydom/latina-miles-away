@@ -2,7 +2,10 @@
     $metaDescription =
         'Book a 1-on-1 guidance session for personalised advice on visas, jobs, and settling in Australia based on real-life experience.';
 @endphp
-<x-layout.app :metaDescription="$metaDescription">
+@php
+    $metaTitle = 'Personal Migration Guidance Australia | Latina Miles Away';
+@endphp
+<x-layout.app :metaDescription="$metaDescription" :metaTitle="$metaTitle">
 
     <section class="w-full bg-linear-to-b from-primary to-[#EAEFEF] py-10 md:py-14">
         <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -18,7 +21,7 @@
                         </p>
 
                         <h1 class="mb-3 text-2xl font-semibold text-black md:text-4xl">
-                            1:1 Guidance Session
+                            Personal Guidance Session
                         </h1>
 
                         <p class="max-w-2xl text-sm leading-relaxed text-neutral-600 md:text-base">
@@ -30,10 +33,10 @@
                     <div class="space-y-6">
                         <div class="rounded-2xl bg-neutral-50 p-5">
                             <h2 class="mb-2 text-lg font-semibold text-black md:text-xl">
-                                Who it’s for
+                                Who it's for
                             </h2>
                             <p class="text-sm leading-relaxed text-neutral-700 md:text-base">
-                                If you’re planning to move to Australia or already here and feel unsure about your next
+                                If you're planning to move to Australia or already here and feel unsure about your next
                                 steps, this session is designed to help you understand your options more clearly.
                             </p>
                         </div>

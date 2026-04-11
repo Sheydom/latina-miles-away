@@ -2,7 +2,10 @@
     $metaDescription =
         'Prepare for working in Australia with confidence. Learn workplace expectations, job tips, and essential skills to succeed from day one.';
 @endphp
-<x-layout.app :metaDescription="$metaDescription">
+@php
+    $metaTitle = 'Work Readiness Australia Guide | Latina Miles Away';
+@endphp
+<x-layout.app :metaDescription="$metaDescription" :metaTitle="$metaTitle">
     <section class="w-full bg-linear-to-b from-primary to-[#EAEFEF] py-10 md:py-14">
         <div class="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
 
@@ -15,7 +18,7 @@
                     </p>
 
                     <h1 class="mb-3 text-2xl font-semibold text-black md:text-4xl">
-                        Work Ready Setup
+                        Work Readiness Guidance
                     </h1>
 
                     <p class="mb-6 text-sm leading-relaxed text-neutral-600 md:text-base">
@@ -29,7 +32,7 @@
                         </h2>
 
                         <p class="mb-4 text-sm leading-relaxed text-neutral-700 md:text-base">
-                            If you’re new in Australia or still unsure about the first setup steps, this service helps
+                            If you're new in Australia or still unsure about the first setup steps, this service helps
                             you understand what to do next and in which order, so you can become job-ready with less
                             confusion and stress.
                         </p>

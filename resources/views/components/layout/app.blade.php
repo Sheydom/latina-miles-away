@@ -7,7 +7,7 @@
     <meta name="description"
         content="{{ $metaDescription ?? 'Move to Australia with confidence. Get resume reviews, visa guidance, and practical support based on real experience from someone who has done it.' }}">
     <meta name="robots" content="index, follow">
-    <title>Latina Miles Away</title>
+    <title>{{ $metaTitle ?? 'Move to Australia Guidance | Latina Miles Away' }}</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"

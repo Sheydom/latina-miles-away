@@ -1,7 +1,11 @@
 @php
-$metaDescription = "Professional resume review tailored to Australian standards. Improve your chances of getting hired with clear and practical feedback.";
+    $metaDescription =
+        'Professional resume review tailored to Australian standards. Improve your chances of getting hired with clear and practical feedback.';
 @endphp
-<x-layout.app :metaDescription="$metaDescription">
+@php
+    $metaTitle = 'Professional Resume Review for Australia | Latina Miles Away';
+@endphp
+<x-layout.app :metaDescription="$metaDescription" :metaTitle="$metaTitle">
     <section class="w-full bg-linear-to-b from-primary to-[#EAEFEF] py-10 md:py-14">
         <div class="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
 
@@ -85,7 +89,8 @@ $metaDescription = "Professional resume review tailored to Australian standards.
                             $15 AUD
                         </p>
 
-                        <a rel="noopener noreferrer" target="_blank" href="https://buy.stripe.com/28E9AM0bf7Hu37Eeejcs800"
+                        <a rel="noopener noreferrer" target="_blank"
+                            href="https://buy.stripe.com/28E9AM0bf7Hu37Eeejcs800"
                             class="inline-flex items-center justify-center px-5 py-2 rounded-xl bg-primary text-white font-semibold transition duration-200 ease-in-out md:hover:-translate-y-1 md:hover:opacity-90">
                             Pay Now
                         </a>

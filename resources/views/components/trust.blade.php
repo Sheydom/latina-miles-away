@@ -32,7 +32,7 @@
                         My Australian Path
                     </h3>
                     <p class="text-sm leading-relaxed text-neutral-700 md:text-base">
-                        Student → COVID Hardship → Working Holiday → Sponsorship → Permanent Residency
+                        Student → COVID Hardship  → Sponsorship → Permanent Residency
                     </p>
                 </div>
 

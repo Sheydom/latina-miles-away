@@ -28,7 +28,7 @@
             </div>
 
             <!-- Trust points -->
-            <ul class="flex flex-col gap-1 text-xs text-neutral-700 pl-6 list-disc marker:text-[#cd7f4a]">
+            <ul class="flex flex-col gap-1 text-xs text-neutral-700 pl-6 list-disc marker:text-tertiary">
 
                 <li>Real migration experience</li>
                 <li>Practical step-by-step guidance</li>

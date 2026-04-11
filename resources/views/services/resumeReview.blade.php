@@ -83,7 +83,7 @@
                         </p>
 
                         <a href="https://buy.stripe.com/28E9AM0bf7Hu37Eeejcs800"
-                            class="px-5 py-2 rounded-xl bg-primary text-white font-semibold">
+                            class="inline-flex items-center justify-center px-5 py-2 rounded-xl bg-primary text-white font-semibold transition duration-200 ease-in-out md:hover:-translate-y-1 md:hover:opacity-90">
                             Pay Now
                         </a>
                         <p class="mt-4 text-sm text-neutral-600">

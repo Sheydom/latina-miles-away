@@ -42,13 +42,13 @@
                 {{ __('nav.enquire') }}
             </button>
             <a href="{{ route('lang.switch', 'en') }}"
-                class="px-3 py-1 rounded-lg text-sm font-medium
+                class="px-3 py-1 rounded-lg text-sm font-medium transition hover:scale-[1.05] duration-200 cursor-pointer
         {{ app()->getLocale() === 'en' ? 'bg-primary text-white' : 'bg-neutral-200 text-neutral-700' }}">
                 EN
             </a>
 
             <a href="{{ route('lang.switch', 'es') }}"
-                class="px-3 py-1 rounded-lg text-sm font-medium
+                class="px-3 py-1 rounded-lg text-sm font-medium transition hover:scale-[1.05] duration-200 cursor-pointer
         {{ app()->getLocale() === 'es' ? 'bg-primary text-white' : 'bg-neutral-200 text-neutral-700' }}">
                 ES
             </a>

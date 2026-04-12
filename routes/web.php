@@ -23,3 +23,15 @@ Route::prefix('services')->group(function () {
     Route::view('workReadiness', 'services.workReadiness')->name('services.workReadiness');
 
 });
+
+Route::get('/lang/{locale}', function ($locale) {
+
+    if (! in_array($locale, ['en', 'es'])) {
+        abort(400);
+    }
+
+    session(['locale' => $locale]);
+
+    return redirect()->back();
+
+})->name('lang.switch');

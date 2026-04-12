@@ -1,0 +1,30 @@
+services:
+  app:
+    build: .
+    container_name: latinamilesaway_app
+    volumes:
+      - .:/var/www
+    networks:
+      - latina_net
+
+  web:
+    image: caddy:2
+    container_name: latinamilesaway_caddy
+    ports:
+      - "127.0.0.1:9001:80"
+    volumes:
+      - .:/var/www
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - app
+    networks:
+      - latina_net
+
+networks:
+  latina_net:
+
+volumes:
+  caddy_data:
+  caddy_config:

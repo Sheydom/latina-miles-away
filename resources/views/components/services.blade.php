@@ -1,8 +1,7 @@
 <section id="services" class="w-full mb-10 items-center p-2.5">
     <div class="flex flex-col items-center p-2">
-        <h2>How I Can Support Your Journey</h2>
-        <p class="mb-5">Whether you're just getting started or need specific support, here are the ways I can help you
-            move forward with confidence.</p>
+        <h2>{{ __('service.title') }}</h2>
+        <p class="mb-5">{{ __('service.subtitle') }}</p>
     </div>
 
 
@@ -60,17 +59,14 @@
              bg-primary text-white 
              px-2 py-1 
              rounded-full">
-                            Most Popular
+                            {{ __('service.badges.most_popular') }}
                         </span></div>
                     <div>
                         <h3 class="font-semibold text-sm mb-2 ">
-                            1:1 Guidance Session
+                            {{ __('service.guidance.title') }}
                         </h3>
                         <p class="text-xs text-neutral-600">
-                            Get personalised support, clear answers, and practical advice tailored to your situation —
-                            so
-                            you
-                            can move forward with confidence.
+                            {{ __('service.guidance.paragraph') }}
                         </p>
                     </div>
                     <div>
@@ -98,15 +94,14 @@
                         </svg></div>
                     <div>
                         <h3 class="font-semibold text-sm mb-2">
-                            Accommodation Guide — Free
+                            {{ __('service.accommodation.title') }}
                         </h3>
                         <p class="text-xs text-neutral-600">
-                            Learn how to find your first place in Australia, avoid common scams, and make safe housing
-                            decisions.
+                            {{ __('service.accommodation.paragraph') }}
                         </p>
                     </div>
                     <div class="cursor-pointer">
-                        <span class="absolute bottom-5">Learn More -></span>
+                        <span class="absolute bottom-5">{!! __('service.accommodation.learn_more') !!}</span>
                     </div>
                 </div>
             </a>
@@ -129,15 +124,14 @@
                         </svg></div>
                     <div>
                         <h3 class="font-semibold text-sm mb-2">
-                            Resume Review
+                            {{ __('service.resume_review.title') }}
                         </h3>
                         <p class="text-xs text-neutral-600">
-                            Get personalised feedback to ensure your resume matches Australian employer expectations and
-                            improves your chances of getting interviews.
+                            {{ __('service.resume_review.paragraph') }}
                         </p>
                     </div>
                     <div>
-                        <span class="absolute bottom-5">Learn More -></span>
+                        <span class="absolute bottom-5">{!! __('service.resume_review.learn_more') !!}</span>
                     </div>
                 </div>
             </a>
@@ -160,16 +154,14 @@
                         </svg></div>
                     <div>
                         <h3 class="font-semibold text-sm mb-2">
-                            Document Review
+                            {{ __('service.document_review.title') }}
                         </h3>
                         <p class="text-xs text-neutral-600">
-                            Get clear, practical feedback to improve your documents in English — including resumes,
-                            cover
-                            letters, and application forms.
+                            {{ __('service.document_review.paragraph') }}
                         </p>
                     </div>
                     <div>
-                        <span class="absolute bottom-5">Learn More -></span>
+                        <span class="absolute bottom-5">{{ __('service.document_review.learn_more') }}</span>
                     </div>
                 </div>
             </a>
@@ -195,19 +187,18 @@
              bg-primary text-white 
              px-2 py-1 
              rounded-full">
-                            Most Value
+                            {{ __('service.badges.most_value') }}
                         </span></div>
                     <div>
                         <h3 class="font-semibold text-sm mb-2">
-                            Work Readiness Package
+                            {{ __('service.work_readiness.title') }}
                         </h3>
                         <p class="text-xs text-neutral-600">
-                            TFN setup guidance, resume review, and bank account support to help you get job-ready
-                            faster.
+                            {{ __('service.work_readiness.paragraph') }}
                         </p>
                     </div>
                     <div>
-                        <span class="absolute bottom-5">Learn More -></span>
+                        <span class="absolute bottom-5">{!! __('service.work_readiness.learn_more') !!}</span>
                     </div>
                 </div>
             </a>
@@ -217,7 +208,7 @@
 
     <div class="flex gap-10 w-full justify-center">
         <p class="text-sm flex text-neutral-500 mb-2 sm:hidden">
-            Swipe to see more <span class="text-white flex w-5 h-5 items-center bg-tertiary rounded-full p-1">→</span>
+            {!! __('service.swipe') !!}
         </p>
     </div>
 </section>

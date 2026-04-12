@@ -30,7 +30,7 @@
             <!-- Trust points -->
             <ul class="flex flex-col gap-1 text-xs text-neutral-700 pl-6 list-disc marker:text-tertiary">
 
-                <li>Real-lifee guidance, not just theory</li>
+                <li>Real-life guidance, not just theory</li>
                 <li>Easy-to-follow steps for your next move</li>
 
             </ul>

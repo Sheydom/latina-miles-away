@@ -1,35 +1,41 @@
 <x-layout.app class="flex justify-center w-full">
     <section class="text-left ">
         <h1 class="text-2xl font-semibold mb-2 text-left">
-            Contact Us
+            {{ __('contact.title') }}
         </h1>
+
         <p class="text-neutral-600 text-left mb-8">
-            We're here to support your migration journey.<br>
-            Feel free to contact us with any questions or to request assistance.
+            {!! __('contact.intro') !!}
         </p>
+
         <div class="grid md:grid-cols-1 gap-8">
             {{-- CONTACT DETAILS --}}
             <div class="space-y-6">
                 <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5">
                     <h2 class="font-semibold mb-3">
-                        Email
+                        {{ __('contact.email.title') }}
                     </h2>
+
                     <p class="text-sm text-neutral-600 mb-2">
-                        Send us an email and we will respond as soon as possible.
+                        {{ __('contact.email.paragraph') }}
                     </p>
+
                     <p class="text-sm font-medium">
-                        latinamilesaway@gmail.com
+                        {{ __('contact.email.address') }}
                     </p>
                 </div>
+
                 <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5">
                     <h2 class="font-semibold mb-3">
-                        Business Hours
+                        {{ __('contact.hours.title') }}
                     </h2>
+
                     <p class="text-sm text-neutral-600">
-                        Monday – Friday<br>
-                        8:00 AM – 6:00 PM (Melbourne Time)
+                        {{ __('contact.hours.days') }}<br>
+                        {{ __('contact.hours.time') }}
                     </p>
                 </div>
             </div>
+        </div>
     </section>
 </x-layout.app>

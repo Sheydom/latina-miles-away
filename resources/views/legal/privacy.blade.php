@@ -2,93 +2,93 @@
     <section class="max-w-3xl mx-auto py-10 px-4">
 
         <h1 class="text-2xl font-semibold mb-2">
-            Privacy Policy
+            {{ __('privacy.title') }}
         </h1>
 
         <p class="text-sm text-neutral-500 mb-6">
-            Last updated: March 2026
-            Business name: Latina Miles Away (future trading name: Solis Migration)
+            {{ __('privacy.last_updated') }}
+            <br>
+            {{ __('privacy.business_name') }}
         </p>
 
         <div class="space-y-3 text-sm text-neutral-700 leading-relaxed">
 
             <h2 class="text-lg font-semibold">
-                Compliance with Australian Privacy Standards
+                {{ __('privacy.sections.compliance_title') }}
             </h2>
 
             <p>
-                We are committed to protecting your privacy and handling personal information responsibly. Where applicable, we follow Australian privacy principles and take reasonable steps to safeguard your information.
-            </p>
-            <h2 class="text-lg font-semibold">
-                Information We Collect
-            </h2>
-
-            <p>
-                We may collect personal information including:
+                {{ __('privacy.sections.compliance_p1') }}
             </p>
 
-            <ul class="list-disc pl-6">
-                <li>Name</li>
-                <li>Email address</li>
-                <li>Phone number</li>
-                <li>Booking details</li>
-                <li>Information voluntarily shared during consultations</li>
-            </ul>
-
             <h2 class="text-lg font-semibold">
-                How We Use Your Information
+                {{ __('privacy.sections.collect_title') }}
             </h2>
 
             <p>
-                Your information is used to:
+                {{ __('privacy.sections.collect_intro') }}
             </p>
 
             <ul class="list-disc pl-6">
-                <li>Schedule consultations</li>
-                <li>Communicate with you</li>
-                <li>Provide requested services</li>
-                <li>Improve service delivery</li>
-                <li>Process payments</li>
+                <li>{{ __('privacy.sections.collect_list.name') }}</li>
+                <li>{{ __('privacy.sections.collect_list.email') }}</li>
+                <li>{{ __('privacy.sections.collect_list.phone') }}</li>
+                <li>{{ __('privacy.sections.collect_list.booking') }}</li>
+                <li>{{ __('privacy.sections.collect_list.consultation') }}</li>
             </ul>
 
             <h2 class="text-lg font-semibold">
-                Payment Processing
+                {{ __('privacy.sections.use_title') }}
             </h2>
 
             <p>
-                Payments are securely processed through Stripe. We do not store credit card details on our servers.
-            </p>
-
-            <h2 class="text-lg font-semibold">
-                Data Security
-            </h2>
-
-            <p>
-                We take reasonable steps to protect your personal information and maintain secure systems to prevent
-                unauthorized access.
-            </p>
-
-            <h2 class="text-lg font-semibold">
-                Third-Party Services
-            </h2>
-
-            <p>
-                We use trusted third-party services such as:
+                {{ __('privacy.sections.use_intro') }}
             </p>
 
             <ul class="list-disc pl-6">
-                <li>Stripe (payment processing)</li>
-                <li>Online booking platforms</li>
-                <li>Email and communication services</li>
+                <li>{{ __('privacy.sections.use_list.schedule') }}</li>
+                <li>{{ __('privacy.sections.use_list.communicate') }}</li>
+                <li>{{ __('privacy.sections.use_list.services') }}</li>
+                <li>{{ __('privacy.sections.use_list.improve') }}</li>
+                <li>{{ __('privacy.sections.use_list.payments') }}</li>
             </ul>
 
             <h2 class="text-lg font-semibold">
-                Contact
+                {{ __('privacy.sections.payment_title') }}
             </h2>
 
             <p>
-                If you have questions about this Privacy Policy, please contact us through the contact details listed on
-                this website.
+                {{ __('privacy.sections.payment_p1') }}
+            </p>
+
+            <h2 class="text-lg font-semibold">
+                {{ __('privacy.sections.security_title') }}
+            </h2>
+
+            <p>
+                {{ __('privacy.sections.security_p1') }}
+            </p>
+
+            <h2 class="text-lg font-semibold">
+                {{ __('privacy.sections.third_party_title') }}
+            </h2>
+
+            <p>
+                {{ __('privacy.sections.third_party_intro') }}
+            </p>
+
+            <ul class="list-disc pl-6">
+                <li>{{ __('privacy.sections.third_party_list.stripe') }}</li>
+                <li>{{ __('privacy.sections.third_party_list.booking') }}</li>
+                <li>{{ __('privacy.sections.third_party_list.email') }}</li>
+            </ul>
+
+            <h2 class="text-lg font-semibold">
+                {{ __('privacy.sections.contact_title') }}
+            </h2>
+
+            <p>
+                {{ __('privacy.sections.contact_p1') }}
             </p>
 
         </div>

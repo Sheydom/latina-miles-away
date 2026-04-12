@@ -1,4 +1,4 @@
-services:
+ services:
   app:
     build: .
     container_name: latinamilesaway_app
@@ -22,9 +22,9 @@ services:
     networks:
       - latina_net
 
-networks:
+ networks:
   latina_net:
 
-volumes:
+ volumes:
   caddy_data:
   caddy_config:

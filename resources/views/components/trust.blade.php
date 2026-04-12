@@ -32,13 +32,15 @@
                         My Australian Path
                     </h3>
                     <p class="text-sm leading-relaxed text-neutral-700 md:text-base">
-                        Student → COVID Hardship  → Sponsorship → Permanent Residency
+                        Student → COVID Hardship → Sponsorship → Permanent Residency
                     </p>
                 </div>
 
                 <p class="leading-relaxed text-neutral-800">
-                    I started Latina Miles Away because I've been in your shoes. Today, as a
-                    <strong>Migration Support Consultant and future registered Migration Agent</strong>, I combine legal
+                    I started Latina Miles Away because I've been in your shoes. Today, I support people preparing for
+                    their move to Australia by sharing <strong> practical guidance based on real experience.t</strong>,
+                    I combine
+                    legal
                     training with deep empathy. I successfully travelled this path, and now I'm here to support you on
                     your journey.
                 </p>

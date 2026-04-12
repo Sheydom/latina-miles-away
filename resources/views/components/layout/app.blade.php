@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="scroll-smooth">
 <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
-<div id="google_translate_element"></div>
+
 
 
 

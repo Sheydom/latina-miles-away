@@ -39,7 +39,7 @@
                 hover:scale-[1.05]
                 hover:shadow-[0_8px_20px_rgba(52,160,169,0.5)]
                 md:px-4 md:text-lg">
-                Enquire
+                {{__('nav.enquire')}}
             </button>
         </div>
     </div>

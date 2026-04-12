@@ -1,0 +1,5 @@
+<?php
+
+return [
+    'enquire' => 'Enquire',
+];

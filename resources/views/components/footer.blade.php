@@ -37,15 +37,15 @@
     </div>
 
     <div class="flex gap-x-6 flex-wrap text-sm text-gray-500 justify-center md:text-base">
-        <a href="{{ route('legal.terms') }}" class="hover:underline">Terms of Service</a>
-        <a href="{{ route('legal.privacy') }}" class="hover:underline">Privacy Policy</a>
-        <a href="{{ route('legal.refunds') }}" class="hover:underline">Refund Policy</a>
-        <a href="{{ route('legal.disclaimer') }}" class="hover:underline">Disclaimer</a>
-        <a href="{{ route('contact') }}" class="hover:underline">Contact</a>
+        <a href="{{ route('legal.terms') }}" class="hover:underline">{{ __('footer.links.terms') }}</a>
+        <a href="{{ route('legal.privacy') }}" class="hover:underline">{{ __('footer.links.privacy') }}</a>
+        <a href="{{ route('legal.refunds') }}" class="hover:underline">{{ __('footer.links.refunds') }}</a>
+        <a href="{{ route('legal.disclaimer') }}" class="hover:underline">{{ __('footer.links.disclaimer') }}</a>
+        <a href="{{ route('contact') }}" class="hover:underline">{{ __('footer.links.contact') }}</a>
     </div>
-   
-        <p class="text-center text-xs sm:mb-0 mt-3 md:text-base">© 2026 Latina Miles Away.
-            All rights reserved. <br> Website developed by Dominic Knabe.</p>
-   
+
+    <p class="text-center text-xs sm:mb-0 mt-3 md:text-base">{{ __('footer.copyright') }} <br>
+        {{ __('footer.developer') }}</p>
+
 
 </footer>

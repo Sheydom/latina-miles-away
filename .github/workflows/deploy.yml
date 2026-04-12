@@ -1,4 +1,4 @@
-name: Deploy to Server
+name: Deploy to Local Server
 
 on:
   push:
@@ -7,16 +7,12 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
-      - name: Deploy over SSH
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          host: ${{ secrets.SERVER_HOST }}
-          username: ${{ secrets.SERVER_USER }}
-          key: ${{ secrets.SERVER_SSH_KEY }}
-          script: |
-            cd /opt/docker-sites/latinamilesaway
-            git pull origin main
-            docker exec latinamilesaway_app bash -lc "cd /var/www && php artisan optimize:clear"
+      - name: Deploy
+        run: |
+          cd /opt/docker-sites/latinamilesaway
+          git pull origin main
+          docker exec latinamilesaway_app bash -lc "cd /var/www && php artisan optimize:clear"
+          npm run build

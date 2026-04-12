@@ -38,7 +38,7 @@
 
                 <p class="leading-relaxed text-neutral-800">
                     I started Latina Miles Away because I've been in your shoes. Today, I support people preparing for
-                    their move to Australia by sharing <strong> practical guidance based on real experience.t</strong>,
+                    their move to Australia by sharing <strong> practical guidance based on real experience.</strong>
                     I combine
                     legal
                     training with deep empathy. I successfully travelled this path, and now I'm here to support you on

@@ -38,7 +38,7 @@
                 shadow-[0_6px_16px_rgba(52,160,169,0.35)]
                 hover:scale-[1.05]
                 hover:shadow-[0_8px_20px_rgba(52,160,169,0.5)]
-                md:px-4 md:text-lg">
+                md:px-4 md:text-lg" wire:navigate.hover >
                 {{ __('nav.enquire') }}
             </button>
             <a href="{{ route('lang.switch', 'en') }}" wire:navigate.hover

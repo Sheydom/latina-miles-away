@@ -92,64 +92,214 @@ Cal.ns.consultation("ui", {
 });
 
 // calendar script for imbedded
-document.addEventListener("DOMContentLoaded", () => {
-    const bookingDiv = document.getElementById("my-cal-inline-consultation");
-    if (!bookingDiv) return;
+// document.addEventListener("DOMContentLoaded", () => {
+//     const bookingDiv = document.getElementById("my-cal-inline-consultation");
+//     if (!bookingDiv) return;
+//     (function (C, A, L) {
+//         let p = function (a, ar) {
+//             a.q.push(ar);
+//         };
+//         let d = C.document;
+//         C.Cal =
+//             C.Cal ||
+//             function () {
+//                 let cal = C.Cal;
+//                 let ar = arguments;
+//                 if (!cal.loaded) {
+//                     cal.ns = {};
+//                     cal.q = cal.q || [];
+//                     d.head.appendChild(d.createElement("script")).src = A;
+//                     cal.loaded = true;
+//                 }
+//                 if (ar[0] === L) {
+//                     const api = function () {
+//                         p(api, arguments);
+//                     };
+//                     const namespace = ar[1];
+//                     api.q = api.q || [];
+//                     if (typeof namespace === "string") {
+//                         cal.ns[namespace] = cal.ns[namespace] || api;
+//                         p(cal.ns[namespace], ar);
+//                         p(cal, ["initNamespace", namespace]);
+//                     } else p(cal, ar);
+//                     return;
+//                 }
+//                 p(cal, ar);
+//             };
+//     })(window, "https://app.cal.com/embed/embed.js", "init");
+//     Cal("init", "consultation", {
+//         origin: "https://app.cal.com",
+//     });
+
+//     Cal.ns.consultation("inline", {
+//         elementOrSelector: "#my-cal-inline-consultation",
+//         config: {
+//             layout: "month_view",
+//             useSlotsViewOnSmallScreen: "true",
+//         },
+//         calLink: "sheyla-solis-qbslzw/consultation",
+//     });
+
+//     Cal.ns.consultation("ui", {
+//         cssVarsPerTheme: {
+//             light: {
+//                 "cal-brand": "#34a0a9",
+//             },
+//             dark: {
+//                 "cal-brand": "#34a0a9",
+//             },
+//         },
+//         hideEventTypeDetails: false,
+//         layout: "month_view",
+//     });
+// });
+
+
+// document.addEventListener('livewire:navigated', () => {
+//     if (window.Cal) {
+//         // re-run your Cal embed init here
+//         const bookingDiv = document.getElementById("my-cal-inline-consultation");
+//     if (!bookingDiv) return;
+//     (function (C, A, L) {
+//         let p = function (a, ar) {
+//             a.q.push(ar);
+//         };
+//         let d = C.document;
+//         C.Cal =
+//             C.Cal ||
+//             function () {
+//                 let cal = C.Cal;
+//                 let ar = arguments;
+//                 if (!cal.loaded) {
+//                     cal.ns = {};
+//                     cal.q = cal.q || [];
+//                     d.head.appendChild(d.createElement("script")).src = A;
+//                     cal.loaded = true;
+//                 }
+//                 if (ar[0] === L) {
+//                     const api = function () {
+//                         p(api, arguments);
+//                     };
+//                     const namespace = ar[1];
+//                     api.q = api.q || [];
+//                     if (typeof namespace === "string") {
+//                         cal.ns[namespace] = cal.ns[namespace] || api;
+//                         p(cal.ns[namespace], ar);
+//                         p(cal, ["initNamespace", namespace]);
+//                     } else p(cal, ar);
+//                     return;
+//                 }
+//                 p(cal, ar);
+//             };
+//     })(window, "https://app.cal.com/embed/embed.js", "init");
+//     Cal("init", "consultation", {
+//         origin: "https://app.cal.com",
+//     });
+
+//     Cal.ns.consultation("inline", {
+//         elementOrSelector: "#my-cal-inline-consultation",
+//         config: {
+//             layout: "month_view",
+//             useSlotsViewOnSmallScreen: "true",
+//         },
+//         calLink: "sheyla-solis-qbslzw/consultation",
+//     });
+
+//     Cal.ns.consultation("ui", {
+//         cssVarsPerTheme: {
+//             light: {
+//                 "cal-brand": "#34a0a9",
+//             },
+//             dark: {
+//                 "cal-brand": "#34a0a9",
+//             },
+//         },
+//         hideEventTypeDetails: false,
+//         layout: "month_view",
+//     });
+//     }
+// }, { once: false });
+
+
+    // Load Cal script only once better approach because of livewire does only preload html not script
     (function (C, A, L) {
+        if (C.Cal && C.Cal.loaded) return;
+
         let p = function (a, ar) {
             a.q.push(ar);
         };
+
         let d = C.document;
-        C.Cal =
-            C.Cal ||
-            function () {
-                let cal = C.Cal;
-                let ar = arguments;
-                if (!cal.loaded) {
-                    cal.ns = {};
-                    cal.q = cal.q || [];
-                    d.head.appendChild(d.createElement("script")).src = A;
-                    cal.loaded = true;
+
+        C.Cal = C.Cal || function () {
+            let cal = C.Cal;
+            let ar = arguments;
+
+            if (!cal.loaded) {
+                cal.ns = {};
+                cal.q = cal.q || [];
+                d.head.appendChild(d.createElement("script")).src = A;
+                cal.loaded = true;
+            }
+
+            if (ar[0] === L) {
+                const api = function () {
+                    p(api, arguments);
+                };
+
+                const namespace = ar[1];
+                api.q = api.q || [];
+
+                if (typeof namespace === "string") {
+                    cal.ns[namespace] = cal.ns[namespace] || api;
+                    p(cal.ns[namespace], ar);
+                    p(cal, ["initNamespace", namespace]);
+                } else {
+                    p(cal, ar);
                 }
-                if (ar[0] === L) {
-                    const api = function () {
-                        p(api, arguments);
-                    };
-                    const namespace = ar[1];
-                    api.q = api.q || [];
-                    if (typeof namespace === "string") {
-                        cal.ns[namespace] = cal.ns[namespace] || api;
-                        p(cal.ns[namespace], ar);
-                        p(cal, ["initNamespace", namespace]);
-                    } else p(cal, ar);
-                    return;
-                }
-                p(cal, ar);
-            };
+
+                return;
+            }
+
+            p(cal, ar);
+        };
     })(window, "https://app.cal.com/embed/embed.js", "init");
-    Cal("init", "consultation", {
-        origin: "https://app.cal.com",
-    });
 
-    Cal.ns.consultation("inline", {
-        elementOrSelector: "#my-cal-inline-consultation",
-        config: {
+    function initConsultationCal() {
+        const bookingDiv = document.getElementById("my-cal-inline-consultation");
+        if (!bookingDiv) return;
+
+        // Prevent double-initializing the same container
+        if (bookingDiv.dataset.calInitialized === "true") return;
+
+        bookingDiv.dataset.calInitialized = "true";
+        bookingDiv.innerHTML = "";
+
+        Cal("init", "consultation", {
+            origin: "https://app.cal.com",
+        });
+
+        Cal.ns.consultation("inline", {
+            elementOrSelector: "#my-cal-inline-consultation",
+            config: {
+                layout: "month_view",
+                useSlotsViewOnSmallScreen: true,
+            },
+            calLink: "sheyla-solis-qbslzw/consultation",
+        });
+
+        Cal.ns.consultation("ui", {
+            cssVarsPerTheme: {
+                light: {
+                    "cal-brand": "#34a0a9",
+                },
+                dark: {
+                    "cal-brand": "#34a0a9",
+                },
+            },
+            hideEventTypeDetails: false,
             layout: "month_view",
-            useSlotsViewOnSmallScreen: "true",
-        },
-        calLink: "sheyla-solis-qbslzw/consultation",
-    });
+        });
+    }
 
-    Cal.ns.consultation("ui", {
-        cssVarsPerTheme: {
-            light: {
-                "cal-brand": "#34a0a9",
-            },
-            dark: {
-                "cal-brand": "#34a0a9",
-            },
-        },
-        hideEventTypeDetails: false,
-        layout: "month_view",
-    });
-});
+    document.addEventListener("livewire:navigated", initConsultationCal);

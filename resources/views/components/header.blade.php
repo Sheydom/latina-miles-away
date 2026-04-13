@@ -2,7 +2,7 @@
     <div class="mx-auto flex w-full items-center justify-between">
 
         <div class="flex items-center gap-3 md:gap-5">
-            <a href="{{ route('home') }}" class="shrink-0">
+            <a href="{{ route('home') }}" wire:navigate.hover class="shrink-0">
                 <img class="block h-14 w-14 md:h-20 md:w-20 " src="{{ asset('images/lma.svg') }}"
                     alt="Latina Miles Away Logo">
             </a>
@@ -13,7 +13,7 @@
                     request()->routeIs('contact') ||
                     request()->routeIs('services.*') ||
                     request()->routeIs('thankyou'))
-                <a href="{{ route('home') }}"
+                <a href="{{ route('home') }}" wire:navigate.hover
                     class="ml-2 flex items-center gap-1 rounded-2xl p-2 text-primary transition duration-300 ease-in-out hover:bg-primary-light hover:text-white group md:flex">
                     <svg class="h-6 w-6 shrink-0 text-primary transition duration-300 ease-in-out group-hover:text-white"
                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
@@ -41,13 +41,13 @@
                 md:px-4 md:text-lg">
                 {{ __('nav.enquire') }}
             </button>
-            <a href="{{ route('lang.switch', 'en') }}"
+            <a href="{{ route('lang.switch', 'en') }}" wire:navigate.hover
                 class="px-3 py-1 rounded-lg text-sm font-medium transition hover:scale-[1.10] duration-200 cursor-pointer
         {{ app()->getLocale() === 'en' ? 'bg-primary text-white' : 'bg-neutral-200 text-neutral-700' }}">
                 EN
             </a>
 
-            <a href="{{ route('lang.switch', 'es') }}"
+            <a href="{{ route('lang.switch', 'es') }}" wire:navigate.hover
                 class="px-3 py-1 rounded-lg text-sm font-medium transition hover:scale-[1.10] duration-200 cursor-pointer
         {{ app()->getLocale() === 'es' ? 'bg-primary text-white' : 'bg-neutral-200 text-neutral-700' }}">
                 ES

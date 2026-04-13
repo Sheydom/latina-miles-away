@@ -37,11 +37,16 @@
     </div>
 
     <div class="flex gap-x-6 flex-wrap text-sm text-gray-500 justify-center md:text-base">
-        <a href="{{ route('legal.terms') }}" class="hover:underline">{{ __('footer.links.terms') }}</a>
-        <a href="{{ route('legal.privacy') }}" class="hover:underline">{{ __('footer.links.privacy') }}</a>
-        <a href="{{ route('legal.refunds') }}" class="hover:underline">{{ __('footer.links.refunds') }}</a>
-        <a href="{{ route('legal.disclaimer') }}" class="hover:underline">{{ __('footer.links.disclaimer') }}</a>
-        <a href="{{ route('contact') }}" class="hover:underline">{{ __('footer.links.contact') }}</a>
+        <a href="{{ route('legal.terms') }}" class="hover:underline" wire:navigate.hover>{{ __('footer.links.terms') }}
+        </a>
+        <a href="{{ route('legal.privacy') }}" class="hover:underline"
+            wire:navigate.hover>{{ __('footer.links.privacy') }} </a>
+        <a href="{{ route('legal.refunds') }}" class="hover:underline"
+            wire:navigate.hover>{{ __('footer.links.refunds') }} </a>
+        <a href="{{ route('legal.disclaimer') }}" class="hover:underline"
+            wire:navigate.hover>{{ __('footer.links.disclaimer') }} </a>
+        <a href="{{ route('contact') }}" class="hover:underline" wire:navigate.hover>{{ __('footer.links.contact') }}
+        </a>
     </div>
 
     <p class="text-center text-xs sm:mb-0 mt-3 md:text-base">{{ __('footer.copyright') }} <br>

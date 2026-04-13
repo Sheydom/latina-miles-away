@@ -35,9 +35,6 @@
     <meta name="twitter:title" content="{{ $ogTitle ?? $metaTitle }}">
     <meta name="twitter:description" content="{{ $ogDescription ?? $metaDescription }}">
     <meta name="twitter:image" content="{{ $ogImage ?? asset('images/lmaLogo.png') }}">
-
-
-
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
@@ -47,12 +44,14 @@
     <link rel="icon" type="image/svg+xml" href="{{ asset('lma.svg') }}">
     <link rel="preconnect" href="https://app.cal.com">
     <link rel="dns-prefetch" href="https://app.cal.com">
+    @livewireStyles
 </head>
 
 <body id="home" class="min-h-screen flex bg-white flex-col font-sans">
     <x-header />
     <main class="grow flex flex-col items-center bg-soft">{{ $slot }}</main>
     <x-footer />
+    @livewireScripts
 </body>
 
 </html>

@@ -1,5 +1,5 @@
 <x-layout.app class="flex justify-center w-full">
-    <section class="text-left ">
+    <section class="text-left py-10 px-4">
         <h1 class="text-2xl font-semibold mb-2 text-left">
             {{ __('contact.title') }}
         </h1>

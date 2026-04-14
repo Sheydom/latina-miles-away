@@ -25,19 +25,17 @@ Route::prefix('services')->group(function () {
 
 });
 
-// Route::get('/lang/{locale}', function ($locale) {
+ Route::get('/lang/{locale}', function ($locale) {
 
-//     if (! in_array($locale, ['en', 'es'])) {
-//         abort(400);
-//     }
+     if (! in_array($locale, ['en', 'es'])) {
+         abort(400);
+     }
 
-//     session(['locale' => $locale]);
+     session(['locale' => $locale]);
 
-//     return redirect()->to((url())->previous());
+     return redirect()->to((url())->previous());
 
-// })->name('lang.switch');
+ })->name('lang.switch');
 
 
 
-Route::get('/language/{locale}', [LanguageController::class, 'switchLanguage'])
-    ->name('language.switch');

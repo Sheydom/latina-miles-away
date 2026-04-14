@@ -32,6 +32,6 @@ Route::get('/lang/{locale}', function ($locale) {
 
     session(['locale' => $locale]);
 
-    return redirect()->back();
+    return redirect()->to((url())->previous());
 
 })->name('lang.switch');

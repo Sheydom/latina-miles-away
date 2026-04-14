@@ -18,7 +18,7 @@
                     {{ __('startHere.pageHeader.freeBadge') }}
                 </span>
 
-                <h1 class="text-3xl md:text-5xl font-bold tracking-tight text-neutral-900 mb-4">
+                <h1 class="text-3xl md:text-4xl font-bold tracking-tight text-neutral-900 mb-4">
                     {{ __('startHere.pageHeader.pageTitle') }}
                 </h1>
 

@@ -14,7 +14,8 @@
             <div class="grid gap-6 items-start lg:grid-cols-[1.05fr_0.95fr]">
 
                 <div class="rounded-3xl bg-white p-6 shadow-lg md:p-8 lg:p-10">
-                    <span class="mb-4 inline-block rounded-full bg-primary/10 px-4 py-1 text-sm font-medium text-primary">
+                    <span
+                        class="mb-4 inline-block rounded-full bg-primary/10 px-4 py-1 text-sm font-medium text-primary">
                         {{ __('accommodation_guide.hero.badge') }}
                     </span>
 
@@ -40,7 +41,8 @@
                             <h2 class="mb-3 text-lg font-semibold text-neutral-900 md:text-2xl">
                                 {{ __('accommodation_guide.learn.title') }}
                             </h2>
-                            <ul class="list-disc space-y-2 pl-5 text-sm text-neutral-700 marker:text-tertiary md:text-base">
+                            <ul
+                                class="list-disc space-y-2 pl-5 text-sm text-neutral-700 marker:text-tertiary md:text-base">
                                 <li>{{ __('accommodation_guide.learn.items.weekly_cost') }}</li>
                                 <li>{{ __('accommodation_guide.learn.items.search') }}</li>
                                 <li>{{ __('accommodation_guide.learn.items.scams') }}</li>
@@ -53,7 +55,8 @@
                         </div>
 
                         <div class="rounded-2xl border border-neutral-200 bg-neutral-50 p-4 md:p-5">
-                            <p class="text-center text-sm leading-relaxed text-neutral-600 italic md:text-left md:text-base">
+                            <p
+                                class="text-center text-sm leading-relaxed text-neutral-600 italic md:text-left md:text-base">
                                 {{ __('accommodation_guide.quote') }}
                             </p>
                         </div>
@@ -88,8 +91,10 @@
                         </div>
                     </div>
 
-                    <div class="mb-6 hidden overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm md:block">
-                        <iframe src="{{ asset('downloads/rentGuide26.pdf') }}" class="h-105 w-full md:h-140" loading="lazy"></iframe>
+                    <div
+                        class="mb-6 hidden overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm md:block">
+                        <iframe src="{{ asset('downloads/rentGuide26.pdf') }}" class="h-105 w-full md:h-140"
+                            loading="lazy"></iframe>
                     </div>
 
                     <div class="mb-8 hidden justify-center md:flex md:justify-start">
@@ -106,15 +111,18 @@
                             </h3>
                             <div class="grid gap-4 sm:grid-cols-3">
                                 <div class="rounded-2xl border bg-neutral-50 p-4">
-                                    <p class="font-semibold">{{ __('accommodation_guide.benefits.items.decisions') }}</p>
+                                    <p class="font-semibold">{{ __('accommodation_guide.benefits.items.decisions') }}
+                                    </p>
                                 </div>
 
                                 <div class="rounded-2xl border bg-neutral-50 p-4">
-                                    <p class="font-semibold">{{ __('accommodation_guide.benefits.items.mistakes') }}</p>
+                                    <p class="font-semibold">{{ __('accommodation_guide.benefits.items.mistakes') }}
+                                    </p>
                                 </div>
 
                                 <div class="rounded-2xl border bg-neutral-50 p-4">
-                                    <p class="font-semibold">{{ __('accommodation_guide.benefits.items.confidence') }}</p>
+                                    <p class="font-semibold">{{ __('accommodation_guide.benefits.items.confidence') }}
+                                    </p>
                                 </div>
                             </div>
                         </div>

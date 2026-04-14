@@ -9,6 +9,13 @@ return [
         'most_value' => 'Most Value',
     ],
 
+    'startHere' => [
+        'title' => 'Start Here — Free',
+        'titleParagraph' => 'Access free guides, checklists, and essential tips to help you prepare before arriving and
+        avoid common mistakes.',
+        'learnMore' => 'Learn More ->',
+    ],
+
     'guidance' => [
         'title' => '1:1 Guidance Session',
         'paragraph' => 'Get personalised support, clear answers, and practical advice tailored to your situation — so you can move forward with confidence.',

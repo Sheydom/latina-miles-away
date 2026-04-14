@@ -38,18 +38,27 @@
                 shadow-[0_6px_16px_rgba(52,160,169,0.35)]
                 hover:scale-[1.05]
                 hover:shadow-[0_8px_20px_rgba(52,160,169,0.5)]
-                md:px-4 md:text-lg" wire:navigate.hover >
+                md:px-4 md:text-lg"
+                wire:navigate.hover>
                 {{ __('nav.enquire') }}
             </button>
-            <a href="{{ route('lang.switch', 'en') }}" wire:navigate.hover
+            <a href="{{ route('language.switch', [
+                'locale' => 'en',
+                'redirect' => request()->fullUrl(),
+            ]) }}"
+                wire:navigate.hover
                 class="px-3 py-1 rounded-lg text-sm font-medium transition hover:scale-[1.10] duration-200 cursor-pointer
-        {{ app()->getLocale() === 'en' ? 'bg-primary text-white' : 'bg-neutral-200 text-neutral-700' }}">
+        {{ app()->getLocale() === 'en' ? 'bg-primary text-white' : 'bg-neutral-200 text-neutral-700 block' }}">
                 EN
             </a>
 
-            <a href="{{ route('lang.switch', 'es') }}" wire:navigate.hover
+            <a href="{{ route('language.switch', [
+                'locale' => 'es',
+                'redirect' => request()->fullUrl(),
+            ]) }}"
+                wire:navigate.hover
                 class="px-3 py-1 rounded-lg text-sm font-medium transition hover:scale-[1.10] duration-200 cursor-pointer
-        {{ app()->getLocale() === 'es' ? 'bg-primary text-white' : 'bg-neutral-200 text-neutral-700' }}">
+        {{ app()->getLocale() === 'es' ? 'bg-primary text-white' : 'bg-neutral-200 text-neutral-700 block' }}">
                 ES
             </a>
         </div>

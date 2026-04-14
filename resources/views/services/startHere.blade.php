@@ -59,12 +59,12 @@
                         </div>
 
                         <div class="flex flex-col sm:flex-row gap-3 mt-auto">
-                            <a class="inline-flex justify-center items-center px-5 py-3 rounded-xl border border-primary text-primary font-semibold transition duration-200 hover:-translate-y-0.5 hover:opacity-90"
+                            <a class="inline-flex justify-center items-center px-5 py-3 rounded-xl border border-primary text-primary font-semibold transition duration-200 hover:-translate-y-1 hover:opacity-90"
                                 href="{{ asset('downloads/checklist7days-web.pdf') }}" target="_blank" rel="noopener">
                                 {{ __('startHere.arrivalGuide.previewButton') }}
                             </a>
 
-                            <a class="inline-flex justify-center items-center px-5 py-3 rounded-xl bg-primary text-white font-semibold transition duration-200 hover:-translate-y-0.5 hover:opacity-90"
+                            <a class="inline-flex justify-center items-center px-5 py-3 rounded-xl bg-primary text-white font-semibold transition duration-200 hover:-translate-y-1 hover:opacity-90"
                                 href="{{ asset('downloads/checklist7days-web.pdf') }}" download>
                                 {{ __('startHere.arrivalGuide.downloadButton') }}
                             </a>
@@ -101,13 +101,13 @@
                         </div>
 
                         <div class="flex flex-col sm:flex-row gap-3 mt-auto">
-                            <a class="inline-flex justify-center items-center px-5 py-3 rounded-xl border border-primary text-primary font-semibold transition duration-200 hover:-translate-y-0.5 hover:opacity-90"
+                            <a class="inline-flex justify-center items-center px-5 py-3 rounded-xl border border-primary text-primary font-semibold transition duration-200 hover:-translate-y-1 hover:opacity-90"
                                 href="{{ asset('downloads/encontrarTrabajoGuide-web.pdf') }}" target="_blank"
                                 rel="noopener">
                                 {{ __('startHere.workGuide.previewButton') }}
                             </a>
 
-                            <a class="inline-flex justify-center items-center px-5 py-3 rounded-xl bg-primary text-white font-semibold transition duration-200 hover:-translate-y-0.5 hover:opacity-90"
+                            <a class="inline-flex justify-center items-center px-5 py-3 rounded-xl bg-primary text-white font-semibold transition duration-200 hover:-translate-y-1 hover:opacity-90"
                                 href="{{ asset('downloads/encontrarTrabajoGuide-web.pdf') }}" download>
                                 {{ __('startHere.workGuide.downloadButton') }}
                             </a>

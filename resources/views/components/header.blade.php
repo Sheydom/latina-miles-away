@@ -44,7 +44,7 @@
             </button>
             <a href="{{ route('language.switch', [
                 'locale' => 'en',
-                'redirect' => request()->fullUrl(),
+                'redirect' => secure_url(request()->fullUrl()),
             ]) }}"
                 wire:navigate.hover
                 class="px-3 py-1 rounded-lg text-sm font-medium transition hover:scale-[1.10] duration-200 cursor-pointer
@@ -54,7 +54,7 @@
 
             <a href="{{ route('language.switch', [
                 'locale' => 'es',
-                'redirect' => request()->fullUrl(),
+                'redirect' => secure_url(request()->fullUrl()),
             ]) }}"
                 wire:navigate.hover
                 class="px-3 py-1 rounded-lg text-sm font-medium transition hover:scale-[1.10] duration-200 cursor-pointer

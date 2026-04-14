@@ -8,7 +8,7 @@
     <div class="flex w-full justify-center">
         <div id="serviceContainer" style="-webkit-overflow-scrolling: touch;"
             class=" flex gap-4 overflow-x-scroll services pb-2 scrollbar-visible snap-x snap-mandatory   md:overflow-visible md:grid lg:grid-cols-3 md:grid-cols-2 md:justify-items-center">
-            {{-- <a href="{{ route('services.startHere') }} wire:navigate.hover">
+            <a href="{{ route('services.startHere') }}" wire:navigate.hover>
                 <div
                     class="w-[85vw] max-w-xs flex flex-col text-start min-h-60 shrink-0 rounded-2xl snap-center border borde border-neutral-200  bg-white  p-5
                     shadow-sm
@@ -26,19 +26,18 @@
                     </div>
                     <div>
                         <h3 class="font-semibold text-sm mb-2">
-                            Start Here — Free
+                            {{ __('service.startHere.title') }}
                         </h3>
                         <p class="text-xs text-neutral-700 leading-relaxed">
-                            Access free guides, checklists, and essential tips to help you prepare before arriving and
-                            avoid common mistakes.
+                            {{ __('service.startHere.titleParagraph') }}
 
                         </p>
                     </div>
                     <div>
-                        <span class="absolute bottom-5">Learn More -></span>
+                        <span class="absolute bottom-5">{!! __('service.startHere.learnMore') !!}</span>
                     </div>
                 </div>
-            </a> --}}
+            </a>
             <a href="{{ route('services.guidanceSession') }}" wire:navigate.hover>
                 <div
                     class="w-[85vw] max-w-xs min-h-60 flex flex-col text-start shrink-0 rounded-2xl snap-center
@@ -70,7 +69,7 @@
                         </p>
                     </div>
                     <div>
-                        <span class="absolute bottom-5">Learn More -></span>
+                        <span class="absolute bottom-5">{!! __('service.guidance.learn_more') !!}</span>
                     </div>
                 </div>
             </a>

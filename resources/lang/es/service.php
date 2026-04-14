@@ -9,6 +9,11 @@ return [
         'most_popular' => 'Más popular',
         'most_value' => 'Mejor valor',
     ],
+    'startHere' => [
+        'title' => 'Empieza aquí — Gratis',
+        'titleParagraph' => 'Accede a guías gratuitas, listas de verificación y consejos esenciales para ayudarte a prepararte antes de llegar y evitar errores comunes.',
+        'learnMore' => 'Más información →',
+    ],
 
     'guidance' => [
         'title' => 'Sesión de asesoría 1:1',

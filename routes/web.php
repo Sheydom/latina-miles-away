@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\LanguageController;
+use Spatie\Sitemap\SitemapGenerator;
 
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::view('contact', 'contact')->name('contact');
@@ -39,3 +39,11 @@ Route::prefix('services')->group(function () {
 
 
 
+
+
+Route::get('/sitemap.xml', function () {
+    SitemapGenerator::create('https://latinamilesaway.com')
+        ->writeToFile(public_path('sitemap.xml'));
+
+    return response()->file(public_path('sitemap.xml'));
+});

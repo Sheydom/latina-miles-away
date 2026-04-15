@@ -42,6 +42,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="{{ asset('lma.svg') }}">
+    <link rel="icon" type="image/png" sizes="48x48" href="{{ asset('lmaLogo.png') }}">
+
     <link rel="preconnect" href="https://app.cal.com">
     <link rel="dns-prefetch" href="https://app.cal.com">
     @livewireStyles

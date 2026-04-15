@@ -2,7 +2,7 @@
     <div class="mx-auto flex w-full items-center justify-between">
 
         <div class="flex items-center gap-3 md:gap-5">
-            <a href="{{ route('home') }}" wire:navigate.hover class="shrink-0 flex items-center gap-3 hover:-translate-y-2 transition ease-in-out duration-300 hover:scale-105">
+            <a href="{{ route('home') }}" wire:navigate.hover class="shrink-0 flex items-center gap-3 hover:-translate-y-2 transition ease-in-out duration-300">
                 <img class="block h-14 w-14 md:h-20 md:w-20" src="{{ asset('images/lma.svg') }}"
                     alt="Latina Miles Away Logo">
                 <p class="hidden md:block text-2xl font-semibold ">Latina Miles Away</p>

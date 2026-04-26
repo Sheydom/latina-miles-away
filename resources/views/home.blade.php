@@ -1,8 +1,7 @@
 @php
-    $metaTitle = 'Move to Australia Guidance | Latina Miles Away';
+    $metaTitle = __('homeMeta.title');
 
-    $metaDescription =
-        'Move to Australia with confidence. Get resume reviews, visa guidance, and practical support based on real-life migration experience.';
+    $metaDescription = __('homeMeta.description');
 
     $ogTitle = $metaTitle;
 

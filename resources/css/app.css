@@ -19,13 +19,16 @@
 
 @layer base {
     h1 {
-        @apply text-4xl font-bold 
+        @apply text-4xl font-bold;
     }
     h2 {
-        @apply text-3xl font-semibold
+        @apply text-3xl font-semibold;
     }
     h3 {
-        @apply text-xl font-medium
+        @apply text-xl font-medium;
+    }
+    p {
+        @apply leading-relaxed;
     }
 }
 
@@ -34,11 +37,11 @@
 }
 
 .scrollbar-visible::-webkit-scrollbar-track {
-    background: #EAEFEF;
+    background: #eaefef;
     border-radius: 10px;
 }
 
 .scrollbar-visible::-webkit-scrollbar-thumb {
-    background: #34A0A9;
+    background: #34a0a9;
     border-radius: 10px;
 }

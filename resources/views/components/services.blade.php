@@ -28,7 +28,7 @@
                         <h3 class="font-semibold text-sm mb-2">
                             {{ __('service.startHere.title') }}
                         </h3>
-                        <p class="text-xs text-neutral-700 leading-relaxed">
+                        <p class="text-xs text-neutral-700 ">
                             {{ __('service.startHere.titleParagraph') }}
 
                         </p>

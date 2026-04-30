@@ -7,11 +7,7 @@
     $ogUrl = 'https://latinamilesaway.com';
 @endphp
 
-<x-layout.app :metaTitle="$metaTitle"
-    :metaDescription="$metaDescription"
-    :ogTitle="$ogTitle"
-    :ogDescription="$ogDescription"
-    :ogImage="$ogImage"
+<x-layout.app :metaTitle="$metaTitle" :metaDescription="$metaDescription" :ogTitle="$ogTitle" :ogDescription="$ogDescription" :ogImage="$ogImage"
     :ogUrl="$ogUrl">
     <section class="w-full bg-linear-to-b from-primary to-[#EAEFEF] px-4 py-10 md:px-6 md:py-16">
         <div class="mx-auto max-w-6xl">
@@ -19,7 +15,8 @@
 
                 <div class="p-6 md:p-10">
                     <div class="mb-8">
-                        <p class="mb-3 inline-block rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
+                        <p
+                            class="mb-3 inline-block rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
                             {{ __('document_review.hero.badge') }}
                         </p>
 
@@ -27,7 +24,7 @@
                             {{ __('document_review.hero.title') }}
                         </h1>
 
-                        <p class="max-w-xl leading-relaxed text-neutral-600">
+                        <p class="max-w-xl  text-neutral-600">
                             {{ __('document_review.hero.paragraph') }}
                         </p>
                     </div>
@@ -36,7 +33,7 @@
                         <h2 class="mb-3 text-xl font-semibold text-black">
                             {{ __('document_review.who.title') }}
                         </h2>
-                        <p class="leading-relaxed text-neutral-600">
+                        <p class=" text-neutral-600">
                             {{ __('document_review.who.paragraph') }}
                         </p>
                     </div>
@@ -45,7 +42,7 @@
                         <h2 class="mb-4 text-xl font-semibold text-black">
                             {{ __('document_review.help.title') }}
                         </h2>
-                        <ul class="list-disc space-y-2 pl-5 leading-relaxed text-neutral-600 marker:text-tertiary">
+                        <ul class="list-disc space-y-2 pl-5  text-neutral-600 marker:text-tertiary">
                             <li>{{ __('document_review.help.items.statutory') }}</li>
                             <li>{{ __('document_review.help.items.statements') }}</li>
                             <li>
@@ -58,7 +55,7 @@
                     </div>
 
                     <div class="rounded-2xl bg-primary/10 p-5">
-                        <p class="leading-relaxed text-neutral-700 italic">
+                        <p class=" text-neutral-700 italic">
                             {{ __('document_review.quote') }}
                         </p>
                     </div>
@@ -69,7 +66,7 @@
                         <h2 class="mb-4 text-xl font-semibold text-black">
                             {{ __('document_review.included.title') }}
                         </h2>
-                        <ul class="list-disc space-y-3 pl-5 leading-relaxed text-neutral-700 marker:text-tertiary">
+                        <ul class="list-disc space-y-3 pl-5  text-neutral-700 marker:text-tertiary">
                             <li>{{ __('document_review.included.items.grammar') }}</li>
                             <li>{{ __('document_review.included.items.clarity') }}</li>
                             <li>{{ __('document_review.included.items.strength') }}</li>
@@ -96,7 +93,7 @@
                             {{ __('document_review.pricing.amount') }}
                         </p>
 
-                        <p class="mb-6 text-sm leading-relaxed">
+                        <p class="mb-6 text-sm ">
                             {{ __('document_review.pricing.paragraph') }}
                         </p>
 

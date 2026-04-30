@@ -25,7 +25,7 @@
                         {{ __('work_readiness.hero.title') }}
                     </h1>
 
-                    <p class="mb-6 text-sm leading-relaxed text-neutral-600 md:text-base">
+                    <p class="mb-6 text-sm  text-neutral-600 md:text-base">
                         {{ __('work_readiness.hero.paragraph') }}
                     </p>
 
@@ -35,12 +35,12 @@
                             {{ __('work_readiness.who.title') }}
                         </h2>
 
-                        <p class="mb-4 text-sm leading-relaxed text-neutral-700 md:text-base">
+                        <p class="mb-4 text-sm  text-neutral-700 md:text-base">
                             {{ __('work_readiness.who.paragraph') }}
                         </p>
 
                         <ul
-                            class="list-disc space-y-2 pl-5 text-sm leading-relaxed text-neutral-700 marker:text-tertiary md:text-base">
+                            class="list-disc space-y-2 pl-5 text-sm  text-neutral-700 marker:text-tertiary md:text-base">
 
                             <li>{{ __('work_readiness.who.items.tfn') }}</li>
                             <li>{{ __('work_readiness.who.items.abn') }}</li>
@@ -55,7 +55,7 @@
 
                     <div class="mt-6 rounded-2xl border border-primary/15 bg-primary/5 p-5">
 
-                        <p class="text-sm italic leading-relaxed text-neutral-700 md:text-base">
+                        <p class="text-sm italic  text-neutral-700 md:text-base">
                             {{ __('work_readiness.quote') }}
                         </p>
 
@@ -87,7 +87,7 @@
                                 {{ __('work_readiness.expect.title') }}
                             </h3>
 
-                            <ul class="space-y-2 text-sm leading-relaxed text-neutral-700 md:text-base">
+                            <ul class="space-y-2 text-sm  text-neutral-700 md:text-base">
 
                                 <li>{{ __('work_readiness.expect.items.clear') }}</li>
                                 <li>{{ __('work_readiness.expect.items.steps') }}</li>

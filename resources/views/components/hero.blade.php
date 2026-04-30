@@ -23,28 +23,28 @@
 
                 </svg>
 
-                <span>{{__('hero.based')}}</span>
+                <span>{{ __('hero.based') }}</span>
 
             </div>
 
             <!-- Trust points -->
             <ul class="flex flex-col gap-1 text-xs text-neutral-700 pl-6 list-disc marker:text-tertiary">
 
-                <li>{{__('hero.realLife')}}</li>
-                <li>{{__('hero.easyToFollow')}}</li>
+                <li>{{ __('hero.realLife') }}</li>
+                <li>{{ __('hero.easyToFollow') }}</li>
 
             </ul>
 
         </div>
-        <h1 class="mb-5 md:text-7xl leading-tight">{!!__('hero.title')!!}
+        <h1 class="mb-5 md:text-7xl -tight">{!! __('hero.title') !!}
         </h1>
-        <p class="md:max-w-100">{{__('hero.subTitle')}}
+        <p class="md:max-w-100">{{ __('hero.subTitle') }}
         </p>
         <button type="button" data-cal-link="sheyla-solis-qbslzw/consultation" data-cal-namespace="consultation"
             data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":true}'
             class="w-full mt-6 rounded-2xl py-4 font-bold text-xl  text-amber-50 bg-[#4CC9D4]
                 shadow-[0_10px_25px_rgba(52,160,169,0.45)] border border-transparent  hover:from-[#2f8f97] hover:to-[#6fcfd8]
-                hover:-translate-y-1 cursor-pointer md:max-w-100 transition duration-200 ease-in-out">{!!__('hero.button')!!}</button>
+                hover:-translate-y-1 cursor-pointer md:max-w-100 transition duration-200 ease-in-out">{!! __('hero.button') !!}</button>
 
 
     </div>

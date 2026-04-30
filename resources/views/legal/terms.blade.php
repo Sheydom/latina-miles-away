@@ -11,7 +11,7 @@
             {{ __('terms.business_name') }}
         </p>
 
-        <div class="space-y-3 text-sm text-neutral-700 leading-relaxed">
+        <div class="space-y-3 text-sm text-neutral-700 ">
 
             <p>
                 {{ __('terms.intro') }}

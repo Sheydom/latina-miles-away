@@ -7,11 +7,7 @@
     $ogUrl = 'https://latinamilesaway.com';
 @endphp
 
-<x-layout.app :metaTitle="$metaTitle"
-    :metaDescription="$metaDescription"
-    :ogTitle="$ogTitle"
-    :ogDescription="$ogDescription"
-    :ogImage="$ogImage"
+<x-layout.app :metaTitle="$metaTitle" :metaDescription="$metaDescription" :ogTitle="$ogTitle" :ogDescription="$ogDescription" :ogImage="$ogImage"
     :ogUrl="$ogUrl">
 
     <section class="w-full bg-linear-to-b from-primary to-[#EAEFEF] py-10 md:py-14">
@@ -29,7 +25,7 @@
                             {{ __('service_guidance.hero.title') }}
                         </h1>
 
-                        <p class="max-w-2xl text-sm leading-relaxed text-neutral-600 md:text-base">
+                        <p class="max-w-2xl text-sm  text-neutral-600 md:text-base">
                             {{ __('service_guidance.hero.paragraph') }}
                         </p>
                     </div>
@@ -39,7 +35,7 @@
                             <h2 class="mb-2 text-lg font-semibold text-black md:text-xl">
                                 {{ __('service_guidance.who.title') }}
                             </h2>
-                            <p class="text-sm leading-relaxed text-neutral-700 md:text-base">
+                            <p class="text-sm  text-neutral-700 md:text-base">
                                 {{ __('service_guidance.who.paragraph') }}
                             </p>
                         </div>
@@ -48,7 +44,8 @@
                             <h2 class="mb-3 text-lg font-semibold text-black md:text-xl">
                                 {{ __('service_guidance.topics.title') }}
                             </h2>
-                            <ul class="space-y-2 pl-5 text-sm leading-relaxed text-neutral-700 marker:text-tertiary md:text-base list-disc">
+                            <ul
+                                class="space-y-2 pl-5 text-sm  text-neutral-700 marker:text-tertiary md:text-base list-disc">
                                 <li>{{ __('service_guidance.topics.items.visa') }}</li>
                                 <li>{{ __('service_guidance.topics.items.documents') }}</li>
                                 <li>{{ __('service_guidance.topics.items.application') }}</li>
@@ -61,7 +58,8 @@
                             <h2 class="mb-3 text-lg font-semibold text-black md:text-xl">
                                 {{ __('service_guidance.included.title') }}
                             </h2>
-                            <ul class="space-y-2 pl-5 text-sm leading-relaxed text-neutral-700 marker:text-tertiary md:text-base list-disc">
+                            <ul
+                                class="space-y-2 pl-5 text-sm  text-neutral-700 marker:text-tertiary md:text-base list-disc">
                                 <li>{{ __('service_guidance.included.items.guidance') }}</li>
                                 <li>{{ __('service_guidance.included.items.steps') }}</li>
                                 <li>{{ __('service_guidance.included.items.insights') }}</li>
@@ -70,7 +68,7 @@
                     </div>
 
                     <div class="mt-6 rounded-2xl border border-primary/15 bg-primary/5 p-5">
-                        <p class="text-sm italic leading-relaxed text-neutral-700 md:text-base">
+                        <p class="text-sm italic  text-neutral-700 md:text-base">
                             {{ __('service_guidance.quote') }}
                         </p>
                     </div>
@@ -87,7 +85,7 @@
                             {{ __('service_guidance.experience.title') }}
                         </h2>
 
-                        <p class="mb-5 text-sm leading-relaxed text-neutral-600 md:text-base">
+                        <p class="mb-5 text-sm  text-neutral-600 md:text-base">
                             {{ __('service_guidance.experience.paragraph') }}
                         </p>
 
@@ -137,7 +135,7 @@
                     {{ __('service_guidance.contact.title') }}
                 </h2>
 
-                <p class="mb-5 text-sm leading-relaxed text-neutral-600 md:text-base">
+                <p class="mb-5 text-sm  text-neutral-600 md:text-base">
                     {{ __('service_guidance.contact.paragraph') }}
                 </p>
 

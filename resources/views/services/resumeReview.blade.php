@@ -7,11 +7,7 @@
     $ogUrl = 'https://latinamilesaway.com';
 @endphp
 
-<x-layout.app :metaTitle="$metaTitle"
-    :metaDescription="$metaDescription"
-    :ogTitle="$ogTitle"
-    :ogDescription="$ogDescription"
-    :ogImage="$ogImage"
+<x-layout.app :metaTitle="$metaTitle" :metaDescription="$metaDescription" :ogTitle="$ogTitle" :ogDescription="$ogDescription" :ogImage="$ogImage"
     :ogUrl="$ogUrl">
     <section class="w-full bg-linear-to-b from-primary to-[#EAEFEF] py-10 md:py-14">
         <div class="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
@@ -27,7 +23,7 @@
                         {{ __('resume_review.hero.title') }}
                     </h1>
 
-                    <p class="mb-6 text-sm leading-relaxed text-neutral-600 md:text-base">
+                    <p class="mb-6 text-sm  text-neutral-600 md:text-base">
                         {{ __('resume_review.hero.paragraph') }}
                     </p>
 
@@ -36,11 +32,12 @@
                             {{ __('resume_review.who.title') }}
                         </h2>
 
-                        <p class="mb-4 text-sm leading-relaxed text-neutral-700 md:text-base">
+                        <p class="mb-4 text-sm  text-neutral-700 md:text-base">
                             {{ __('resume_review.who.paragraph') }}
                         </p>
 
-                        <ul class="list-disc space-y-2 pl-5 text-sm leading-relaxed text-neutral-700 marker:text-tertiary md:text-base">
+                        <ul
+                            class="list-disc space-y-2 pl-5 text-sm  text-neutral-700 marker:text-tertiary md:text-base">
                             <li>{{ __('resume_review.who.items.feedback') }}</li>
                             <li>{{ __('resume_review.who.items.expectations') }}</li>
                             <li>{{ __('resume_review.who.items.improvements') }}</li>
@@ -49,19 +46,21 @@
                     </div>
 
                     <div class="mt-6 rounded-2xl border border-primary/15 bg-primary/5 p-5">
-                        <p class="text-sm leading-relaxed text-neutral-700 italic md:text-base">
+                        <p class="text-sm  text-neutral-700 italic md:text-base">
                             {{ __('resume_review.quote') }}
                         </p>
                     </div>
                 </div>
 
-                <div class="flex flex-col justify-between border-t border-neutral-200 bg-neutral-50 p-6 md:border-t-0 md:border-l md:p-8 lg:p-10">
+                <div
+                    class="flex flex-col justify-between border-t border-neutral-200 bg-neutral-50 p-6 md:border-t-0 md:border-l md:p-8 lg:p-10">
                     <div>
                         <h2 class="mb-4 text-lg font-semibold text-black md:text-2xl">
                             {{ __('resume_review.process.title') }}
                         </h2>
 
-                        <ol class="list-decimal space-y-3 pl-5 text-sm text-neutral-700 marker:font-semibold marker:text-primary md:text-base">
+                        <ol
+                            class="list-decimal space-y-3 pl-5 text-sm text-neutral-700 marker:font-semibold marker:text-primary md:text-base">
                             <li>{{ __('resume_review.process.items.send') }}</li>
                             <li>{{ __('resume_review.process.items.review') }}</li>
                             <li>{{ __('resume_review.process.items.receive') }}</li>
@@ -72,7 +71,7 @@
                                 {{ __('resume_review.expect.title') }}
                             </h3>
 
-                            <ul class="space-y-2 text-sm leading-relaxed text-neutral-700 md:text-base">
+                            <ul class="space-y-2 text-sm  text-neutral-700 md:text-base">
                                 <li>{{ __('resume_review.expect.items.clear') }}</li>
                                 <li>{{ __('resume_review.expect.items.easy') }}</li>
                                 <li>{{ __('resume_review.expect.items.better') }}</li>

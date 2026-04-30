@@ -18,7 +18,7 @@
                         Thank You for Your Purchase
                     </h1>
 
-                    <p class="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-white/90 md:text-base">
+                    <p class="mx-auto mt-3 max-w-xl text-sm  text-white/90 md:text-base">
                         Your payment has been received successfully. Please follow the next step below so we can begin
                         working on your service.
                     </p>
@@ -31,7 +31,7 @@
                             Next Step
                         </h2>
 
-                        <p class="mb-4 text-neutral-700 leading-relaxed">
+                        <p class="mb-4 text-neutral-700 ">
                             Please send your documents and details to:
                         </p>
 
@@ -47,8 +47,7 @@
                                 Include in your email
                             </h3>
 
-                            <ul
-                                class="space-y-2 text-sm leading-relaxed text-neutral-700 list-disc marker:text-tertiary pl-5">
+                            <ul class="space-y-2 text-sm  text-neutral-700 list-disc marker:text-tertiary pl-5">
                                 <li> Your full name</li>
                                 <li> The service you purchased</li>
                                 <li> Your documents (PDF, DOC, DOCX)</li>
@@ -61,8 +60,7 @@
                                 What happens next
                             </h3>
 
-                            <ul
-                                class="space-y-2 text-sm leading-relaxed text-neutral-700 list-disc marker:text-tertiary pl-5">
+                            <ul class="space-y-2 text-sm  text-neutral-700 list-disc marker:text-tertiary pl-5">
                                 <li> We review your submission</li>
                                 <li> We contact you if anything is missing</li>
                                 <li> You receive your response within 48 hours</li>
@@ -71,7 +69,7 @@
                         </div>
                     </div>
 
-                    <div class="mt-8 rounded-2xl bg-primary/5 p-5 text-sm leading-relaxed text-neutral-700">
+                    <div class="mt-8 rounded-2xl bg-primary/5 p-5 text-sm  text-neutral-700">
                         <p>
                             <span class="font-semibold text-neutral-900">Important:</span>
                             To avoid delays, please make sure your email includes your name and the service you paid

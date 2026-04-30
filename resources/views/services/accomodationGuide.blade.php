@@ -19,11 +19,11 @@
                         {{ __('accommodation_guide.hero.badge') }}
                     </span>
 
-                    <h1 class="mb-4 text-2xl leading-tight font-semibold text-neutral-900 md:text-4xl">
+                    <h1 class="mb-4 text-2xl -tight font-semibold text-neutral-900 md:text-4xl">
                         {{ __('accommodation_guide.hero.title') }}
                     </h1>
 
-                    <p class="mb-8 text-sm leading-relaxed text-neutral-600 md:text-base">
+                    <p class="mb-8 text-sm  text-neutral-600 md:text-base">
                         {{ __('accommodation_guide.hero.paragraph') }}
                     </p>
 
@@ -32,7 +32,7 @@
                             <h2 class="mb-3 text-lg font-semibold text-neutral-900 md:text-2xl">
                                 {{ __('accommodation_guide.who.title') }}
                             </h2>
-                            <p class="text-sm leading-relaxed text-neutral-700 md:text-base">
+                            <p class="text-sm  text-neutral-700 md:text-base">
                                 {{ __('accommodation_guide.who.paragraph') }}
                             </p>
                         </div>
@@ -55,8 +55,7 @@
                         </div>
 
                         <div class="rounded-2xl border border-neutral-200 bg-neutral-50 p-4 md:p-5">
-                            <p
-                                class="text-center text-sm leading-relaxed text-neutral-600 italic md:text-left md:text-base">
+                            <p class="text-center text-sm  text-neutral-600 italic md:text-left md:text-base">
                                 {{ __('accommodation_guide.quote') }}
                             </p>
                         </div>
@@ -131,7 +130,7 @@
                             <h3 class="mb-2 text-lg font-semibold text-neutral-900 md:text-xl">
                                 {{ __('accommodation_guide.extra.title') }}
                             </h3>
-                            <p class="text-sm leading-relaxed text-neutral-700 md:text-base">
+                            <p class="text-sm  text-neutral-700 md:text-base">
                                 {{ __('accommodation_guide.extra.paragraph') }}
                             </p>
                         </div>
@@ -140,7 +139,7 @@
                             <h3 class="mb-2 text-lg font-semibold text-neutral-900 md:text-xl">
                                 {{ __('accommodation_guide.why.title') }}
                             </h3>
-                            <p class="text-sm leading-relaxed text-neutral-700 md:text-base">
+                            <p class="text-sm  text-neutral-700 md:text-base">
                                 {{ __('accommodation_guide.why.paragraph') }}
                             </p>
                         </div>

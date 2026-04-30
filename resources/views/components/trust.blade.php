@@ -16,7 +16,7 @@
             </div>
 
             <div class="space-y-5">
-                <p class="leading-relaxed text-neutral-800">
+                <p class=" text-neutral-800">
                     {!! __('trust.firstParagraph') !!}
                 </p>
 
@@ -24,12 +24,12 @@
                     <h3 class="mb-2 text-sm font-semibold uppercase tracking-wide text-black">
                         {{ __('trust.australiaPathHeader') }}
                     </h3>
-                    <p class="text-sm leading-relaxed text-neutral-700 md:text-base">
+                    <p class="text-sm  text-neutral-700 md:text-base">
                         {{ __('trust.australiaPathParagraph') }}
                     </p>
                 </div>
 
-                <p class="leading-relaxed text-neutral-800">
+                <p class=" text-neutral-800">
                     {!! __('trust.thirdParagraph') !!}
                 </p>
             </div>

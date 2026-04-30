@@ -11,7 +11,7 @@
             {{ __('privacy.business_name') }}
         </p>
 
-        <div class="space-y-3 text-sm text-neutral-700 leading-relaxed">
+        <div class="space-y-3 text-sm text-neutral-700 ">
 
             <h2 class="text-lg font-semibold">
                 {{ __('privacy.sections.compliance_title') }}

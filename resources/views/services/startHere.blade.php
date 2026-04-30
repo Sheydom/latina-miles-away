@@ -22,7 +22,7 @@
                     {{ __('startHere.pageHeader.pageTitle') }}
                 </h1>
 
-                <p class="text-base md:text-lg text-neutral-700 leading-relaxed">
+                <p class="text-base md:text-lg text-neutral-700 ">
                     {{ __('startHere.pageHeader.pageTitleParagraph') }}
                 </p>
             </div>
@@ -43,7 +43,7 @@
                                 {{ __('startHere.arrivalGuide.arrivalHeader') }}
                             </h2>
 
-                            <p class="text-neutral-700 leading-relaxed">
+                            <p class="text-neutral-700 ">
                                 {{ __('startHere.arrivalGuide.arrivalHeaderParagraph') }}
                             </p>
                         </div>
@@ -85,7 +85,7 @@
                                 {{ __('startHere.workGuide.workHeader') }}
                             </h2>
 
-                            <p class="text-neutral-700 leading-relaxed">
+                            <p class="text-neutral-700 ">
                                 {{ __('startHere.workGuide.workHeaderParagraph') }}
                             </p>
                         </div>

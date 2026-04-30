@@ -175,7 +175,7 @@
                     hover:shadow-md
                     transition md:w-full md:max-w-xs flex flex-col text-start md:shrink md:hover:border-primary-light md:hover:scale-105">
                     <div class="text-2xl"><svg
-                            class="w-10 h-10 p-1 mb-10 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
+                            class="w-10 h-10 p-1 mb-7 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 512 512"><!--!Font Awesome Pro v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2026 Fonticons, Inc.-->
                             <path fill="currentColor"

@@ -29,7 +29,7 @@ return [
 
     'resume_review' => [
         'title' => 'Revisión de CV',
-        'paragraph' => 'Recibe comentarios personalizados para asegurarte de que tu CV cumpla con las expectativas de los empleadores australianos y aumente tus posibilidades de conseguir entrevistas.',
+        'paragraph' => 'Recibe comentarios personalizados para que tu CV cumpla con las expectativas de los empleadores australianos y aumente tus posibilidades de conseguir entrevistas.',
         'learn_more' => 'Más información ->',
     ],
 

@@ -8,12 +8,12 @@
         alt="Melbourne">
 
     <!-- Overlay -->
-    <div class="absolute inset-0 z-10 bg-black/70 md:bg-gradient-to-r from-primary md:via-primary/85 to-transparent"></div>
+    <div class="absolute inset-0 z-10 bg-black/70 md:bg-transparent md:bg-gradient-to-r from-black to-transparent"></div>
 
     <!-- Content -->
     <div class="relative z-20 flex min-h-[520px] items-center p-5 md:px-20">
 
-        <div class="w-full max-w-2xl">
+        <div class="w-full max-w-3xl">
 
             <div class="inline-flex flex-col gap-2 rounded-2xl bg-blue-100/95 p-4 mb-8 text-sm text-neutral-800 shadow-lg">
                 <div class="flex items-center gap-2 font-medium">

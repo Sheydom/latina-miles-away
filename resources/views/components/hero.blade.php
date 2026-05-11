@@ -1,5 +1,5 @@
 <section
-    class="relative overflow-hidden rounded-2xl bg-primary mb-10 md:rounded-none md:min-h-[520px] md:w-full">
+    class="relative overflow-hidden  bg-primary mb-10  md:min-h-[520px] md:w-full">
 
     <!-- Background image -->
     <img
@@ -8,7 +8,7 @@
         alt="Melbourne">
 
     <!-- Overlay -->
-    <div class="absolute inset-0 z-10 bg-gradient-to-r from-primary via-primary/85 to-transparent"></div>
+    <div class="absolute inset-0 z-10 bg-black/70 md:bg-gradient-to-r from-primary md:via-primary/85 to-transparent"></div>
 
     <!-- Content -->
     <div class="relative z-20 flex min-h-[520px] items-center p-5 md:px-20">
@@ -45,7 +45,7 @@
                 {!! __('hero.title') !!}
             </h1>
 
-            <p class="max-w-md text-base text-blue-50 md:text-lg">
+            <p class="max-w-md text-base text-white md:text-lg">
                 {{ __('hero.subTitle') }}
             </p>
 
@@ -54,7 +54,7 @@
                 data-cal-link="sheyla-solis-qbslzw/consultation"
                 data-cal-namespace="consultation"
                 data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":true}'
-                class="mt-6 w-full rounded-2xl bg-[#4CC9D4] px-4 py-4 text-xl font-bold text-amber-50
+                class="mt-6 w-full rounded-2xl bg-[#4CC9D4] px-4 py-4 text-xl font-bold text-white
                 shadow-[0_10px_25px_rgba(52,160,169,0.45)]
                 transition duration-200 ease-in-out hover:-translate-y-1 hover:bg-[#34a0a9]
                 md:max-w-sm">

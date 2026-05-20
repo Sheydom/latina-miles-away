@@ -3,7 +3,7 @@
 return [
 
     'meta' => [
-        'title' => 'Asesoría migratoria personalizada en Australia | Latina Miles Away',
+        'title' => 'Asesoría personalizada en Australia | Latina Miles Away',
         'description' => 'Reserva una sesión de asesoría 1 a 1 para recibir orientación personalizada sobre visas, trabajo y cómo establecerte en Australia, basada en experiencia real.',
     ],
 

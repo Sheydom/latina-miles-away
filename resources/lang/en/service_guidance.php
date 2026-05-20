@@ -3,8 +3,8 @@
 return [
 
     'meta' => [
-        'title' => 'Personal Migration Guidance Australia | Latina Miles Away',
-        'description' => 'Book a 1-on-1 guidance session for personalised advice on visas, jobs, and settling in Australia based on real-life experience.',
+        'title' => 'Personal Guidance Australia | Latina Miles Away',
+        'description' => 'Book a 1-on-1 guidance session for personalised advice on visas, jobs, and settling in Australia based on my experience.',
     ],
 
     'hero' => [

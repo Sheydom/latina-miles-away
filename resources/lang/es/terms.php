@@ -5,7 +5,7 @@ return [
     'title' => 'Términos de servicio',
 
     'last_updated' => 'Última actualización: Marzo 2026',
-    'business_name' => 'Nombre del negocio: Latina Miles Away (futuro nombre comercial: Solis Migration)',
+    'business_name' => 'Nombre del negocio: Latina Miles Away',
 
     'intro' => 'Bienvenido a Latina Miles Away. Al utilizar este sitio web y reservar servicios, aceptas estos Términos de servicio.',
 

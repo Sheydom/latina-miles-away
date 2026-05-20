@@ -1,32 +1,43 @@
 <?php
+
 return [
     'hero' => [
-        'heroP' => 'Payment succesful',
-        'heroHeader' => 'Thank You for Your Purchase',
-        'heroSub' => '  Your payment has been received successfully. Please follow the next step below so we can begin
-                        working on your service.',
-    ],
-    'main' => [
-        'mainH' => 'Next Step',
-        'mainP' => 'Please send your documents and details to:',
-        'mainA' => 'latinamilesaway@gmail.com',
-        'mainH3' => 'Include in your email',
-        'mainLi' => ' <li> Your full name</li>
-                                <li> The service you purchased</li>
-                                <li> Your documents (PDF, DOC, DOCX)</li>
-                                <li> Any extra details or questions</li>',
-        'mainH3second' => 'What happens next',
-        'mainLiSecond' => ' <li> We review your submission</li>
-                                <li> We contact you if anything is missing</li>
-                                <li> You receive your response within 48 hours</li>
-                                <li> Your Stripe receipt has been sent by email</li>',
-        'mainPlast' => '<p>
-                            <span class="font-semibold text-neutral-900">Important:</span>
-                            To avoid delays, please make sure your email includes your name and the service you paid
-                            for.
-                        </p>',
-        'mainAsecond' => 'Send Documents Now',
-        'mainAlast' => 'Back to Home',
+        'heroP' => 'Pago realizado con éxito',
+        'heroHeader' => 'Gracias por tu compra',
+        'heroSub' => 'Tu pago se ha recibido correctamente. Por favor, sigue el siguiente paso para que podamos comenzar a trabajar en tu servicio.',
     ],
 
+    'main' => [
+        'mainH' => 'Siguiente paso',
+        'mainP' => 'Por favor envía tus documentos y detalles a:',
+        'mainA' => 'latinamilesaway@gmail.com',
+
+        'mainH3' => 'Incluye en tu correo',
+
+        'mainLi' => '
+            <li>Tu nombre completo</li>
+            <li>El servicio que compraste</li>
+            <li>Tus documentos (PDF, DOC, DOCX)</li>
+            <li>Cualquier detalle o pregunta adicional</li>
+        ',
+
+        'mainH3second' => 'Qué sucede después',
+
+        'mainLiSecond' => '
+            <li>Revisamos tu envío</li>
+            <li>Te contactamos si falta algo</li>
+            <li>Recibirás una respuesta dentro de 48 horas</li>
+            <li>Tu recibo de Stripe ha sido enviado por correo electrónico</li>
+        ',
+
+        'mainPlast' => '
+            <p>
+                <span class="font-semibold text-neutral-900">Importante:</span>
+                Para evitar retrasos, asegúrate de que tu correo incluya tu nombre y el servicio que compraste.
+            </p>
+        ',
+
+        'mainAsecond' => 'Enviar documentos ahora',
+        'mainAlast' => 'Volver al inicio',
+    ],
 ];

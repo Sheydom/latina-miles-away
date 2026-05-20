@@ -5,7 +5,7 @@ return [
     'title' => 'Terms of Service',
 
     'last_updated' => 'Last updated: March 2026',
-    'business_name' => 'Business name: Latina Miles Away (future trading name: Solis Migration)',
+    'business_name' => 'Business name: Latina Miles Away',
 
     'intro' => 'Welcome to Latina Miles Away. By using this website and booking services, you agree to these Terms of Service.',
 

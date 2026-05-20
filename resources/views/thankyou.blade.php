@@ -19,7 +19,7 @@
                     </h1>
 
                     <p class="mx-auto mt-3 max-w-xl text-sm  text-white/90 md:text-base">
-                        {{__('thankyour.hero.Sub')}}
+                        {{__('thankyou.hero.Sub')}}
                     </p>
                 </div>
 
@@ -27,64 +27,54 @@
                 <div class="px-6 py-8 md:px-10 md:py-10">
                     <div class="mb-8 rounded-2xl bg-neutral-50 p-5 ring-1 ring-neutral-200">
                         <h2 class="mb-3 text-xl font-semibold text-neutral-900">
-                            Next Step
+                            {{__('thankyou.main.mainH')}}
                         </h2>
 
                         <p class="mb-4 text-neutral-700 ">
-                            Please send your documents and details to:
+                            {{__('thankyou.main.mainP')}}
                         </p>
 
                         <a href="mailto:latinamilesaway@gmail.com"
                             class="inline-flex items-center rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-white duration-200 ease-in-out md:hover:-translate-y-1 md:hover:opacity-90 hover:opacity-90">
-                            latinamilesaway@gmail.com
+                            {{__('thankyou.main.mainA')}}
                         </a>
                     </div>
 
                     <div class="grid gap-4 md:grid-cols-2">
                         <div class="rounded-2xl border border-neutral-200 p-5">
                             <h3 class="mb-3 text-lg font-semibold text-neutral-900">
-                                Include in your email
+                                {{__('thankyou.main.mainH3')}}
                             </h3>
 
                             <ul class="space-y-2 text-sm  text-neutral-700 list-disc marker:text-tertiary pl-5">
-                                <li> Your full name</li>
-                                <li> The service you purchased</li>
-                                <li> Your documents (PDF, DOC, DOCX)</li>
-                                <li> Any extra details or questions</li>
+                                {!!__('thankyou.main.mainLi')!!}
                             </ul>
                         </div>
 
                         <div class="rounded-2xl border border-neutral-200 p-5">
                             <h3 class="mb-3 text-lg font-semibold text-neutral-900">
-                                What happens next
+                               {{__('thankyou.main.mainH3second')}}
                             </h3>
 
                             <ul class="space-y-2 text-sm  text-neutral-700 list-disc marker:text-tertiary pl-5">
-                                <li> We review your submission</li>
-                                <li> We contact you if anything is missing</li>
-                                <li> You receive your response within 48 hours</li>
-                                <li> Your Stripe receipt has been sent by email</li>
+                               {!!__('thankyou.main.mainLiSecond')!!}
                             </ul>
                         </div>
                     </div>
 
                     <div class="mt-8 rounded-2xl bg-primary/5 p-5 text-sm  text-neutral-700">
-                        <p>
-                            <span class="font-semibold text-neutral-900">Important:</span>
-                            To avoid delays, please make sure your email includes your name and the service you paid
-                            for.
-                        </p>
+                        {!!__('thankyou.main.mainPlast')!!}
                     </div>
 
                     <div class="mt-8 flex flex-col gap-3 sm:flex-row">
                         <a href="mailto:latinamilesaway@gmail.com?subject=Service%20Submission"
                             class="inline-flex items-center justify-center rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-white duration-200 ease-in-out md:hover:-translate-y-1 md:hover:opacity-90 hover:opacity-90">
-                            Send Documents Now
+                            {{__('thankyou.main.mainAsecond')}}
                         </a>
 
                         <a href="{{ route('home') }}"
                             class="inline-flex items-center justify-center rounded-xl border border-neutral-300 px-5 py-3 text-sm font-semibold text-neutral-800 duration-200 ease-in-out md:hover:-translate-y-1 md:hover:opacity-90 hover:opacity-90">
-                            Back to Home
+                            {{__('thankyou.main.mainAlast')}}
                         </a>
                     </div>
                 </div>

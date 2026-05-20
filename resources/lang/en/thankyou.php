@@ -1,5 +1,4 @@
 <?php
-
 return [
     'hero' => [
         'heroP' => 'Payment succesful',

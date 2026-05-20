@@ -19,7 +19,7 @@
                     </h1>
 
                     <p class="mx-auto mt-3 max-w-xl text-sm  text-white/90 md:text-base">
-                        {{__('thankyou.hero.Sub')}}
+                        {{__('thankyou.hero.heroSub')}}
                     </p>
                 </div>
 

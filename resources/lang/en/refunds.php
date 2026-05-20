@@ -6,7 +6,7 @@ return [
 
     'last_updated' => 'Last updated: March 2026',
 
-    'business_name' => 'Business name: Latina Miles Away (future trading name: Solis Migration)',
+    'business_name' => 'Business name: Latina Miles Away',
 
     'sections' => [
 

@@ -6,7 +6,7 @@ return [
 
     'last_updated' => 'Última actualización: Marzo 2026',
 
-    'business_name' => 'Nombre del negocio: Latina Miles Away (futuro nombre comercial: Solis Migration)',
+    'business_name' => 'Nombre del negocio: Latina Miles Away',
 
     'sections' => [
 

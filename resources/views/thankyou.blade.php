@@ -11,16 +11,15 @@
                     </div>
 
                     <p class="mb-2 text-sm font-semibold uppercase tracking-[0.2em] text-white/80">
-                        Payment successful
+                        {{__('thankyou.hero.heroP')}}
                     </p>
 
                     <h1 class="text-3xl font-bold md:text-4xl">
-                        Thank You for Your Purchase
+                        {{__('thankyou.hero.heroHeader')}}
                     </h1>
 
                     <p class="mx-auto mt-3 max-w-xl text-sm  text-white/90 md:text-base">
-                        Your payment has been received successfully. Please follow the next step below so we can begin
-                        working on your service.
+                        {{__('thankyour.hero.Sub')}}
                     </p>
                 </div>
 

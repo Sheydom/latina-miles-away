@@ -10,7 +10,7 @@ return [
     'hero' => [
         'badge' => 'Apoyo personalizado',
         'title' => 'Sesión de asesoría personalizada',
-        'paragraph' => 'Claridad, dirección y orientación honesta para tu proceso migratorio — basada en experiencia real, no solo en teoría.',
+        'paragraph' => 'Claridad, dirección y orientación honesta para tu camino a Australia — basada en experiencia real, no solo en teoría.',
     ],
 
     'who' => [
@@ -21,7 +21,7 @@ return [
     'topics' => [
         'title' => 'De qué podemos hablar',
         'items' => [
-            'visa' => 'Tu camino migratorio basado en experiencia personal real',
+            'visa' => 'Tu camino a Australia basado en experiencia personal real',
             'documents' => 'Qué documentos podrías necesitar',
             'application' => 'Cómo prepararte para tu proceso de aplicación',
             'job' => 'Estrategias para trabajo y establecimiento en Australia',

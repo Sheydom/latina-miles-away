@@ -10,7 +10,7 @@ return [
     'hero' => [
         'badge' => 'Personal support',
         'title' => 'Personal Guidance Session',
-        'paragraph' => 'Clarity, direction, and honest guidance for your migration journey — based on real experience, not just theory.',
+        'paragraph' => 'Clarity, direction, and honest guidance for your Australian journey — based on real experience, not just theory.',
     ],
 
     'who' => [

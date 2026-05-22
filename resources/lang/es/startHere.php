@@ -16,7 +16,7 @@ return [
 
         'arrivalHeaderParagraph' => 'Una lista práctica para ayudarte a organizarte durante tu primera semana. Incluye los pasos más importantes para que puedas establecerte con más confianza y menos estrés.',
 
-        'previewButton' => 'Ver guía',
+        'previewButton' => 'Guía de Vista Previa',
 
         'downloadButton' => 'Descargar PDF',
     ],
@@ -28,7 +28,7 @@ return [
 
         'workHeaderParagraph' => 'Una guía sencilla en español para quienes desean entender lo básico sobre cómo encontrar trabajo en Australia. Clara, práctica y fácil de seguir.',
 
-        'previewButton' => 'Ver guía',
+        'previewButton' => 'Guía de Vista Previa',
 
         'downloadButton' => 'Descargar PDF',
     ],

@@ -110,7 +110,7 @@
                         </p>
 
                         <a rel="noopener noreferrer" target="_blank"
-                            href="https://buy.stripe.com/bJe14gbTX0f25fM5HNcs802"
+                            href="https://buy.stripe.com/dRm28k6zD4vi6jQdafcs803"
                             class="inline-block rounded-xl bg-primary px-5 py-2 font-semibold text-white duration-200 ease-in-out md:hover:-translate-y-1 md:hover:opacity-90 hover:opacity-90">
 
                             {{ __('work_readiness.pricing.button') }}

@@ -48,7 +48,7 @@ return [
 
     'pricing' => [
         'label' => 'Precio',
-        'amount' => '$35 AUD',
+        'amount' => '$10 AUD',
         'button' => 'Pagar ahora',
         'question' => '¿Prefieres hacer una pregunta primero?',
         'email' => 'Escríbenos',

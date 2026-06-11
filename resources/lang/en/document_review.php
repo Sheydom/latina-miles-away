@@ -52,7 +52,7 @@ return [
 
     'pricing' => [
         'label' => 'Price',
-        'amount' => '$20 AUD',
+        'amount' => '$10 AUD',
         'paragraph' => 'A simple review to help you submit your document with more confidence.',
         'button' => 'Pay Now',
         'question' => 'Prefer to ask a question first?',

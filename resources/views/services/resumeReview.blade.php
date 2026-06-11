@@ -89,7 +89,7 @@
                         </p>
 
                         <a rel="noopener noreferrer" target="_blank"
-                            href="https://buy.stripe.com/28E9AM0bf7Hu37Eeejcs800"
+                            href="https://buy.stripe.com/bJe9AMbTX7HudMi7PVcs805"
                             class="inline-flex items-center justify-center rounded-xl bg-primary px-5 py-2 font-semibold text-white transition duration-200 ease-in-out md:hover:-translate-y-1 md:hover:opacity-90">
                             {{ __('resume_review.pricing.button') }}
                         </a>

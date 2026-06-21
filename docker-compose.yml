@@ -2,6 +2,7 @@
   app:
     build: .
     container_name: latinamilesaway_app
+    restart: unless-stopped
     volumes:
       - .:/var/www
     networks:
@@ -10,6 +11,7 @@
   web:
     image: caddy:2
     container_name: latinamilesaway_caddy
+    restart: unless-stopped
     ports:
       - "127.0.0.1:9001:80"
     volumes:

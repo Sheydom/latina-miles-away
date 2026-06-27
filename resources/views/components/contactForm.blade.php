@@ -20,7 +20,7 @@
                 <p id="success" class="text-green-500 hidden"></p>
                 <div>
                     {{-- honeypot --}}
-                    <input class="hidden" type="text" name="spam" value="spam">
+                    <input class="hidden" type="text" name="spam">
                     <label class="mb-2 block text-sm font-medium text-gray-700" for="name">
                         Name <span class="text-red-500">*</span>
                     </label>

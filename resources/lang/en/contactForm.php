@@ -9,5 +9,6 @@ return [
     'country' => 'Country',
     'message' => 'Your Message',
     'submit' => 'Submit Message',
+    'write' => 'Write here...',
 
 ];

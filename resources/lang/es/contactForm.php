@@ -9,4 +9,5 @@ return [
     'country' => 'País',
     'message' => 'Tu mensaje',
     'submit' => 'Enviar mensaje',
+    'write' => 'Escribe aqui...',
 ];

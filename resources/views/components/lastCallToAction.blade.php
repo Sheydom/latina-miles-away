@@ -27,7 +27,7 @@
                     {!! __('lastCall.button') !!}
                 </button>
 
-                <p class="text-sm text-gray-500">
+                <p class="text-sm text-gray-900 sm:text-gray-500">
                     Usually replies within 24 hours.
                 </p>
 

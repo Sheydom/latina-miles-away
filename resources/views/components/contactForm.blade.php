@@ -14,7 +14,7 @@
         </div>
 
         <form id="form"
-            class="grid gap-6 rounded-3xl border border-gray-200 bg-white p-6 shadow-xl md:grid-cols-[300px_400px]">
+            class="grid gap-6 rounded-3xl border border-gray-200 bg-white p-6 shadow-xl md:grid-cols-2 lg:grid-cols-[300px_1fr] xl:grid-cols-[300px_400px]">
 
             <div class="space-y-5">
                 <p id="success" class="text-green-500 hidden"></p>

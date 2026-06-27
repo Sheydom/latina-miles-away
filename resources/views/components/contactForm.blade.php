@@ -1,0 +1,72 @@
+<section class="">
+    <div class="mx-auto max-w-5xl px-4">
+        <div class="mb-8">
+            {{-- <p class="mb-2 text-sm font-semibold uppercase tracking-widest text-primary">
+                Contact
+            </p> --}}
+            <h2 class="text-xl font-bold text-black">
+                If you need more information
+            </h2>
+            <p class="mt-2 max-w-2xl text-gray-600">
+                Send us your details and we will get back to you as soon as possible.
+            </p>
+            <p id="success" class="text-green-500"></p>
+        </div>
+
+        <form id="form"
+            class="grid gap-6 rounded-3xl border border-gray-200 bg-white p-6 shadow-xl md:grid-cols-[260px_1fr]">
+            <div class="space-y-5">
+                <div>
+                    <label class="mb-2 block text-sm font-medium text-gray-700" for="name">
+                        Name
+                    </label>
+                    <input
+                        class="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 outline-none transition focus:border-primary focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,245,255,0.15)]"
+                        placeholder="John Smith" id="name" type="text">
+                </div>
+
+                <div>
+                    <label class="mb-2 block text-sm font-medium text-gray-700" for="email">
+                        Email
+                    </label>
+                    <input
+                        class="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 outline-none transition focus:border-primary focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,245,255,0.15)]"
+                        placeholder="john.smith@gmail.com" id="email" type="email">
+                </div>
+
+                <div>
+                    <label class="mb-2 block text-sm font-medium text-gray-700" for="phone">
+                        Phone Number
+                    </label>
+                    <input
+                        class="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 outline-none transition focus:border-primary focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,245,255,0.15)]"
+                        placeholder="+61 416 334 712" id="phone" type="tel">
+                </div>
+
+                <div>
+                    <label class="mb-2 block text-sm font-medium text-gray-700" for="country">
+                        Country
+                    </label>
+                    <input
+                        class="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 outline-none transition focus:border-primary focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,245,255,0.15)]"
+                        placeholder="Peru" id="country" type="text">
+                </div>
+            </div>
+
+            <div class="flex flex-col">
+                <label class="mb-2 block text-sm font-medium text-gray-700" for="message">
+                    Your message
+                </label>
+
+                <textarea
+                    class="min-h-65 flex-1 resize-none rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 outline-none transition focus:border-primary focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,245,255,0.15)]"
+                    placeholder="Write here..." id="message" rows="10"></textarea>
+
+                <button type="submit"
+                    class="mt-5 rounded-xl bg-black px-6 py-4 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-lg">
+                    Submit Message
+                </button>
+            </div>
+        </form>
+    </div>
+</section>

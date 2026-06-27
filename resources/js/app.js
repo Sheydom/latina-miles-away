@@ -186,6 +186,12 @@ form.addEventListener("submit", async (e) => {
     e.preventDefault();
 
     const formData = new FormData(form);
+    const spam = formData.get("spam")?.trim();
+
+    if (spam) {
+        return;
+    }
+
     formData.append("access_key", "16c07403-dafb-436d-bff8-9c137f2b2afe");
 
     const originalText = submitBtn.textContent;

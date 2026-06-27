@@ -14,6 +14,19 @@
 
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5W15G96VHV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-5W15G96VHV');
+    </script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta name="description" content="{{ $metaDescription }}">
@@ -48,6 +61,8 @@
     <link rel="dns-prefetch" href="https://app.cal.com">
     @livewireStyles
 </head>
+
+
 
 <body id="home" class="min-h-screen flex bg-white flex-col font-sans">
     <x-header />

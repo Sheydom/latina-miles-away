@@ -10,12 +10,14 @@
             <p class="mt-2 max-w-2xl text-gray-600">
                 Send us your details and we will get back to you as soon as possible.
             </p>
-            <p id="success" class="text-green-500"></p>
+
         </div>
 
         <form id="form"
             class="grid gap-6 rounded-3xl border border-gray-200 bg-white p-6 shadow-xl md:grid-cols-[260px_1fr]">
+
             <div class="space-y-5">
+                <p id="success" class="text-green-500 hidden"></p>
                 <div>
                     <label class="mb-2 block text-sm font-medium text-gray-700" for="name">
                         Name

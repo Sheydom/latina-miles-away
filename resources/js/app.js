@@ -180,7 +180,7 @@ document.addEventListener("livewire:navigated", initConsultationCal);
 
 const form = document.getElementById("form");
 const submitBtn = form.querySelector('button[type="submit"]');
-const success = document.getElementById('success');
+const success = document.getElementById("success");
 
 form.addEventListener("submit", async (e) => {
     e.preventDefault();
@@ -203,6 +203,7 @@ form.addEventListener("submit", async (e) => {
         const data = await response.json();
 
         if (response.ok) {
+            success.style.display = "block";
             success.textContent = "Message successful sent!";
             form.reset();
         } else {

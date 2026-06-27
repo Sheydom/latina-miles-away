@@ -14,8 +14,8 @@
 
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5W15G96VHV"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QXQGSEQ8JH"></script>
+
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -24,7 +24,7 @@
         }
         gtag('js', new Date());
 
-        gtag('config', 'G-5W15G96VHV');
+        gtag('config', 'G-QXQGSEQ8JH');
     </script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

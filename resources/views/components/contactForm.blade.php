@@ -67,7 +67,8 @@
 
                 <textarea
                     class="max-h-40 sm:min-h-65 flex-1 resize-none rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 outline-none transition focus:border-primary focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,245,255,0.15)]"
-                    placeholder="Write here..." id="message" name="message" rows="10" required minlength="15" maxlength="255"></textarea>
+                    placeholder="{{ __('contactForm.write') }}" id="message" name="message" rows="10" required minlength="15"
+                    maxlength="255"></textarea>
 
                 <button type="submit"
                     class="mt-5 rounded-xl cursor-pointer bg-black px-6 py-4 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-lg">

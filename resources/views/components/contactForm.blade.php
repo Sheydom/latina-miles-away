@@ -5,10 +5,10 @@
                 Contact
             </p> --}}
             <h2 class="text-xl font-bold text-black">
-                If you need more information
+                {{ __('contactForm.title') }}
             </h2>
             <p class="mt-2 max-w-2xl text-gray-900">
-                Send us your details and we will get back to you as soon as possible.
+                {{ __('contactForm.titleP') }}
             </p>
 
         </div>
@@ -22,7 +22,7 @@
                     {{-- honeypot --}}
                     <input class="hidden" type="text" name="spam">
                     <label class="mb-2 block text-sm font-medium text-gray-700" for="name">
-                        Name <span class="text-red-500">*</span>
+                        {{ __('contactForm.name') }} <span class="text-red-500">*</span>
                     </label>
                     <input
                         class="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 outline-none transition focus:border-primary focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,245,255,0.15)]"
@@ -32,7 +32,7 @@
 
                 <div>
                     <label class="mb-2 block text-sm font-medium text-gray-700" for="email">
-                        Email <span class="text-red-500">*</span>
+                        {{ __('contactForm.email') }} <span class="text-red-500">*</span>
                     </label>
                     <input
                         class="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 outline-none transition focus:border-primary focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,245,255,0.15)]"
@@ -41,7 +41,7 @@
 
                 <div>
                     <label class="mb-2 block text-sm font-medium text-gray-700" for="phone">
-                        Phone Number
+                        {{ __('contactForm.phone') }}
                     </label>
                     <input
                         class="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 outline-none transition focus:border-primary focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,245,255,0.15)]"
@@ -51,7 +51,7 @@
 
                 <div>
                     <label class="mb-2 block text-sm font-medium text-gray-700" for="country">
-                        Country <span class="text-red-500">*</span>
+                        {{ __('contactForm.country') }} <span class="text-red-500">*</span>
                     </label>
                     <input
                         class="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 outline-none transition focus:border-primary focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,245,255,0.15)]"
@@ -62,7 +62,7 @@
 
             <div class="flex flex-col">
                 <label class="mb-2 block text-sm font-medium text-gray-700" for="message">
-                    Your message <span class="text-red-500">*</span>
+                    {{ __('contactForm.message') }} <span class="text-red-500">*</span>
                 </label>
 
                 <textarea
@@ -71,7 +71,7 @@
 
                 <button type="submit"
                     class="mt-5 rounded-xl cursor-pointer bg-black px-6 py-4 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-lg">
-                    Submit Message
+                    {{ __('contactForm.submit') }}
                 </button>
             </div>
         </form>

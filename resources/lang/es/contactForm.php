@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'title' => 'Si necesita más información',
-    'titleP' => 'Envíenos sus datos y nos pondremos en contacto con usted lo antes posible.',
+    'title' => 'Si necesitas más información',
+    'titleP' => 'Envíanos tus datos y nos pondremos en contacto contigo lo antes posible.',
     'name' => 'Nombre',
     'email' => 'Correo electrónico',
     'phone' => 'Número de teléfono',
     'country' => 'País',
-    'message' => 'Su mensaje',
+    'message' => 'Tu mensaje',
     'submit' => 'Enviar mensaje',
 ];

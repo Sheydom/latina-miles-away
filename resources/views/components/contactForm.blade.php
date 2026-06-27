@@ -61,7 +61,7 @@
                 </label>
 
                 <textarea
-                    class="min-h-65 flex-1 resize-none rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 outline-none transition focus:border-primary focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,245,255,0.15)]"
+                    class="max-h-40 sm:min-h-65 flex-1 resize-none rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 outline-none transition focus:border-primary focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,245,255,0.15)]"
                     placeholder="Write here..." id="message" name="message" rows="10"></textarea>
 
                 <button type="submit"

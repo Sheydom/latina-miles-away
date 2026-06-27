@@ -1,8 +1,8 @@
 <section class="mx-auto py-20 w-full h-full px-6 bg-linear-to-b from-primary to-beige">
-    <div class="grid gap-20 lg:grid-cols-[520px_620px] lg:flex lg:items-center lg:justify-center">
+    <div class="grid gap-20 md:px-10 lg:grid-cols-[520px_620px] lg:flex lg:items-center lg:justify-center">
 
         <!-- Left -->
-        <div class="ml-20">
+        <div class="">
             {{-- <span class="text-sm font-semibold uppercase tracking-[0.25em] text-primary">
                 Contact
             </span> --}}
@@ -11,7 +11,7 @@
                 {{ __('lastCall.title') }}
             </h2>
 
-            <p class="mt-6 text-lg leading-8 text-gray-600">
+            <p class="mt-6 text-lg leading-8 text-gray-900">
                 {!! __('lastCall.paragraph') !!}
             </p>
 

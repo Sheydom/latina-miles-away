@@ -7,7 +7,7 @@
             <h2 class="text-xl font-bold text-black">
                 If you need more information
             </h2>
-            <p class="mt-2 max-w-2xl text-gray-600">
+            <p class="mt-2 max-w-2xl text-gray-900">
                 Send us your details and we will get back to you as soon as possible.
             </p>
 

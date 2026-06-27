@@ -65,7 +65,7 @@
                     placeholder="Write here..." id="message" name="message" rows="10"></textarea>
 
                 <button type="submit"
-                    class="mt-5 rounded-xl bg-black px-6 py-4 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-lg">
+                    class="mt-5 rounded-xl cursor-pointer bg-black px-6 py-4 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-lg">
                     Submit Message
                 </button>
             </div>

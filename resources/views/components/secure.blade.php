@@ -1,5 +1,5 @@
 {{--  --}}
-<section class="mb-12 w-full bg-black text-white py-10">
+<section class="pb-12 w-full bg-black text-white py-10">
     <div class="flex flex-col gap-5 md:flex-row md:justify-around">
 
         <div class="w-full rounded-3xl  p-5 md:flex md:flex-col md:items-center">

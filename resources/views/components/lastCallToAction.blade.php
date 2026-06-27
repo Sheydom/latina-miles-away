@@ -1,16 +1,43 @@
-<section class="flex flex-col items-center text-center w-full md:mt-16 p-2.5">
-    <h2 class="text-black mb-2 text-bold-xl">{{ __('lastCall.title') }}</h2>
-    <p class=" text-gray-500">{!! __('lastCall.paragraph') !!}</p>
-    {{-- <button type="button"
-            class="w-[75%] rounded-2xl p-2 font-bold text-xl text-white bg-linear-to-r from-[#34A0A9] to-[#4CC9D4] 
-            shadow-[0_10px_25px_rgba(52,160,169,0.45)] border border-transparent  hover:from-[#2f8f97] hover:to-[#6fcfd8]
-            hover:-translate-y-1 cursor-pointer">Book
-            Consultation</button> --}}
-    <button type="button" data-cal-link="sheyla-solis-qbslzw/consultation" data-cal-namespace="consultation"
-        data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":true}'
-        class="w-full mt-3 rounded-2xl py-4 font-bold text-xl  text-amber-50 bg-[#4CC9D4]
-                 md:shadow-[0_8px_20px_rgba(52,160,169,0.25)] border border-transparent  hover:from-[#2f8f97] hover:to-[#6fcfd8]
-                hover:-translate-y-1 cursor-pointer md:max-w-100 transition duration-200 ease-in-out">{!! __('lastCall.button') !!}</button>
+<section class="mx-auto py-20 w-full h-full px-6 bg-linear-to-b from-primary to-beige">
+    <div class="grid gap-20 lg:grid-cols-[520px_620px] lg:flex lg:items-center lg:justify-center">
 
+        <!-- Left -->
+        <div class="ml-20">
+            {{-- <span class="text-sm font-semibold uppercase tracking-[0.25em] text-primary">
+                Contact
+            </span> --}}
 
+            <h2 class="mt-4 text-5xl text-black font-bold leading-tight">
+                {{ __('lastCall.title') }}
+            </h2>
+
+            <p class="mt-6 text-lg leading-8 text-gray-600">
+                {!! __('lastCall.paragraph') !!}
+            </p>
+
+            <div class="mt-10 space-y-4">
+
+                <button
+                    type="button"
+                    data-cal-link="sheyla-solis-qbslzw/consultation"
+                    data-cal-namespace="consultation"
+                    data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":true}'
+                    class="w-full rounded-2xl bg-[#4CC9D4] px-8 py-4 font-semibold text-white shadow-xl cursor-pointer transition hover:-translate-y-1 hover:shadow-2xl"
+                >
+                    {!! __('lastCall.button') !!}
+                </button>
+
+                <p class="text-sm text-gray-500">
+                    Usually replies within 24 hours.
+                </p>
+
+            </div>
+        </div>
+
+        <!-- Right -->
+        <div class="flex justify-center w-full">
+            <x-contactForm />
+        </div>
+
+    </div>
 </section>

@@ -1,5 +1,5 @@
 <section class="">
-    <div class="mx-auto max-w-5xl px-4">
+    <div class="mx-auto max-w-5xl sm:px-4">
         <div class="mb-8">
             {{-- <p class="mb-2 text-sm font-semibold uppercase tracking-widest text-primary">
                 Contact

@@ -93,17 +93,19 @@ Cal.ns.consultation("ui", {
 
 // calendar script for imbedded
 
-    // Load Cal script only once better approach because of livewire does only preload html not script
-    (function (C, A, L) {
-        if (C.Cal && C.Cal.loaded) return;
+// Load Cal script only once better approach because of livewire does only preload html not script
+(function (C, A, L) {
+    if (C.Cal && C.Cal.loaded) return;
 
-        let p = function (a, ar) {
-            a.q.push(ar);
-        };
+    let p = function (a, ar) {
+        a.q.push(ar);
+    };
 
-        let d = C.document;
+    let d = C.document;
 
-        C.Cal = C.Cal || function () {
+    C.Cal =
+        C.Cal ||
+        function () {
             let cal = C.Cal;
             let ar = arguments;
 
@@ -135,43 +137,81 @@ Cal.ns.consultation("ui", {
 
             p(cal, ar);
         };
-    })(window, "https://app.cal.com/embed/embed.js", "init");
+})(window, "https://app.cal.com/embed/embed.js", "init");
 
-    function initConsultationCal() {
-        const bookingDiv = document.getElementById("my-cal-inline-consultation");
-        if (!bookingDiv) return;
+function initConsultationCal() {
+    const bookingDiv = document.getElementById("my-cal-inline-consultation");
+    if (!bookingDiv) return;
 
-        // Prevent double-initializing the same container
-        if (bookingDiv.dataset.calInitialized === "true") return;
+    // Prevent double-initializing the same container
+    if (bookingDiv.dataset.calInitialized === "true") return;
 
-        bookingDiv.dataset.calInitialized = "true";
-        bookingDiv.innerHTML = "";
+    bookingDiv.dataset.calInitialized = "true";
+    bookingDiv.innerHTML = "";
 
-        Cal("init", "consultation", {
-            origin: "https://app.cal.com",
-        });
+    Cal("init", "consultation", {
+        origin: "https://app.cal.com",
+    });
 
-        Cal.ns.consultation("inline", {
-            elementOrSelector: "#my-cal-inline-consultation",
-            config: {
-                layout: "month_view",
-                useSlotsViewOnSmallScreen: true,
-            },
-            calLink: "sheyla-solis-qbslzw/consultation",
-        });
-
-        Cal.ns.consultation("ui", {
-            cssVarsPerTheme: {
-                light: {
-                    "cal-brand": "#34a0a9",
-                },
-                dark: {
-                    "cal-brand": "#34a0a9",
-                },
-            },
-            hideEventTypeDetails: false,
+    Cal.ns.consultation("inline", {
+        elementOrSelector: "#my-cal-inline-consultation",
+        config: {
             layout: "month_view",
-        });
-    }
+            useSlotsViewOnSmallScreen: true,
+        },
+        calLink: "sheyla-solis-qbslzw/consultation",
+    });
 
-    document.addEventListener("livewire:navigated", initConsultationCal);
+    Cal.ns.consultation("ui", {
+        cssVarsPerTheme: {
+            light: {
+                "cal-brand": "#34a0a9",
+            },
+            dark: {
+                "cal-brand": "#34a0a9",
+            },
+        },
+        hideEventTypeDetails: false,
+        layout: "month_view",
+    });
+}
+
+document.addEventListener("livewire:navigated", initConsultationCal);
+
+const form = document.getElementById("form");
+const submitBtn = form.querySelector('button[type="submit"]');
+const success = document.getElementById('success');
+
+form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+    formData.append("access_key", "16c07403-dafb-436d-bff8-9c137f2b2afe");
+
+    const originalText = submitBtn.textContent;
+
+    submitBtn.textContent = "Sending...";
+    submitBtn.disabled = true;
+    success.textContent = "";
+
+    try {
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData,
+        });
+
+        const data = await response.json();
+
+        if (response.ok) {
+            success.textContent = "Message successful sent!";
+            form.reset();
+        } else {
+            alert("Error: " + data.message);
+        }
+    } catch (error) {
+        alert("Something went wrong. Please try again.");
+    } finally {
+        submitBtn.textContent = originalText;
+        submitBtn.disabled = false;
+    }
+});

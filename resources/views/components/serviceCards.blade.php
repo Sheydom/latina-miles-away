@@ -126,7 +126,7 @@
 <section id="" class=" sm:hidden w-full mt-20 items-center ">
     <div class="flex flex-col items-center p-2">
         <h2>{{ __('service.titleC') }}</h2>
-        <p class="mb-5">{{ __('service.subtitleC') }}</p>
+        <p class="mb-5 px-4">{{ __('service.subtitleC') }}</p>
     </div>
 
 

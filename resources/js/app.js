@@ -8,7 +8,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import "swiper/css/pagination";
-
 Swiper.use([Autoplay, Navigation, Pagination]);
 
 document.addEventListener("livewire:navigated", () => {

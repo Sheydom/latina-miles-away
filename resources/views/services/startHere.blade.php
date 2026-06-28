@@ -9,7 +9,7 @@
 
 <x-layout.app :metaTitle="$metaTitle" :metaDescription="$metaDescription" :ogTitle="$ogTitle" :ogDescription="$ogDescription" :ogImage="$ogImage"
     :ogUrl="$ogUrl">
-    <section class="w-full bg-linear-to-b from-primary to-[#EAEFEF] py-10 md:py-16 px-4">
+    <section class="w-full bg-linear-to-b from-primary to-[#EAEFEF] py-10 md:py-14 ">
         <div class="max-w-6xl mx-auto">
 
             {{-- Intro --}}

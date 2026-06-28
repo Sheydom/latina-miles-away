@@ -10,7 +10,7 @@
 <x-layout.app :metaTitle="$metaTitle" :metaDescription="$metaDescription" :ogTitle="$ogTitle" :ogDescription="$ogDescription" :ogImage="$ogImage"
     :ogUrl="$ogUrl">
     <section class="w-full bg-linear-to-b from-primary to-[#EAEFEF] py-10 md:py-14 ">
-        <div class="max-w-6xl mx-auto">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
             {{-- Intro --}}
             <div class="max-w-3xl mx-auto text-center mb-10 md:mb-14 bg-white p-4 rounded-2xl">

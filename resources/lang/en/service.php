@@ -2,6 +2,8 @@
 
 return [
     'title' => 'How I Can Support Your Journey',
+    'titleC' => 'Explore more Services',
+    'subtitleC' => 'Every journey is different. Discover other services that may help you with your move to Australia.',
     'subtitle' => 'Whether you`re just getting started or need specific support, here are the ways I can help you move forward with confidence.',
 
     'badges' => [

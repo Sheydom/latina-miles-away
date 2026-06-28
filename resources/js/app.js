@@ -1,4 +1,39 @@
 import "./bootstrap";
+import Swiper from "swiper";
+
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
+
+import "swiper/css";
+
+import "swiper/css/navigation";
+
+import "swiper/css/pagination";
+
+Swiper.use([Autoplay, Navigation, Pagination]);
+
+document.addEventListener("livewire:navigated", () => {
+    const el = document.querySelector(".services-swiper");
+
+    if (!el || el.swiper) return;
+
+    const isMobile = window.innerWidth < 768;
+
+    new Swiper(el, {
+        loop: true,
+        slidesPerView: "auto",
+        spaceBetween: 16,
+        speed: 5000,
+        autoplay: isMobile
+            ? false
+            : {
+                  delay: 0,
+                  disableOnInteraction: false,
+                  pauseOnMouseEnter: true,
+              },
+        preventClicks: false,
+        preventClicksPropagation: false,
+    });
+});
 
 document.addEventListener("DOMContentLoaded", () => {
     const openBtn = document.getElementById("openCertModal");
@@ -179,46 +214,50 @@ function initConsultationCal() {
 document.addEventListener("livewire:navigated", initConsultationCal);
 
 const form = document.getElementById("form");
-const submitBtn = form.querySelector('button[type="submit"]');
+
 const success = document.getElementById("success");
+console.log(form);
 
-form.addEventListener("submit", async (e) => {
-    e.preventDefault();
+if (form) {
+    const submitBtn = form.querySelector('button[type="submit"]');
+    form.addEventListener("submit", async (e) => {
+        e.preventDefault();
 
-    const formData = new FormData(form);
-    const spam = formData.get("spam")?.trim();
+        const formData = new FormData(form);
+        const spam = formData.get("spam")?.trim();
 
-    if (spam) {
-        return;
-    }
-
-    formData.append("access_key", "16c07403-dafb-436d-bff8-9c137f2b2afe");
-
-    const originalText = submitBtn.textContent;
-
-    submitBtn.textContent = "Sending...";
-    submitBtn.disabled = true;
-    success.textContent = "";
-
-    try {
-        const response = await fetch("https://api.web3forms.com/submit", {
-            method: "POST",
-            body: formData,
-        });
-
-        const data = await response.json();
-
-        if (response.ok) {
-            success.style.display = "block";
-            success.textContent = "Message successful sent!";
-            form.reset();
-        } else {
-            alert("Error: " + data.message);
+        if (spam) {
+            return;
         }
-    } catch (error) {
-        alert("Something went wrong. Please try again.");
-    } finally {
-        submitBtn.textContent = originalText;
-        submitBtn.disabled = false;
-    }
-});
+
+        formData.append("access_key", "16c07403-dafb-436d-bff8-9c137f2b2afe");
+
+        const originalText = submitBtn.textContent;
+
+        submitBtn.textContent = "Sending...";
+        submitBtn.disabled = true;
+        success.textContent = "";
+
+        try {
+            const response = await fetch("https://api.web3forms.com/submit", {
+                method: "POST",
+                body: formData,
+            });
+
+            const data = await response.json();
+
+            if (response.ok) {
+                success.style.display = "block";
+                success.textContent = "Message successful sent!";
+                form.reset();
+            } else {
+                alert("Error: " + data.message);
+            }
+        } catch (error) {
+            alert("Something went wrong. Please try again.");
+        } finally {
+            submitBtn.textContent = originalText;
+            submitBtn.disabled = false;
+        }
+    });
+}

@@ -7,7 +7,8 @@
     <div class="swiper services-swiper w-full overflow-hidden">
         <div id="serviceContainer" class="swiper-wrapper">
 
-            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.startHere') }}" wire:navigate>
+            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.startHere') }}"
+                onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">
                     <svg class="mb-7 w-10 h-10 p-1 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
@@ -23,7 +24,8 @@
                 </div>
             </a>
 
-            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.guidanceSession') }}" wire:navigate>
+            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.guidanceSession') }}"
+                onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border-2 border-primary bg-white p-5 shadow-md relative transition md:hover:border-primary-light md:hover:scale-105 md:hover:z-50">
                     <svg class="w-10 h-10 mb-7 p-1 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
@@ -45,7 +47,7 @@
             </a>
 
             <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.accomodationGuide') }}"
-                wire:navigate>
+                onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">
                     <svg class="w-10 h-10 p-1 mb-7 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
@@ -61,7 +63,8 @@
                 </div>
             </a>
 
-            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.resumeReview') }}" wire:navigate>
+            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.resumeReview') }}"
+                onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">
                     <svg class="w-10 h-10 p-1 mb-7 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
@@ -77,7 +80,8 @@
                 </div>
             </a>
 
-            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.documentReview') }}" wire:navigate>
+            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.documentReview') }}"
+                onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">
                     <svg class="w-10 h-10 p-1 mb-7 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
@@ -93,7 +97,8 @@
                 </div>
             </a>
 
-            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.workReadiness') }}" wire:navigate>
+            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.workReadiness') }}"
+                onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">
                     <svg class="w-10 h-10 p-1 mb-7 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
@@ -133,7 +138,7 @@
     <div class="flex w-full justify-center">
         <div id="serviceContainer" style="-webkit-overflow-scrolling: touch;"
             class=" flex gap-4 overflow-x-scroll services pb-2 scrollbar-visible snap-x snap-mandatory   md:overflow-visible md:grid lg:grid-cols-3 md:grid-cols-2 md:justify-items-center">
-            <a href="{{ route('services.startHere') }}" onclick="Livewire.navigate(this.href); return false;">
+            <a href="{{ route('services.startHere') }}" wire:navigate.hover>
                 <div
                     class="w-[85vw] max-w-xs flex flex-col text-start min-h-60 shrink-0 rounded-2xl snap-center border borde border-neutral-200  bg-white  p-5
                     shadow-sm
@@ -163,7 +168,7 @@
                     </div>
                 </div>
             </a>
-            <a href="{{ route('services.guidanceSession') }}" onclick="Livewire.navigate(this.href); return false;">
+            <a href="{{ route('services.guidanceSession') }}" wire:navigate.hover>
                 <div
                     class="w-[85vw] max-w-xs min-h-60 flex flex-col text-start shrink-0 rounded-2xl snap-center
                     border-2 border-primary
@@ -199,8 +204,7 @@
                 </div>
             </a>
 
-            <a href="{{ route('services.accomodationGuide') }}"
-                onclick="Livewire.navigate(this.href); return false;">
+            <a href="{{ route('services.accomodationGuide') }}" wire:navigate.hover>
                 <div
                     class="w-[85vw] max-w-xs min-h-60  shrink-0  rounded-2xl snap-center
                     border border-neutral-200
@@ -230,7 +234,7 @@
                     </div>
                 </div>
             </a>
-            <a href="{{ route('services.resumeReview') }}" onclick="Livewire.navigate(this.href); return false;">
+            <a href="{{ route('services.resumeReview') }}" wire:navigate.hover>
                 <div
                     class="w-[85vw] max-w-xs min-h-60  shrink-0 rounded-2xl snap-center
                     border border-neutral-200
@@ -260,7 +264,7 @@
                     </div>
                 </div>
             </a>
-            <a href="{{ route('services.documentReview') }}" onclick="Livewire.navigate(this.href); return false;">
+            <a href="{{ route('services.documentReview') }}" wire:navigate.hover>
                 <div
                     class="w-[85vw] max-w-xs min-h-60  shrink-0 rounded-2xl snap-center
                         border border-neutral-200
@@ -290,7 +294,7 @@
                     </div>
                 </div>
             </a>
-            <a href="{{ route('services.workReadiness') }}" onclick="Livewire.navigate(this.href); return false;">
+            <a href="{{ route('services.workReadiness') }}" wire:navigate.hover>
                 <div
                     class="w-[85vw] max-w-xs min-h-60  shrink-0  rounded-2xl snap-center
                     border border-neutral-200 

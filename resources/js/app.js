@@ -11,27 +11,20 @@ import "swiper/css/pagination";
 Swiper.use([Autoplay, Navigation, Pagination]);
 
 document.addEventListener("livewire:navigated", () => {
-    const isMobile = window.innerWidth < 768;
-    if(isMobile){
-        return;
-    }
     const el = document.querySelector(".services-swiper");
 
     if (!el || el.swiper) return;
-
 
     new Swiper(el, {
         loop: true,
         slidesPerView: "auto",
         spaceBetween: 16,
         speed: 5000,
-        autoplay: isMobile
-            ? false
-            : {
-                  delay: 0,
-                  disableOnInteraction: false,
-                  pauseOnMouseEnter: true,
-              },
+        autoplay: {
+            delay: 0,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+        },
         preventClicks: true,
         preventClicksPropagation: true,
     });

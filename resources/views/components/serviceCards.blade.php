@@ -4,11 +4,10 @@
         <p class="mb-5">{{ __('service.subtitleC') }}</p>
     </div>
 
-    <div class="swiper services-swiper w-full overflow-x-auto md:overflow-hidden">
-        <div id="serviceContainer" class="swiper-wrapper w-max md:w-full">
+    <div class="swiper services-swiper w-full overflow-hidden">
+        <div id="serviceContainer" class="swiper-wrapper">
 
-            <a class="swiper-slide !w-[85vw] max-w-xs shrink-0 p-5" href="{{ route('services.startHere') }}"
-                wire:navigate>
+            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.startHere') }}" wire:navigate>
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">
                     <svg class="mb-7 w-10 h-10 p-1 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
@@ -24,8 +23,7 @@
                 </div>
             </a>
 
-            <a class="swiper-slide !w-[85vw] max-w-xs shrink-0 p-5" href="{{ route('services.guidanceSession') }}"
-                wire:navigate>
+            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.guidanceSession') }}" wire:navigate>
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border-2 border-primary bg-white p-5 shadow-md relative transition md:hover:border-primary-light md:hover:scale-105 md:hover:z-50">
                     <svg class="w-10 h-10 mb-7 p-1 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
@@ -46,7 +44,7 @@
                 </div>
             </a>
 
-            <a class="swiper-slide !w-[85vw] max-w-xs shrink-0 p-5" href="{{ route('services.accomodationGuide') }}"
+            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.accomodationGuide') }}"
                 wire:navigate>
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">
@@ -63,8 +61,7 @@
                 </div>
             </a>
 
-            <a class="swiper-slide !w-[85vw] max-w-xs shrink-0 p-5" href="{{ route('services.resumeReview') }}"
-                wire:navigate>
+            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.resumeReview') }}" wire:navigate>
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">
                     <svg class="w-10 h-10 p-1 mb-7 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
@@ -80,8 +77,7 @@
                 </div>
             </a>
 
-            <a class="swiper-slide !w-[85vw] max-w-xs shrink-0 p-5" href="{{ route('services.documentReview') }}"
-                wire:navigate>
+            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.documentReview') }}" wire:navigate>
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">
                     <svg class="w-10 h-10 p-1 mb-7 text-tertiary bg-primary-light/20 rounded-xl shrink-0"
@@ -97,8 +93,7 @@
                 </div>
             </a>
 
-            <a class="swiper-slide !w-[85vw] max-w-xs shrink-0 p-5" href="{{ route('services.workReadiness') }}"
-                wire:navigate>
+            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.workReadiness') }}" wire:navigate>
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">
                     <svg class="w-10 h-10 p-1 mb-7 text-tertiary bg-primary-light/20 rounded-xl shrink-0"

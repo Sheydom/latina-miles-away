@@ -4,8 +4,8 @@
         <p class="mb-5">{{ __('service.subtitleC') }}</p>
     </div>
 
-    <div class="swiper services-swiper w-full overflow-hidden">
-        <div id="serviceContainer" class="swiper-wrapper">
+    <div class="swiper services-swiper w-full overflow-x-scroll md:overflow-hidden">
+        <div id="serviceContainer" class="swiper-wrapper ">
 
             <a class="swiper-slide w-[85vw]! max-w-xs p-5" href="{{ route('services.startHere') }}"
                 onclick="Livewire.navigate(this.href); return false;">

@@ -9,7 +9,7 @@
 
 <x-layout.app :metaTitle="$metaTitle" :metaDescription="$metaDescription" :ogTitle="$ogTitle" :ogDescription="$ogDescription" :ogImage="$ogImage"
     :ogUrl="$ogUrl">
-    <section class="w-full bg-linear-to-b from-primary to-[#EAEFEF] py-10 md:py-16">
+    <section class="w-full h-full bg-linear-to-b from-primary to-[#EAEFEF] py-10 md:py-16">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="grid gap-6 items-start lg:grid-cols-[1.05fr_0.95fr]">
 
@@ -148,5 +148,6 @@
 
             </div>
         </div>
+        <x-serviceCards></x-serviceCards>
     </section>
 </x-layout.app>

@@ -2,7 +2,8 @@
 
 return [
     'title' => 'Cómo puedo apoyarte en tu proceso',
-
+    'titleC' => 'Explora más servicios',
+    'subtitleC' => 'Cada camino es diferente. Descubre otros servicios que pueden ayudarte en tu proceso de mudanza a Australia.',
     'subtitle' => 'Ya sea que estés empezando o necesites apoyo específico, aquí tienes las formas en las que puedo ayudarte a avanzar con confianza.',
 
     'badges' => [

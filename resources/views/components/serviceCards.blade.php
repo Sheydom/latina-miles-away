@@ -7,7 +7,7 @@
     <div class="swiper services-swiper w-full overflow-hidden">
         <div id="serviceContainer" class="swiper-wrapper">
 
-            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.startHere') }}"
+            <a class="swiper-slide w-[85vw]! max-w-xs p-5" href="{{ route('services.startHere') }}"
                 onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">
@@ -24,7 +24,7 @@
                 </div>
             </a>
 
-            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.guidanceSession') }}"
+            <a class="swiper-slide w-[85vw]! max-w-xs p-5" href="{{ route('services.guidanceSession') }}"
                 onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border-2 border-primary bg-white p-5 shadow-md relative transition md:hover:border-primary-light md:hover:scale-105 md:hover:z-50">
@@ -46,7 +46,7 @@
                 </div>
             </a>
 
-            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.accomodationGuide') }}"
+            <a class="swiper-slide w-[85vw]! max-w-xs p-5" href="{{ route('services.accomodationGuide') }}"
                 onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">
@@ -63,7 +63,7 @@
                 </div>
             </a>
 
-            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.resumeReview') }}"
+            <a class="swiper-slide w-[85vw]! max-w-xs p-5" href="{{ route('services.resumeReview') }}"
                onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">
@@ -80,7 +80,7 @@
                 </div>
             </a>
 
-            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.documentReview') }}"
+            <a class="swiper-slide w-[85vw]! max-w-xs p-5" href="{{ route('services.documentReview') }}"
                onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">
@@ -97,7 +97,7 @@
                 </div>
             </a>
 
-            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.workReadiness') }}"
+            <a class="swiper-slide w-[85vw]! max-w-xs p-5" href="{{ route('services.workReadiness') }}"
                 onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">

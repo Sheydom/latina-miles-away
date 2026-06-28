@@ -11,14 +11,14 @@ import "swiper/css/pagination";
 Swiper.use([Autoplay, Navigation, Pagination]);
 
 document.addEventListener("livewire:navigated", () => {
-    const el = document.querySelector(".services-swiper");
-
-    if (!el || el.swiper) return;
-
     const isMobile = window.innerWidth < 768;
     if(isMobile){
         return;
     }
+    const el = document.querySelector(".services-swiper");
+
+    if (!el || el.swiper) return;
+
 
     new Swiper(el, {
         loop: true,

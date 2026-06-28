@@ -16,6 +16,9 @@ document.addEventListener("livewire:navigated", () => {
     if (!el || el.swiper) return;
 
     const isMobile = window.innerWidth < 768;
+    if(isMobile){
+        return;
+    }
 
     new Swiper(el, {
         loop: true,

@@ -133,7 +133,7 @@
     <div class="flex w-full justify-center">
         <div id="serviceContainer" style="-webkit-overflow-scrolling: touch;"
             class=" flex gap-4 overflow-x-scroll services pb-2 scrollbar-visible snap-x snap-mandatory   md:overflow-visible md:grid lg:grid-cols-3 md:grid-cols-2 md:justify-items-center">
-            <a href="{{ route('services.startHere') }}" wire:navigate.hover>
+            <a href="{{ route('services.startHere') }}" onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="w-[85vw] max-w-xs flex flex-col text-start min-h-60 shrink-0 rounded-2xl snap-center border borde border-neutral-200  bg-white  p-5
                     shadow-sm
@@ -163,7 +163,7 @@
                     </div>
                 </div>
             </a>
-            <a href="{{ route('services.guidanceSession') }}" wire:navigate.hover>
+            <a href="{{ route('services.guidanceSession') }}" onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="w-[85vw] max-w-xs min-h-60 flex flex-col text-start shrink-0 rounded-2xl snap-center
                     border-2 border-primary
@@ -199,7 +199,8 @@
                 </div>
             </a>
 
-            <a href="{{ route('services.accomodationGuide') }}" wire:navigate.hover>
+            <a href="{{ route('services.accomodationGuide') }}"
+                onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="w-[85vw] max-w-xs min-h-60  shrink-0  rounded-2xl snap-center
                     border border-neutral-200
@@ -229,7 +230,7 @@
                     </div>
                 </div>
             </a>
-            <a href="{{ route('services.resumeReview') }}" wire:navigate.hover>
+            <a href="{{ route('services.resumeReview') }}" onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="w-[85vw] max-w-xs min-h-60  shrink-0 rounded-2xl snap-center
                     border border-neutral-200
@@ -259,7 +260,7 @@
                     </div>
                 </div>
             </a>
-            <a href="{{ route('services.documentReview') }}" wire:navigate.hover>
+            <a href="{{ route('services.documentReview') }}" onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="w-[85vw] max-w-xs min-h-60  shrink-0 rounded-2xl snap-center
                         border border-neutral-200
@@ -289,7 +290,7 @@
                     </div>
                 </div>
             </a>
-            <a href="{{ route('services.workReadiness') }}" wire:navigate.hover>
+            <a href="{{ route('services.workReadiness') }}" onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="w-[85vw] max-w-xs min-h-60  shrink-0  rounded-2xl snap-center
                     border border-neutral-200 

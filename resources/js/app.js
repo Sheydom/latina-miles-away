@@ -29,8 +29,8 @@ document.addEventListener("livewire:navigated", () => {
                   disableOnInteraction: false,
                   pauseOnMouseEnter: true,
               },
-        preventClicks: false,
-        preventClicksPropagation: false,
+        preventClicks: true,
+        preventClicksPropagation: true,
     });
 });
 

@@ -18,6 +18,7 @@
 
             <div class="space-y-5">
                 <p id="success" class="text-green-500 hidden"></p>
+                <p id="error" class="text-red-500 hidden"></p>
                 <div>
                     {{-- honeypot --}}
                     <input class="hidden" type="text" name="spam">

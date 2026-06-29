@@ -211,7 +211,7 @@ document.addEventListener("livewire:navigated", initConsultationCal);
 const form = document.getElementById("form");
 
 const success = document.getElementById("success");
-console.log(form);
+const error = document.getElementById("error");
 
 if (form) {
     const submitBtn = form.querySelector('button[type="submit"]');
@@ -220,8 +220,28 @@ if (form) {
 
         const formData = new FormData(form);
         const spam = formData.get("spam")?.trim();
+        const name = (formData.get("name") || "")?.trim();
+        const email = (formData.get("email") || "")?.trim();
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        const tel = (formData.get("phone") || "")?.trim();
+        const errors = [];
 
         if (spam) {
+            return;
+        }
+        if (name.length < 3 || name.length > 20) {
+            errors.push("Name must be between 3 and 20 characters.");
+        }
+        if (!emailRegex.test(email)) {
+            errors.push("Invalid Email");
+        }
+        if ((tel !== "" && tel.length < 6) || (tel != "" && tel.length > 20)) {
+            console.log("fail");
+            errors.push("Invalid Phone Number");
+        }
+        if (errors.length > 0) {
+            error.innerHTML = errors.join("<br>");
+            error.classList.remove("hidden");
             return;
         }
 
@@ -242,7 +262,8 @@ if (form) {
             const data = await response.json();
 
             if (response.ok) {
-                success.style.display = "block";
+                error.classList.add("hidden");
+                success.classList.remove("hidden");
                 success.textContent = "Message successful sent!";
                 form.reset();
             } else {

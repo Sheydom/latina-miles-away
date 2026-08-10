@@ -1,4 +1,62 @@
-<footer class="flex flex-col text-center bg-soft">
+<footer class="flex flex-col justify-center bg-soft">
+    <h2 class="text-center mb-5">Usefull Contact's</h2>
+
+    <div class="flex flex-wrap justify-center gap-6 w-full">
+
+        <a
+            href="mailto:Rosario.garate@weareknowmad.com?subject=Consulta%20-%20Referido%20por%20Sheyla&body=Hola%20Rosario%2C%0A%0ATe%20escribo%20de%20parte%20de%20Sheyla%20de%20Latina%20Miles%20Away.%20Me%20gustaría%20recibir%20información%20sobre%20mis%20opciones%20para%20estudiar%20en%20Australia.%0A%0AMi%20consulta%20es%3A%20"
+            rel="noopener noreferrer"
+            class="group flex flex-col items-center gap-3 w-44 p-4
+               bg-white rounded-2xl shadow-md
+               transition-all duration-300
+               hover:-translate-y-1 hover:shadow-xl"
+        >
+            <img
+                class="w-32 aspect-square object-contain rounded-xl"
+                src="{{ asset('/images/weareknowmad.png') }}"
+                alt="We Are Knowmad Logo"
+            >
+
+            <div class="text-center mt-auto">
+                <h3 class="font-semibold text-gray-800">
+                    We Are Knowmad
+                </h3>
+
+                <p class="text-xs text-gray-500 mt-1">
+                    <span class="text-[9px] text-gray-500 mt-1">Rosario.garate@weareknowmad.com</span><br>
+                    {{__('footer.contacts.weareknowmad')}} →
+                </p>
+            </div>
+        </a>
+
+
+        <a
+            href="https://www.entrelingo.com/traduce?ref=LATINAMILESAWAY"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="group flex flex-col items-center gap-3 w-44 p-4
+               bg-white rounded-2xl shadow-md
+               transition-all duration-300
+               hover:-translate-y-1 hover:shadow-xl"
+        >
+            <img
+                class="w-32 aspect-square object-contain rounded-xl"
+                src="{{ asset('/images/entrelingo.png') }}"
+                alt="Entrelingo Logo"
+            >
+
+            <div class="text-center mt-auto">
+                <h3 class="font-semibold text-gray-800">
+                    Entrelingo
+                </h3>
+
+                <p class="text-xs text-gray-500 mt-1">
+                    {{__('footer.contacts.entrelingo')}} →
+                </p>
+            </div>
+        </a>
+
+    </div>
 
 
     <div class="flex gap-4 justify-center text-gray-600 mt-16 mb-6">

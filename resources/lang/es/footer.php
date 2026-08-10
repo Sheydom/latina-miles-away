@@ -3,7 +3,7 @@
 return [
 
     'contacts'=>[
-        'weareknowmad'=>'Agencia estudiantil',
+        'weareknowmad'=>'Agencia de estudios',
         'entrelingo' => 'Servicios de traducción',
     ],
     'links' => [

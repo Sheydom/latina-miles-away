@@ -2,6 +2,10 @@
 
 return [
 
+    'contacts'=>[
+        'weareknowmad'=>'Agencia estudiantil',
+        'entrelingo' => 'Servicios de traducción',
+    ],
     'links' => [
         'terms' => 'Términos de servicio',
         'privacy' => 'Política de privacidad',

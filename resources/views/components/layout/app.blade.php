@@ -74,6 +74,7 @@
     <x-header />
     <main class="grow flex flex-col items-center bg-soft">{{ $slot }}</main>
     <x-footer />
+    <x-whatsappButton />
     @livewireScripts
 </body>
 

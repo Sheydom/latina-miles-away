@@ -44,6 +44,7 @@
     <x-hero />
     <x-services />
     <x-trust />
+    <x-testimonials />
     <x-secure />
     <x-lastCallToAction />
 </x-layout.app>

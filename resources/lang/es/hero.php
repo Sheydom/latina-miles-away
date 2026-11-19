@@ -8,6 +8,4 @@ return [
     'title' => 'Todo lo que necesitas <br class="hidden sm:block"> para comenzar en Australia',
 
     'subTitle' => 'Orientación real de alguien que ha estado en tu lugar — ayudándote a evitar errores y tomar decisiones más inteligentes desde el primer día.',
-
-    'button' => 'Empieza tu proceso hoy ->',
 ];

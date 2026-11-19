@@ -52,6 +52,9 @@
                                 <li>{{ __('service_guidance.topics.items.job') }}</li>
                                 <li>{{ __('service_guidance.topics.items.mistakes') }}</li>
                             </ul>
+                            <p class="mt-4 text-xs text-neutral-500 md:text-sm">
+                                {{ __('service_guidance.topics.note') }}
+                            </p>
                         </div>
 
                         <div class="rounded-2xl bg-neutral-50 p-5">

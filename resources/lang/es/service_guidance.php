@@ -4,7 +4,7 @@ return [
 
     'meta' => [
         'title' => 'Asesoría personalizada en Australia | Latina Miles Away',
-        'description' => 'Reserva una sesión de asesoría 1 a 1 para recibir orientación personalizada sobre visas, trabajo y cómo establecerte en Australia, basada en mi experiencia.',
+        'description' => 'Reserva una sesión 1 a 1 para recibir orientación práctica sobre trabajo y cómo establecerte en Australia, basada en mi propia experiencia como latina que hizo el cambio.',
     ],
 
     'hero' => [
@@ -21,12 +21,13 @@ return [
     'topics' => [
         'title' => 'De qué podemos hablar',
         'items' => [
-            'visa' => 'Tu camino a Australia basado en experiencia personal real',
-            'documents' => 'Qué documentos podrías necesitar',
-            'application' => 'Cómo prepararte para tu proceso de aplicación',
+            'visa' => 'Mi propio camino a Australia y lo que aprendí en el proceso',
+            'documents' => 'Trámites prácticos al llegar (TFN, cuenta bancaria, teléfono, transporte)',
+            'application' => 'Cómo prepararte para postular a trabajos en Australia',
             'job' => 'Estrategias para trabajo y establecimiento en Australia',
             'mistakes' => 'Cómo evitar errores comunes',
         ],
+        'note' => 'Comparto mi experiencia personal; esto no es asesoría migratoria ni legal. Para preguntas sobre visas, consulta con un agente de migración registrado (OMARA).',
     ],
 
     'included' => [

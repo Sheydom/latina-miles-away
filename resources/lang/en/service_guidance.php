@@ -4,7 +4,7 @@ return [
 
     'meta' => [
         'title' => 'Personal Guidance Australia | Latina Miles Away',
-        'description' => 'Book a 1-on-1 guidance session for personalised advice on visas, jobs, and settling in Australia based on my experience.',
+        'description' => 'Book a 1-on-1 guidance session for practical support with jobs and settling in Australia, based on my own experience as a Latina who made the move.',
     ],
 
     'hero' => [
@@ -21,12 +21,13 @@ return [
     'topics' => [
         'title' => 'What we can talk about',
         'items' => [
-            'visa' => 'Your visa pathway based on real personal experience',
-            'documents' => 'What documents you may need',
-            'application' => 'How to prepare for your application process',
+            'visa' => 'My own journey to Australia and what I learned along the way',
+            'documents' => 'Practical things to sort out when you arrive (TFN, bank account, phone, transport)',
+            'application' => 'How to prepare for job applications in Australia',
             'job' => 'Job and settlement strategies',
             'mistakes' => 'How to avoid common mistakes',
         ],
+        'note' => 'I share my personal experience; this is not migration or legal advice. For visa questions, please contact a registered migration agent (OMARA).',
     ],
 
     'included' => [

@@ -4,7 +4,7 @@ return [
 
     'meta' => [
         'title' => 'Servicio de revisión de documentos en Australia | Latina Miles Away',
-        'description' => 'Haz revisar tus documentos antes de enviarlos para solicitudes de visa o trabajo. Evita errores comunes y gana confianza con una revisión profesional de documentos.',
+        'description' => 'Haz revisar tus documentos en inglés antes de enviarlos. Redacción clara y natural para declaraciones, correos y solicitudes.',
     ],
 
     'hero' => [
@@ -23,11 +23,11 @@ return [
         'items' => [
             'statutory' => 'Declaraciones juradas',
             'statements' => 'Declaraciones personales',
-            'visa' => 'Documentos de apoyo relacionados con visas',
-            'visa_note' => '(sin asesoramiento legal)',
+            'cover' => 'Cartas de presentación',
             'emails' => 'Correos para propietarios o empleadores',
             'applications' => 'Solicitudes generales',
         ],
+        'note' => 'Reviso solo el idioma y la claridad. No preparo solicitudes de visa ni doy asesoría migratoria o legal.',
     ],
 
     'quote' => 'Me enfoco en hacer que tu mensaje sea claro, natural y fácil de entender — no solo en corregir la gramática.',

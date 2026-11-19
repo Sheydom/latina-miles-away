@@ -4,7 +4,7 @@ return [
 
     'meta' => [
         'title' => 'Document Review Service Australia | Latina Miles Away',
-        'description' => 'Get your documents checked before submitting visa or job applications. Avoid common mistakes and gain confidence with professional document review.',
+        'description' => 'Get your English documents checked before you send them. Clear, natural wording for statements, emails and applications.',
     ],
 
     'hero' => [
@@ -23,11 +23,11 @@ return [
         'items' => [
             'statutory' => 'Statutory declarations',
             'statements' => 'Personal statements',
-            'visa' => 'Visa-related supporting documents',
-            'visa_note' => '(non-legal advice)',
+            'cover' => 'Cover letters',
             'emails' => 'Emails for landlords or employers',
             'applications' => 'General applications',
         ],
+        'note' => 'I review language and clarity only. I don\'t prepare visa applications or give migration or legal advice.',
     ],
 
     'quote' => 'I focus on making your message clear, natural, and easy to understand — not just correcting grammar.',

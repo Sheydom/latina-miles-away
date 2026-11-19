@@ -45,13 +45,13 @@
                         <ul class="list-disc space-y-2 pl-5  text-neutral-600 marker:text-tertiary">
                             <li>{{ __('document_review.help.items.statutory') }}</li>
                             <li>{{ __('document_review.help.items.statements') }}</li>
-                            <li>
-                                {{ __('document_review.help.items.visa') }}
-                                <span class="italic">{{ __('document_review.help.items.visa_note') }}</span>
-                            </li>
+                            <li>{{ __('document_review.help.items.cover') }}</li>
                             <li>{{ __('document_review.help.items.emails') }}</li>
                             <li>{{ __('document_review.help.items.applications') }}</li>
                         </ul>
+                        <p class="mt-4 text-xs text-neutral-500 md:text-sm">
+                            {{ __('document_review.help.note') }}
+                        </p>
                     </div>
 
                     <div class="rounded-2xl bg-primary/10 p-5">

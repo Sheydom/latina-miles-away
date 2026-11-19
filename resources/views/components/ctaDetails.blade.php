@@ -33,11 +33,11 @@
 
     <p class="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1">
         <span>{{ __('cta.or') }}</span>
-        <a href="{{ lroute('services.startHere') }}" wire:navigate.hover class="font-semibold {{ $link }}">{{ __('cta.free_guides') }}</a>
+        <a href="{{ lroute('services.startHere') }}" wire:navigate.hover data-track="free_guides_click" class="font-semibold {{ $link }}">{{ __('cta.free_guides') }}</a>
         @if ($whatsapp)
             <span class="whitespace-nowrap">
                 <span class="mr-2 hidden sm:inline" aria-hidden="true">·</span>
-                <a href="{{ $whatsapp }}" target="_blank" rel="noopener noreferrer"
+                <a href="{{ $whatsapp }}" target="_blank" rel="noopener noreferrer" data-track-location="cta_details"
                     class="font-semibold {{ $link }}">{{ __('cta.whatsapp') }}</a>
             </span>
         @endif

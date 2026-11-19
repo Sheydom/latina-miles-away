@@ -43,3 +43,36 @@ test('testimonials section shows the items', function () {
         ->assertSee('Test quote')
         ->assertSee('Ana');
 });
+
+test('free services carry a Free / Gratis badge', function () {
+    $badge = '#bg-tertiary[^"]*">\s*%s\s*</span>#';
+
+    expect($this->get('/')->getContent())->toMatch(sprintf($badge, 'Gratis'));
+    expect($this->get('/en')->assertDontSee('Start Here — Free')->getContent())->toMatch(sprintf($badge, 'Free'));
+});
+
+test('FAQ shows in both languages with valid structured data', function () {
+    foreach (['/' => '¿Eres agente de migración?', '/en' => 'Are you a migration agent?'] as $path => $question) {
+        $html = $this->get($path)->assertSee($question)->getContent();
+
+        preg_match_all('#<script type="application/ld\+json">(.*?)</script>#s', $html, $m);
+        $faq = collect($m[1])->map(fn ($json) => json_decode($json, true))->firstWhere('@type', 'FAQPage');
+
+        expect($faq)->not->toBeNull()
+            ->and($faq['mainEntity'][0]['name'])->toBe($question)
+            ->and(collect($faq['mainEntity'])->pluck('acceptedAnswer.text')->implode(' '))
+            ->toContain(config('site.consultation.price'))
+            ->not->toContain(':minutes')
+            ->not->toContain('<a');
+    }
+});
+
+test('English pages say the PDFs are in Spanish', function () {
+    $this->get('/en/services/startHere')->assertSee('Download PDF (in Spanish)');
+    $this->get('/en/services/accomodationGuide')->assertSee('Download Full Guide (in Spanish)');
+});
+
+test('privacy policy discloses Google Analytics', function () {
+    $this->get('/legal/privacy')->assertSee('Google Analytics');
+    $this->get('/en/legal/privacy')->assertSee('Google Analytics');
+});

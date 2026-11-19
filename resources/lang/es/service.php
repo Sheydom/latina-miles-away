@@ -7,11 +7,12 @@ return [
     'subtitle' => 'Ya sea que estés empezando o necesites apoyo específico, aquí tienes las formas en las que puedo ayudarte a avanzar con confianza.',
 
     'badges' => [
+        'free' => 'Gratis',
         'most_popular' => 'Más popular',
         'most_value' => 'Mejor valor',
     ],
     'startHere' => [
-        'title' => 'Empieza aquí — Gratis',
+        'title' => 'Empieza aquí',
         'titleParagraph' => 'Accede a guías gratuitas, listas de verificación y consejos esenciales para ayudarte a prepararte antes de llegar y evitar errores comunes.',
         'learnMore' => 'Más información →',
     ],
@@ -23,7 +24,7 @@ return [
     ],
 
     'accommodation' => [
-        'title' => 'Guía de alojamiento - Gratis',
+        'title' => 'Guía de alojamiento',
         'paragraph' => 'Aprende cómo encontrar tu primera vivienda en Australia, evitar estafas comunes y tomar decisiones seguras sobre alojamiento.',
         'learn_more' => 'Más información ->',
     ],

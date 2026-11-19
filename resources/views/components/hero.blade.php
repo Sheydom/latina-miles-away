@@ -53,6 +53,7 @@
                 type="button"
                 data-cal-link="{{ config('site.consultation.cal_link') }}"
                 data-cal-namespace="consultation"
+                data-track-location="hero"
                 data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":true}'
                 class="mt-6 w-full rounded-2xl bg-[#4CC9D4] px-4 py-4 text-xl font-bold text-white
                 shadow-[0_10px_25px_rgba(52,160,169,0.45)]

@@ -7,12 +7,13 @@ return [
     'subtitle' => 'Whether you`re just getting started or need specific support, here are the ways I can help you move forward with confidence.',
 
     'badges' => [
+        'free' => 'Free',
         'most_popular' => 'Most Popular',
         'most_value' => 'Most Value',
     ],
 
     'startHere' => [
-        'title' => 'Start Here — Free',
+        'title' => 'Start Here',
         'titleParagraph' => 'Access free guides, checklists, and essential tips to help you prepare before arriving and
         avoid common mistakes.',
         'learnMore' => 'Learn More ->',
@@ -25,7 +26,7 @@ return [
     ],
 
     'accommodation' => [
-        'title' => 'Accommodation Guide - Free',
+        'title' => 'Accommodation Guide',
         'paragraph' => 'Learn how to find your first place in Australia, avoid common scams, and make safe housing decisions.',
         'learn_more' => 'Learn More ->',
     ],

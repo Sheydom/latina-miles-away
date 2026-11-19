@@ -30,7 +30,7 @@
                 Resources
             </button> --}}
 
-            <button data-cal-link="{{ config('site.consultation.cal_link') }}" data-cal-namespace="consultation"
+            <button data-cal-link="{{ config('site.consultation.cal_link') }}" data-cal-namespace="consultation" data-track-location="header"
                 data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":true}'
                 class="rounded-xl px-3 py-2 font-semibold text-white transition duration-200 cursor-pointer
                 bg-linear-to-r from-[#34A0A9] to-[#4CC9D4]

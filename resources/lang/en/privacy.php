@@ -4,7 +4,7 @@ return [
 
     'title' => 'Privacy Policy',
 
-    'last_updated' => 'Last updated: March 2026',
+    'last_updated' => 'Last updated: November 2026',
 
     'business_name' => 'Business name: Latina Miles Away',
 
@@ -54,6 +54,8 @@ return [
             'stripe' => 'Stripe (payment processing)',
             'booking' => 'Online booking platforms',
             'email' => 'Email and communication services',
+            'analytics' => 'Google Analytics (anonymous website usage statistics, such as pages visited and buttons clicked, using cookies)',
+            'whatsapp' => 'WhatsApp (only if you choose to contact us there)',
         ],
 
         'contact_title' => 'Contact',

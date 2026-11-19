@@ -4,7 +4,7 @@ return [
 
     'title' => 'Política de privacidad',
 
-    'last_updated' => 'Última actualización: Marzo 2026',
+    'last_updated' => 'Última actualización: Noviembre 2026',
 
     'business_name' => 'Nombre del negocio: Latina Miles Away',
 
@@ -54,6 +54,8 @@ return [
             'stripe' => 'Stripe (procesamiento de pagos)',
             'booking' => 'Plataformas de reservas en línea',
             'email' => 'Servicios de correo electrónico y comunicación',
+            'analytics' => 'Google Analytics (estadísticas anónimas de uso del sitio, como páginas visitadas y botones usados, mediante cookies)',
+            'whatsapp' => 'WhatsApp (solo si decides contactarnos por ese medio)',
         ],
 
         'contact_title' => 'Contacto',

@@ -15,7 +15,10 @@
                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                         <path fill="currentColor"
                             d="M192 284.4C256.1 269.9 304 212.5 304 144 304 64.5 239.5 0 160 0S16 64.5 16 144c0 68.5 47.9 125.9 112 140.4L128 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-195.6zM168 96c-30.9 0-56 25.1-56 56 0 13.3-10.7 24-24 24s-24-10.7-24-24c0-57.4 46.6-104 104-104 13.3 0 24 10.7 24 24s-10.7 24-24 24z" />
-                    </svg>
+                    </svg><span
+                            class="absolute top-3 right-3 rounded-full bg-tertiary px-2 py-1 text-xs font-semibold text-white">
+                            {{ __('service.badges.free') }}
+                        </span>
 
                     <h3 class="font-semibold text-sm mb-2">{{ __('service.startHere.title') }}</h3>
                     <p class="text-xs text-neutral-700">{{ __('service.startHere.titleParagraph') }}</p>
@@ -54,7 +57,10 @@
                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                         <path fill="currentColor"
                             d="M234.2 8.6c12.3-11.4 31.3-11.4 43.5 0L368 92.3 368 80c0-17.7 14.3-32 32-32l32 0c17.7 0 32 14.3 32 32l0 101.5 37.8 35.1c9.6 9 12.8 22.9 8 35.1S493.2 272 480 272l-16 0 0 176c0 35.3-28.7 64-64 64l-288 0c-35.3 0-64-28.7-64-64l0-176-16 0c-13.2 0-25-8.1-29.8-20.3s-1.6-26.2 8-35.1l224-208z" />
-                    </svg>
+                    </svg><span
+                            class="absolute top-3 right-3 rounded-full bg-tertiary px-2 py-1 text-xs font-semibold text-white">
+                            {{ __('service.badges.free') }}
+                        </span>
 
                     <h3 class="font-semibold text-sm mb-2">{{ __('service.accommodation.title') }}</h3>
                     <p class="text-xs text-neutral-600">{{ __('service.accommodation.paragraph') }}</p>

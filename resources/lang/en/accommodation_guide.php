@@ -37,8 +37,8 @@ return [
     'preview' => [
         'title' => 'Preview the Free Guide',
         'paragraph' => 'Have a look inside before downloading it.',
-        'open_pdf' => 'Open PDF',
-        'download' => 'Download Full Guide',
+        'open_pdf' => 'Open PDF (in Spanish)',
+        'download' => 'Download Full Guide (in Spanish)',
         'image_alt' => 'Preview of the accommodation guide',
     ],
 

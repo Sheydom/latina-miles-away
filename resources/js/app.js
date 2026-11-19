@@ -207,6 +207,7 @@ function initContactForm() {
             const data = await response.json().catch(() => ({}));
 
             if (response.ok && data.success !== false) {
+                track("generate_lead", { form: "contact" });
                 showMessage(success, msg.success);
                 form.reset();
             } else {
@@ -220,6 +221,54 @@ function initContactForm() {
         }
     });
 }
+
+// ---------------------------------------------------------------------------
+// Conversion tracking (Google Analytics 4 events)
+// ---------------------------------------------------------------------------
+// Events: booking_open, booking_completed, generate_lead (contact form),
+// whatsapp_click, guide_download, free_guides_click.
+// Mark booking_completed, generate_lead and whatsapp_click as "key events"
+// in Google Analytics (Admin → Events) to see them as conversions.
+function track(name, params = {}) {
+    if (typeof window.gtag !== "function") return;
+    window.gtag("event", name, {
+        page_path: location.pathname,
+        language: document.documentElement.lang,
+        ...params,
+    });
+}
+
+// One listener for the whole page: keeps working after wire:navigate.
+document.addEventListener("click", (e) => {
+    const el = e.target.closest("a, button");
+    if (!el) return;
+
+    if (el.matches("[data-cal-link]")) {
+        track("booking_open", { location: el.dataset.trackLocation || "page" });
+        return;
+    }
+
+    const href = el.getAttribute("href") || "";
+
+    if (href.startsWith("https://wa.me/")) {
+        track("whatsapp_click", { location: el.dataset.trackLocation || "page" });
+    } else if (/\.pdf($|\?)/i.test(href)) {
+        track("guide_download", { file_name: href.split("/").pop().split("?")[0] });
+    } else if (el.dataset.track) {
+        track(el.dataset.track);
+    }
+});
+
+// Cal.com tells the page when a booking is finished. Both event versions are
+// listened to (Cal.com renamed it), so only count one per booking.
+let lastBookingTracked = 0;
+function onBookingSuccessful() {
+    if (Date.now() - lastBookingTracked < 10000) return;
+    lastBookingTracked = Date.now();
+    track("booking_completed");
+}
+Cal.ns.consultation("on", { action: "bookingSuccessfulV2", callback: onBookingSuccessful });
+Cal.ns.consultation("on", { action: "bookingSuccessful", callback: onBookingSuccessful });
 
 // ---------------------------------------------------------------------------
 document.addEventListener("livewire:navigated", () => {

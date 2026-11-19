@@ -81,6 +81,8 @@
                 <li>{{ __('privacy.sections.third_party_list.stripe') }}</li>
                 <li>{{ __('privacy.sections.third_party_list.booking') }}</li>
                 <li>{{ __('privacy.sections.third_party_list.email') }}</li>
+                <li>{{ __('privacy.sections.third_party_list.analytics') }}</li>
+                <li>{{ __('privacy.sections.third_party_list.whatsapp') }}</li>
             </ul>
 
             <h2 class="text-lg font-semibold">

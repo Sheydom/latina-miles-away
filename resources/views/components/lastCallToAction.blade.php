@@ -21,6 +21,7 @@
                     type="button"
                     data-cal-link="{{ config('site.consultation.cal_link') }}"
                     data-cal-namespace="consultation"
+                    data-track-location="final_cta"
                     data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":true}'
                     class="w-full rounded-2xl bg-[#4CC9D4] px-8 py-4 font-semibold text-white shadow-xl cursor-pointer transition hover:-translate-y-1 hover:shadow-2xl"
                 >

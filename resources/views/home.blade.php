@@ -46,5 +46,6 @@
     <x-trust />
     <x-testimonials />
     <x-secure />
+    <x-faq />
     <x-lastCallToAction />
 </x-layout.app>

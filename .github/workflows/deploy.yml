@@ -15,10 +15,18 @@ jobs:
           set -e
           cd /opt/docker-sites/latinamilesaway
 
-          # package-lock.json is generated; drop local edits on the server
-          # (e.g. from a manual "npm install") so the pull can't be blocked
-          git checkout -- package-lock.json
-          git pull origin main
+          # The server must run exactly what is on GitHub. Finish any half-done
+          # merge, keep server-only commits/edits in a backup branch, then
+          # move to origin/main. (Backups: git branch --list 'server-backup-*')
+          git merge --abort 2>/dev/null || true
+          git fetch origin main
+          if [ -n "$(git status --porcelain --untracked-files=no)" ] || [ -n "$(git log origin/main..HEAD --oneline)" ]; then
+            backup="server-backup-$(date +%Y%m%d-%H%M%S)"
+            git stash push -m "$backup" || true
+            git branch "$backup" HEAD
+            echo "Saved server-only changes: branch $backup (and stash '$backup')"
+          fi
+          git reset --hard origin/main
 
           # PHP dependencies (picks up composer.lock changes)
           docker exec latinamilesaway_app bash -lc "cd /var/www && composer install --no-dev --optimize-autoloader --no-interaction"

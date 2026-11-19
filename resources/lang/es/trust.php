@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'greeting' => 'Hola, soy <strong>Sheyla Solis Bolivar</strong>',
+    'greeting' => 'Hola, soy <strong>Sheyla</strong>',
     'photoAlt' => 'Sheyla Solis Bolivar, fundadora de Latina Miles Away',
     'certAlt' => 'Título de abogada de Sheyla Solis Bolivar',
     'title' => '<span class="text-primary">He estado</span> en tu lugar',

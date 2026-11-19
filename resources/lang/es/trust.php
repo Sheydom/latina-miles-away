@@ -1,6 +1,9 @@
 <?php
 
 return [
+    'greeting' => 'Hola, soy <strong>Sheyla Solis Bolivar</strong>',
+    'photoAlt' => 'Sheyla Solis Bolivar, fundadora de Latina Miles Away',
+    'certAlt' => 'Título de abogada de Sheyla Solis Bolivar',
     'title' => '<span class="text-primary">He estado</span> en tu lugar',
 
     'firstParagraph' => 'Originalmente formada y

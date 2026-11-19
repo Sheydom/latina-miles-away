@@ -3,7 +3,7 @@
     $metaTitle = __('accommodation_guide.meta.title');
     $ogTitle = $metaTitle;
     $ogDescription = $metaDescription;
-    $ogImage = asset('images/lmaLogo.PNG');
+    $ogImage = asset('images/lmaLogo.png');
     $ogUrl = 'https://latinamilesaway.com';
 @endphp
 

@@ -13,22 +13,22 @@
 
         </div>
 
-        <form id="form"
+        <form id="form" data-messages="{{ json_encode(__('contactForm.js')) }}"
             class="grid gap-6 rounded-3xl border border-gray-200 bg-white p-6 shadow-xl md:grid-cols-2 lg:grid-cols-[300px_1fr] xl:grid-cols-[300px_400px]">
 
             <div class="space-y-5">
-                <p id="success" class="text-green-500 hidden"></p>
-                <p id="error" class="text-red-500 hidden"></p>
+                <p id="success" class="text-green-600 hidden" role="status"></p>
+                <p id="error" class="text-red-500 hidden" role="alert"></p>
                 <div>
                     {{-- honeypot --}}
-                    <input class="hidden" type="text" name="spam">
+                    <input class="hidden" type="text" name="spam" tabindex="-1" autocomplete="off" aria-hidden="true">
                     <label class="mb-2 block text-sm font-medium text-gray-700" for="name">
                         {{ __('contactForm.name') }} <span class="text-red-500">*</span>
                     </label>
                     <input
                         class="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 outline-none transition focus:border-primary focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,245,255,0.15)]"
-                        placeholder="John Smith" id="name" name="name" type="text" required minlength="3"
-                        maxlength="20">
+                        placeholder="John Smith" id="name" name="name" type="text" autocomplete="name" required minlength="2"
+                        maxlength="60">
                 </div>
 
                 <div>
@@ -37,7 +37,7 @@
                     </label>
                     <input
                         class="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 outline-none transition focus:border-primary focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,245,255,0.15)]"
-                        placeholder="john.smith@gmail.com" id="email" required name="email" type="email">
+                        placeholder="john.smith@gmail.com" id="email" required name="email" type="email" autocomplete="email" maxlength="100">
                 </div>
 
                 <div>
@@ -46,7 +46,7 @@
                     </label>
                     <input
                         class="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 outline-none transition focus:border-primary focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,245,255,0.15)]"
-                        placeholder="+61 416 334 712" id="phone" name="phone" type="tel" minlength="6"
+                        placeholder="+61 416 334 712" id="phone" name="phone" type="tel" autocomplete="tel" minlength="6"
                         maxlength="20">
                 </div>
 
@@ -56,8 +56,8 @@
                     </label>
                     <input
                         class="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 outline-none transition focus:border-primary focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,245,255,0.15)]"
-                        placeholder="Peru" id="country" name="country" type="text" required minlength="3"
-                        maxlength="20">
+                        placeholder="Peru" id="country" name="country" type="text" autocomplete="country-name" required minlength="2"
+                        maxlength="56">
                 </div>
             </div>
 
@@ -69,7 +69,7 @@
                 <textarea
                     class="max-h-40 sm:min-h-65 flex-1 resize-none rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 outline-none transition focus:border-primary focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,245,255,0.15)]"
                     placeholder="{{ __('contactForm.write') }}" id="message" name="message" rows="10" required minlength="15"
-                    maxlength="255"></textarea>
+                    maxlength="2000"></textarea>
 
                 <button type="submit"
                     class="mt-5 rounded-xl cursor-pointer bg-black px-6 py-4 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-lg">

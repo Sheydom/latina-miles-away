@@ -3,7 +3,7 @@
     $metaTitle = __('startHere.pageHeader.pageTitle');
     $ogTitle = $metaTitle;
     $ogDescription = $metaDescription;
-    $ogImage = asset('images/lmaLogo.PNG');
+    $ogImage = asset('images/lmaLogo.png');
     $ogUrl = 'https://latinamilesaway.com/free-guides';
 @endphp
 

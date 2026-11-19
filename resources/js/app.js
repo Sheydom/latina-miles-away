@@ -10,7 +10,13 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 Swiper.use([Autoplay, Navigation, Pagination]);
 
-document.addEventListener("livewire:navigated", () => {
+// Livewire fires "livewire:navigated" on the first page load AND after every
+// wire:navigate page change, so all page-specific setup runs from there.
+
+// ---------------------------------------------------------------------------
+// Services carousel
+// ---------------------------------------------------------------------------
+function initServicesSwiper() {
     const el = document.querySelector(".services-swiper");
 
     if (!el || el.swiper) return;
@@ -28,47 +34,52 @@ document.addEventListener("livewire:navigated", () => {
         preventClicks: true,
         preventClicksPropagation: true,
     });
-});
+}
 
-document.addEventListener("DOMContentLoaded", () => {
+// ---------------------------------------------------------------------------
+// Certificate modal (trust section on the home page)
+// ---------------------------------------------------------------------------
+function initCertModal() {
     const openBtn = document.getElementById("openCertModal");
     const closeBtnX = document.getElementById("closeCertModalX");
     const modal = document.getElementById("certModal");
     const image = document.getElementById("certImage");
 
-    if (!openBtn || !image || !modal) {
-        console.log("One or more elements not found");
-        return;
-    }
+    if (!openBtn || !modal || modal.dataset.initialized === "true") return;
+    modal.dataset.initialized = "true";
 
-    openBtn.addEventListener("click", () => {
-        console.log("Open button clicked");
-        modal.style.display = "flex";
-    });
+    const open = () => (modal.style.display = "flex");
+    const close = () => (modal.style.display = "none");
 
-    closeBtnX.addEventListener("click", () => {
-        console.log("Close button clicked");
-        modal.style.display = "none";
-    });
-
+    openBtn.addEventListener("click", open);
+    closeBtnX?.addEventListener("click", close);
+    image?.addEventListener("click", close);
     modal.addEventListener("click", (e) => {
-        if (e.target === modal) {
-            console.log("Modal background clicked");
-            modal.style.display = "none";
-        }
+        if (e.target === modal) close();
     });
-    image.addEventListener("click", () => {
-        modal.style.display = "none";
-    });
-    document.addEventListener("keydown", (e) => {
-        if (e.key === "Escape") {
-            modal.style.display = "none";
-        }
-    });
+}
+
+// Registered once (not per navigation) so listeners don't pile up.
+document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    const modal = document.getElementById("certModal");
+    if (modal) modal.style.display = "none";
 });
 
-// calendar script for buttons
+// ---------------------------------------------------------------------------
+// Cal.com (popup buttons + inline booking on the guidance session page)
+// ---------------------------------------------------------------------------
+const CAL_LINK = "sheyla-solis-qbslzw/consultation";
+const CAL_UI = {
+    cssVarsPerTheme: {
+        light: { "cal-brand": "#34a0a9" },
+        dark: { "cal-brand": "#34a0a9" },
+    },
+    hideEventTypeDetails: false,
+    layout: "month_view",
+};
 
+// Official Cal.com loader snippet (loaded once).
 (function (C, A, L) {
     let p = function (a, ar) {
         a.q.push(ar);
@@ -101,87 +112,17 @@ document.addEventListener("DOMContentLoaded", () => {
             p(cal, ar);
         };
 })(window, "https://app.cal.com/embed/embed.js", "init");
-Cal("init", "consultation", {
-    origin: "https://app.cal.com",
-});
-// Important: Please add the following attributes to the element that should trigger the calendar to open upon clicking.
-// `data-cal-link="sheyla-solis-qbslzw/consultation"`
-// data-cal-namespace="consultation"
-// `data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'`
-Cal.ns.consultation("ui", {
-    cssVarsPerTheme: {
-        light: {
-            "cal-brand": "#34a0a9",
-        },
-        dark: {
-            "cal-brand": "#34a0a9",
-        },
-    },
-    hideEventTypeDetails: false,
-    layout: "month_view",
-});
 
-// calendar script for imbedded
-
-// Load Cal script only once better approach because of livewire does only preload html not script
-(function (C, A, L) {
-    if (C.Cal && C.Cal.loaded) return;
-
-    let p = function (a, ar) {
-        a.q.push(ar);
-    };
-
-    let d = C.document;
-
-    C.Cal =
-        C.Cal ||
-        function () {
-            let cal = C.Cal;
-            let ar = arguments;
-
-            if (!cal.loaded) {
-                cal.ns = {};
-                cal.q = cal.q || [];
-                d.head.appendChild(d.createElement("script")).src = A;
-                cal.loaded = true;
-            }
-
-            if (ar[0] === L) {
-                const api = function () {
-                    p(api, arguments);
-                };
-
-                const namespace = ar[1];
-                api.q = api.q || [];
-
-                if (typeof namespace === "string") {
-                    cal.ns[namespace] = cal.ns[namespace] || api;
-                    p(cal.ns[namespace], ar);
-                    p(cal, ["initNamespace", namespace]);
-                } else {
-                    p(cal, ar);
-                }
-
-                return;
-            }
-
-            p(cal, ar);
-        };
-})(window, "https://app.cal.com/embed/embed.js", "init");
+// Buttons with data-cal-link / data-cal-namespace="consultation" open the popup.
+Cal("init", "consultation", { origin: "https://app.cal.com" });
+Cal.ns.consultation("ui", CAL_UI);
 
 function initConsultationCal() {
     const bookingDiv = document.getElementById("my-cal-inline-consultation");
-    if (!bookingDiv) return;
-
-    // Prevent double-initializing the same container
-    if (bookingDiv.dataset.calInitialized === "true") return;
+    if (!bookingDiv || bookingDiv.dataset.calInitialized === "true") return;
 
     bookingDiv.dataset.calInitialized = "true";
     bookingDiv.innerHTML = "";
-
-    Cal("init", "consultation", {
-        origin: "https://app.cal.com",
-    });
 
     Cal.ns.consultation("inline", {
         elementOrSelector: "#my-cal-inline-consultation",
@@ -189,91 +130,101 @@ function initConsultationCal() {
             layout: "month_view",
             useSlotsViewOnSmallScreen: true,
         },
-        calLink: "sheyla-solis-qbslzw/consultation",
-    });
-
-    Cal.ns.consultation("ui", {
-        cssVarsPerTheme: {
-            light: {
-                "cal-brand": "#34a0a9",
-            },
-            dark: {
-                "cal-brand": "#34a0a9",
-            },
-        },
-        hideEventTypeDetails: false,
-        layout: "month_view",
+        calLink: CAL_LINK,
     });
 }
 
-document.addEventListener("livewire:navigated", initConsultationCal);
+// ---------------------------------------------------------------------------
+// Contact form (sent through Web3Forms)
+// ---------------------------------------------------------------------------
+const WEB3FORMS_KEY = "16c07403-dafb-436d-bff8-9c137f2b2afe";
 
-const form = document.getElementById("form");
+function showMessage(el, lines) {
+    el.replaceChildren();
+    [].concat(lines).forEach((line, i) => {
+        if (i > 0) el.appendChild(document.createElement("br"));
+        el.appendChild(document.createTextNode(line));
+    });
+    el.classList.remove("hidden");
+}
 
-const success = document.getElementById("success");
-const error = document.getElementById("error");
+function initContactForm() {
+    const form = document.getElementById("form");
+    if (!form || form.dataset.initialized === "true") return;
+    form.dataset.initialized = "true";
 
-if (form) {
+    const success = document.getElementById("success");
+    const error = document.getElementById("error");
     const submitBtn = form.querySelector('button[type="submit"]');
+
+    // Translated texts come from the Blade component (data-messages).
+    let msg = {};
+    try {
+        msg = JSON.parse(form.dataset.messages || "{}");
+    } catch (_) {}
+
     form.addEventListener("submit", async (e) => {
         e.preventDefault();
 
         const formData = new FormData(form);
-        const spam = formData.get("spam")?.trim();
-        const name = (formData.get("name") || "")?.trim();
-        const email = (formData.get("email") || "")?.trim();
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        const tel = (formData.get("phone") || "")?.trim();
+        const get = (key) => (formData.get(key) || "").toString().trim();
+
+        // Honeypot: bots fill the hidden field, humans don't.
+        if (get("spam")) return;
+
+        const name = get("name");
+        const email = get("email");
+        const tel = get("phone");
+        const country = get("country");
+        const message = get("message");
         const errors = [];
 
-        if (spam) {
-            return;
-        }
-        if (name.length < 3 || name.length > 20) {
-            errors.push("Name must be between 3 and 20 characters.");
-        }
-        if (!emailRegex.test(email)) {
-            errors.push("Invalid Email");
-        }
-        if ((tel !== "" && tel.length < 6) || (tel != "" && tel.length > 20)) {
-            console.log("fail");
-            errors.push("Invalid Phone Number");
-        }
+        if (name.length < 2 || name.length > 60) errors.push(msg.errorName);
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) errors.push(msg.errorEmail);
+        if (tel !== "" && (tel.length < 6 || tel.length > 20)) errors.push(msg.errorPhone);
+        if (country.length < 2 || country.length > 56) errors.push(msg.errorCountry);
+        if (message.length < 15 || message.length > 2000) errors.push(msg.errorMessage);
+
+        success.classList.add("hidden");
+
         if (errors.length > 0) {
-            error.innerHTML = errors.join("<br>");
-            error.classList.remove("hidden");
+            showMessage(error, errors);
             return;
         }
 
-        formData.append("access_key", "16c07403-dafb-436d-bff8-9c137f2b2afe");
+        error.classList.add("hidden");
+        formData.append("access_key", WEB3FORMS_KEY);
 
         const originalText = submitBtn.textContent;
-
-        submitBtn.textContent = "Sending...";
+        submitBtn.textContent = msg.sending;
         submitBtn.disabled = true;
-        success.textContent = "";
 
         try {
             const response = await fetch("https://api.web3forms.com/submit", {
                 method: "POST",
                 body: formData,
             });
+            const data = await response.json().catch(() => ({}));
 
-            const data = await response.json();
-
-            if (response.ok) {
-                error.classList.add("hidden");
-                success.classList.remove("hidden");
-                success.textContent = "Message successful sent!";
+            if (response.ok && data.success !== false) {
+                showMessage(success, msg.success);
                 form.reset();
             } else {
-                alert("Error: " + data.message);
+                showMessage(error, msg.errorSend);
             }
-        } catch (error) {
-            alert("Something went wrong. Please try again.");
+        } catch (_) {
+            showMessage(error, msg.errorSend);
         } finally {
             submitBtn.textContent = originalText;
             submitBtn.disabled = false;
         }
     });
 }
+
+// ---------------------------------------------------------------------------
+document.addEventListener("livewire:navigated", () => {
+    initServicesSwiper();
+    initCertModal();
+    initConsultationCal();
+    initContactForm();
+});

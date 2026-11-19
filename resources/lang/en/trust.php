@@ -1,6 +1,9 @@
 <?php
 
 return [
+    'greeting' => 'Hi, I\'m <strong>Sheyla Solis Bolivar</strong>',
+    'photoAlt' => 'Sheyla Solis Bolivar, founder of Latina Miles Away',
+    'certAlt' => 'Law degree certificate of Sheyla Solis Bolivar',
     'title' => '<span class="text-primary">I\'ve Been</span> in your Shoes',
     'firstParagraph' => 'Originally trained and
                     <button type="button" id="openCertModal"

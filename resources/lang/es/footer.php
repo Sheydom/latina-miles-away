@@ -2,6 +2,8 @@
 
 return [
 
+    'contactsTitle' => 'Contactos útiles',
+
     'contacts'=>[
         'weareknowmad'=>'Agencia de estudios',
         'entrelingo' => 'Servicios de traducción',

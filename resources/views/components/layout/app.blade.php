@@ -35,10 +35,7 @@
 
     <meta property="og:title" content="{{ $ogTitle ?? $metaTitle }}">
     <meta property="og:description" content="{{ $ogDescription ?? $metaDescription }}">
-    <meta property="og:image:type" content="image/png">
     <meta property="og:image" content="{{ $ogImage ?? asset('images/og-home.webp') }}">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Latina Miles Away preview image">
     <meta property="og:url" content="{{ $ogUrl ?? url()->current() }}">
     <meta property="og:type" content="website">
@@ -47,18 +44,18 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ $ogTitle ?? $metaTitle }}">
     <meta name="twitter:description" content="{{ $ogDescription ?? $metaDescription }}">
-    <meta name="twitter:image" content="{{ $ogImage ?? asset('images/lmaLogo.png') }}">
+    <meta name="twitter:image" content="{{ $ogImage ?? asset('images/og-home.webp') }}">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="{{ asset('lma.svg') }}">
-    <link rel="icon" type="image/png" sizes="48x48" href="{{ asset('lmaLogo.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('images/lmaLogo.png') }}">
 
     <link rel="preconnect" href="https://app.cal.com">
     <link rel="dns-prefetch" href="https://app.cal.com">
+    @stack('head')
     @livewireStyles
 </head>
 

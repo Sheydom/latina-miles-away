@@ -3,7 +3,7 @@
 
         <!-- Image -->
         <div class="w-full md:w-[38%]">
-            <img src="{{ asset('images/profile.webp') }}" alt="Profile picture"
+            <img src="{{ asset('images/profile.webp') }}" alt="{{ __('trust.photoAlt') }}"
                 class="mx-auto w-full max-w-sm rounded-3xl object-cover shadow-md md:max-w-none md:h-135" />
         </div>
 
@@ -13,6 +13,9 @@
                 <h2 class="text-black md:text-[clamp(2rem,4vw,3rem)]">
                     {!! __('trust.title') !!}
                 </h2>
+                <p class="mt-2 text-lg text-tertiary md:text-xl">
+                    {!! __('trust.greeting') !!}
+                </p>
             </div>
 
             <div class="space-y-5">
@@ -45,7 +48,7 @@
                 ✕
             </button>
 
-            <img id="certImage" src="{{ asset('images/lawyer.png') }}" alt="Law degree certificate full size"
+            <img id="certImage" src="{{ asset('images/lawyer.png') }}" alt="{{ __('trust.certAlt') }}"
                 class="w-full max-h-[85vh] rounded-xl bg-white object-contain shadow-lg cursor-pointer" />
         </div>
     </div>

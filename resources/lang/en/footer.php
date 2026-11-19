@@ -2,6 +2,8 @@
 
 return [
 
+    'contactsTitle' => 'Useful Contacts',
+
     'contacts'=>[
         'weareknowmad'=>'Student Agency',
         'entrelingo' => 'Translation Services',

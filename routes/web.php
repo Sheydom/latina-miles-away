@@ -2,8 +2,6 @@
 
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
-use Spatie\Sitemap\Sitemap;
-use Spatie\Sitemap\Tags\Url;
 
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::view('contact', 'contact')->name('contact');
@@ -37,25 +35,3 @@ Route::get('/lang/{locale}', function ($locale) {
     return redirect()->to((url())->previous());
 
 })->name('lang.switch');
-
-Route::get('/sitemap.xml', function () {
-    Sitemap::create()
-        ->add(Url::create('/'))
-        ->add(Url::create('/contact'))
-        ->add(Url::create('/services/startHere'))
-        ->add(Url::create('/services/accomodationGuide'))
-        ->add(Url::create('/services/resumeReview'))
-        ->add(Url::create('/services/documentReview'))
-        ->add(Url::create('/services/guidanceSession'))
-        ->add(Url::create('/services/workReadiness'))
-        ->add(Url::create('/legal/privacy'))
-        ->add(Url::create('/legal/terms'))
-        ->add(Url::create('/legal/refunds'))
-        ->add(Url::create('/legal/disclaimer'))
-        ->writeToFile(public_path('sitemap.xml'))
-        ->add(Url::create('/downloads/checklist7days-web.pdf'))
-        ->add(Url::create('/downloads/rentGuide26.pdf'))
-        ->add(Url::create('/downloads/encontrarTrabajoGuide-web.pdf'));
-
-    return response()->file(public_path('sitemap.xml'));
-});

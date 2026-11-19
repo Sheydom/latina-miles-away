@@ -37,36 +37,6 @@ function initServicesSwiper() {
 }
 
 // ---------------------------------------------------------------------------
-// Certificate modal (trust section on the home page)
-// ---------------------------------------------------------------------------
-function initCertModal() {
-    const openBtn = document.getElementById("openCertModal");
-    const closeBtnX = document.getElementById("closeCertModalX");
-    const modal = document.getElementById("certModal");
-    const image = document.getElementById("certImage");
-
-    if (!openBtn || !modal || modal.dataset.initialized === "true") return;
-    modal.dataset.initialized = "true";
-
-    const open = () => (modal.style.display = "flex");
-    const close = () => (modal.style.display = "none");
-
-    openBtn.addEventListener("click", open);
-    closeBtnX?.addEventListener("click", close);
-    image?.addEventListener("click", close);
-    modal.addEventListener("click", (e) => {
-        if (e.target === modal) close();
-    });
-}
-
-// Registered once (not per navigation) so listeners don't pile up.
-document.addEventListener("keydown", (e) => {
-    if (e.key !== "Escape") return;
-    const modal = document.getElementById("certModal");
-    if (modal) modal.style.display = "none";
-});
-
-// ---------------------------------------------------------------------------
 // Cal.com (popup buttons + inline booking on the guidance session page)
 // ---------------------------------------------------------------------------
 const CAL_LINK = "sheyla-solis-qbslzw/consultation";
@@ -273,7 +243,6 @@ Cal.ns.consultation("on", { action: "bookingSuccessful", callback: onBookingSucc
 // ---------------------------------------------------------------------------
 document.addEventListener("livewire:navigated", () => {
     initServicesSwiper();
-    initCertModal();
     initConsultationCal();
     initContactForm();
 });

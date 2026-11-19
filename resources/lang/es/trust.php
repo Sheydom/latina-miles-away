@@ -3,15 +3,9 @@
 return [
     'greeting' => 'Hola, soy <strong>Sheyla</strong>',
     'photoAlt' => 'Sheyla Solis Bolivar, fundadora de Latina Miles Away',
-    'certAlt' => 'Título de abogada de Sheyla Solis Bolivar',
     'title' => '<span class="text-primary">He estado</span> en tu lugar',
 
-    'firstParagraph' => 'Originalmente formada y
-                    <button type="button" id="openCertModal"
-                        class="inline-flex items-center rounded-full border border-transparent bg-white/80 px-2 py-0.5 underline transition cursor-pointer hover:bg-primary hover:text-white md:hover:border-primary-light">
-                        titulada
-                    </button>
-                    como <strong>abogada en Perú</strong>, llegué a Australia con los mismos sueños e
+    'firstParagraph' => 'Originalmente formada y titulada como <strong>abogada en Perú</strong>, llegué a Australia con los mismos sueños e
                     incertidumbres que quizá tú estés sintiendo hoy. Mi camino hacia la residencia no fue una línea recta — fue un
                     proceso de perseverancia.',
 

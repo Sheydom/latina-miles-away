@@ -38,18 +38,4 @@
             </div>
         </div>
     </div>
-
-    <!-- Modal -->
-    <div id="certModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/70 p-3 md:p-6">
-
-        <div class="relative w-full max-w-5xl">
-            <button id="closeCertModalX" type="button"
-                class="absolute right-2 top-2 flex h-10 w-10 items-center justify-center rounded-full bg-black/50 text-2xl text-white transition duration-200 ease-in-out cursor-pointer  hover:bg-red-500  md:-top-10 md:right-0 md:text-3xl ">
-                ✕
-            </button>
-
-            <img id="certImage" src="{{ asset('images/lawyer.png') }}" alt="{{ __('trust.certAlt') }}"
-                class="w-full max-h-[85vh] rounded-xl bg-white object-contain shadow-lg cursor-pointer" />
-        </div>
-    </div>
 </section>

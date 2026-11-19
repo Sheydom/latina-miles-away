@@ -5,25 +5,25 @@ namespace App\Support;
 use Illuminate\Support\Facades\Route;
 
 /**
- * URL-based languages: English pages live at "/...", Spanish pages at "/es/...".
- * Spanish route names are the English ones prefixed with "es." (see routes/web.php).
+ * URL-based languages: Spanish (main language) lives at "/...", English at "/en/...".
+ * English route names are the Spanish ones prefixed with "en." (see routes/web.php).
  */
 class Localization
 {
     public const LOCALES = ['en', 'es'];
 
-    public const DEFAULT = 'en';
+    public const DEFAULT = 'es';
 
     /** Locale that has a URL prefix, i.e. every locale except the default. */
-    public const PREFIXED = 'es';
+    public const PREFIXED = 'en';
 
-    /** Language a path belongs to, e.g. "/es/contact" => "es". */
+    /** Language a path belongs to, e.g. "/en/contact" => "en". */
     public static function localeForPath(string $path): string
     {
         return explode('/', trim($path, '/'))[0] === self::PREFIXED ? self::PREFIXED : self::DEFAULT;
     }
 
-    /** Path without the language prefix, e.g. "/es/contact" => "/contact". */
+    /** Path without the language prefix, e.g. "/en/contact" => "/contact". */
     public static function basePath(string $path): string
     {
         $path = '/'.ltrim($path, '/');
@@ -66,7 +66,7 @@ class Localization
         return url(self::pathFor($parts['path'] ?? '/', $locale)).$query;
     }
 
-    /** Route name for the current language, e.g. "contact" => "es.contact". */
+    /** Route name for the current language, e.g. "contact" => "en.contact". */
     public static function routeName(string $name): string
     {
         $localized = app()->getLocale() === self::PREFIXED ? self::PREFIXED.'.'.$name : $name;

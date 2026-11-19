@@ -2,146 +2,146 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://latinamilesaway.com/</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/"/>
     </url>
     <url>
-        <loc>https://latinamilesaway.com/es</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es"/>
+        <loc>https://latinamilesaway.com/en</loc>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/"/>
     </url>
     <url>
         <loc>https://latinamilesaway.com/contact</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/contact"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/contact"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/contact"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/contact"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/contact"/>
     </url>
     <url>
-        <loc>https://latinamilesaway.com/es/contact</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/contact"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/contact"/>
+        <loc>https://latinamilesaway.com/en/contact</loc>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/contact"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/contact"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/contact"/>
     </url>
     <url>
         <loc>https://latinamilesaway.com/services/startHere</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/services/startHere"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/services/startHere"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/services/startHere"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/services/startHere"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/services/startHere"/>
     </url>
     <url>
-        <loc>https://latinamilesaway.com/es/services/startHere</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/services/startHere"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/services/startHere"/>
+        <loc>https://latinamilesaway.com/en/services/startHere</loc>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/services/startHere"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/services/startHere"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/services/startHere"/>
     </url>
     <url>
         <loc>https://latinamilesaway.com/services/accomodationGuide</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/services/accomodationGuide"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/services/accomodationGuide"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/services/accomodationGuide"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/services/accomodationGuide"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/services/accomodationGuide"/>
     </url>
     <url>
-        <loc>https://latinamilesaway.com/es/services/accomodationGuide</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/services/accomodationGuide"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/services/accomodationGuide"/>
+        <loc>https://latinamilesaway.com/en/services/accomodationGuide</loc>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/services/accomodationGuide"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/services/accomodationGuide"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/services/accomodationGuide"/>
     </url>
     <url>
         <loc>https://latinamilesaway.com/services/resumeReview</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/services/resumeReview"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/services/resumeReview"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/services/resumeReview"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/services/resumeReview"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/services/resumeReview"/>
     </url>
     <url>
-        <loc>https://latinamilesaway.com/es/services/resumeReview</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/services/resumeReview"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/services/resumeReview"/>
+        <loc>https://latinamilesaway.com/en/services/resumeReview</loc>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/services/resumeReview"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/services/resumeReview"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/services/resumeReview"/>
     </url>
     <url>
         <loc>https://latinamilesaway.com/services/documentReview</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/services/documentReview"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/services/documentReview"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/services/documentReview"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/services/documentReview"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/services/documentReview"/>
     </url>
     <url>
-        <loc>https://latinamilesaway.com/es/services/documentReview</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/services/documentReview"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/services/documentReview"/>
+        <loc>https://latinamilesaway.com/en/services/documentReview</loc>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/services/documentReview"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/services/documentReview"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/services/documentReview"/>
     </url>
     <url>
         <loc>https://latinamilesaway.com/services/guidanceSession</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/services/guidanceSession"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/services/guidanceSession"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/services/guidanceSession"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/services/guidanceSession"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/services/guidanceSession"/>
     </url>
     <url>
-        <loc>https://latinamilesaway.com/es/services/guidanceSession</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/services/guidanceSession"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/services/guidanceSession"/>
+        <loc>https://latinamilesaway.com/en/services/guidanceSession</loc>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/services/guidanceSession"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/services/guidanceSession"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/services/guidanceSession"/>
     </url>
     <url>
         <loc>https://latinamilesaway.com/services/workReadiness</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/services/workReadiness"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/services/workReadiness"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/services/workReadiness"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/services/workReadiness"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/services/workReadiness"/>
     </url>
     <url>
-        <loc>https://latinamilesaway.com/es/services/workReadiness</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/services/workReadiness"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/services/workReadiness"/>
+        <loc>https://latinamilesaway.com/en/services/workReadiness</loc>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/services/workReadiness"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/services/workReadiness"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/services/workReadiness"/>
     </url>
     <url>
         <loc>https://latinamilesaway.com/legal/privacy</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/legal/privacy"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/legal/privacy"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/legal/privacy"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/legal/privacy"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/legal/privacy"/>
     </url>
     <url>
-        <loc>https://latinamilesaway.com/es/legal/privacy</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/legal/privacy"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/legal/privacy"/>
+        <loc>https://latinamilesaway.com/en/legal/privacy</loc>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/legal/privacy"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/legal/privacy"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/legal/privacy"/>
     </url>
     <url>
         <loc>https://latinamilesaway.com/legal/terms</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/legal/terms"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/legal/terms"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/legal/terms"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/legal/terms"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/legal/terms"/>
     </url>
     <url>
-        <loc>https://latinamilesaway.com/es/legal/terms</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/legal/terms"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/legal/terms"/>
+        <loc>https://latinamilesaway.com/en/legal/terms</loc>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/legal/terms"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/legal/terms"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/legal/terms"/>
     </url>
     <url>
         <loc>https://latinamilesaway.com/legal/refunds</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/legal/refunds"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/legal/refunds"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/legal/refunds"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/legal/refunds"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/legal/refunds"/>
     </url>
     <url>
-        <loc>https://latinamilesaway.com/es/legal/refunds</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/legal/refunds"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/legal/refunds"/>
+        <loc>https://latinamilesaway.com/en/legal/refunds</loc>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/legal/refunds"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/legal/refunds"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/legal/refunds"/>
     </url>
     <url>
         <loc>https://latinamilesaway.com/legal/disclaimer</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/legal/disclaimer"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/legal/disclaimer"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/legal/disclaimer"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/legal/disclaimer"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/legal/disclaimer"/>
     </url>
     <url>
-        <loc>https://latinamilesaway.com/es/legal/disclaimer</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/legal/disclaimer"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/es/legal/disclaimer"/>
+        <loc>https://latinamilesaway.com/en/legal/disclaimer</loc>
+        <xhtml:link rel="alternate" hreflang="es" href="https://latinamilesaway.com/legal/disclaimer"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://latinamilesaway.com/en/legal/disclaimer"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://latinamilesaway.com/legal/disclaimer"/>
     </url>
     <url>

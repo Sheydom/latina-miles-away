@@ -13,8 +13,10 @@ Website for [latinamilesaway.com](https://latinamilesaway.com), which offers gui
 
 ## Languages
 
-The site is bilingual (English / Spanish). Every visible text comes from `resources/lang/{en,es}/*.php`.
-The selected language is stored in the session (`/lang/{locale}`) and applied by `app/Http/Middleware/SetLocale.php`.
+The site is bilingual. Spanish is the main language at `/...`, English lives at `/en/...`
+(see `app/Support/Localization.php` and `routes/web.php`). Link to pages with `lroute('name')` so links stay in the
+current language. The language switch (`/lang/{locale}`) opens the same page in the other language and remembers the choice.
+Every visible text comes from `resources/lang/{en,es}/*.php`.
 When you add text, add the key to **both** language folders.
 
 ## Local development

@@ -9,9 +9,9 @@ use Illuminate\Support\Facades\App;
 use Symfony\Component\HttpFoundation\Response;
 
 /**
- * Pages: the URL decides the language ("/es/..." is Spanish, everything else English).
- * Visitors who chose Spanish with the language switch are sent to the Spanish
- * version when they open an English page URL.
+ * Pages: the URL decides the language ("/en/..." is English, everything else Spanish).
+ * Visitors who chose English with the language switch are sent to the English
+ * version when they open a Spanish page URL.
  * Other routes (e.g. /lang/{locale}) use the language saved in the session.
  */
 class SetLocale

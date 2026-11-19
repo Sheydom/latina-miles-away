@@ -14,6 +14,10 @@ jobs:
         run: |
           set -e
           cd /opt/docker-sites/latinamilesaway
+
+          # package-lock.json is generated; drop local edits on the server
+          # (e.g. from a manual "npm install") so the pull can't be blocked
+          git checkout -- package-lock.json
           git pull origin main
 
           # PHP dependencies (picks up composer.lock changes)

@@ -11,7 +11,7 @@
 
 
 
-            @unless (request()->routeIs('home', 'es.home'))
+            @unless (request()->routeIs('home', 'en.home'))
                 <a href="{{ lroute('home') }}" wire:navigate.hover
                     class="ml-2 flex items-center gap-1 rounded-2xl p-2 text-primary transition duration-300 ease-in-out hover:bg-primary-light hover:text-white group md:flex">
                     <svg class="h-6 w-6 shrink-0 text-primary transition duration-300 ease-in-out group-hover:text-white"

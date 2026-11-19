@@ -5,7 +5,7 @@ use App\Support\Localization;
 if (! function_exists('lroute')) {
     /**
      * Like route(), but links to the page in the current language:
-     * lroute('contact') gives "/contact" in English and "/es/contact" in Spanish.
+     * lroute('contact') gives "/contact" in Spanish and "/en/contact" in English.
      */
     function lroute(string $name, mixed $parameters = [], bool $absolute = true): string
     {

@@ -9,8 +9,8 @@ use Illuminate\Support\Facades\Route;
 | Pages
 |--------------------------------------------------------------------------
 | Every page exists twice:
-|   English:  /contact           (route name "contact")
-|   Spanish:  /es/contact        (route name "es.contact")
+|   Spanish (main):  /contact     (route name "contact")
+|   English:         /en/contact  (route name "en.contact")
 | The URL decides the language (see App\Http\Middleware\SetLocale), so Google
 | can index both versions. In views, use lroute('contact') to link to the page
 | in the current language.
@@ -38,7 +38,7 @@ $pages = function () {
 };
 
 Route::group([], $pages);
-Route::prefix('es')->name('es.')->group($pages);
+Route::prefix(Localization::PREFIXED)->name(Localization::PREFIXED.'.')->group($pages);
 
 /*
 | Language switch: remembers the choice and opens the same page in the

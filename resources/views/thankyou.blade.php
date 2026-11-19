@@ -72,7 +72,7 @@
                             {{__('thankyou.main.mainAsecond')}}
                         </a>
 
-                        <a href="{{ route('home') }}"
+                        <a href="{{ lroute('home') }}"
                             class="inline-flex items-center justify-center rounded-xl border border-neutral-300 px-5 py-3 text-sm font-semibold text-neutral-800 duration-200 ease-in-out md:hover:-translate-y-1 md:hover:opacity-90 hover:opacity-90">
                             {{__('thankyou.main.mainAlast')}}
                         </a>

@@ -31,6 +31,14 @@
     <meta charset="UTF-8">
     <meta name="description" content="{{ $metaDescription }}">
     <meta name="robots" content="{{ $robots }}">
+    <link rel="canonical" href="{{ $canonical ?? url()->current() }}">
+    {{-- Tell Google which URL is which language --}}
+    @foreach (\App\Support\Localization::alternates() as $altLocale => $altUrl)
+        <link rel="alternate" hreflang="{{ $altLocale }}" href="{{ $altUrl }}">
+        @if ($altLocale === \App\Support\Localization::DEFAULT)
+            <link rel="alternate" hreflang="x-default" href="{{ $altUrl }}">
+        @endif
+    @endforeach
     <title>{{ $metaTitle ?? 'Move to Australia Guidance | Latina Miles Away' }}</title>
 
     <meta property="og:title" content="{{ $ogTitle ?? $metaTitle }}">
@@ -39,6 +47,7 @@
     <meta property="og:image:alt" content="Latina Miles Away preview image">
     <meta property="og:url" content="{{ $ogUrl ?? url()->current() }}">
     <meta property="og:type" content="website">
+    <meta property="og:locale" content="{{ app()->getLocale() === 'es' ? 'es_LA' : 'en_AU' }}">
     <meta property="og:site_name" content="Latina Miles Away">
 
     <meta name="twitter:card" content="summary_large_image">

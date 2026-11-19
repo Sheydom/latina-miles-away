@@ -94,15 +94,15 @@
     </div>
 
     <div class="flex gap-x-6 flex-wrap text-sm text-gray-500 justify-center md:text-base">
-        <a href="{{ route('legal.terms') }}" class="hover:underline" wire:navigate.hover>{{ __('footer.links.terms') }}
+        <a href="{{ lroute('legal.terms') }}" class="hover:underline" wire:navigate.hover>{{ __('footer.links.terms') }}
         </a>
-        <a href="{{ route('legal.privacy') }}" class="hover:underline"
+        <a href="{{ lroute('legal.privacy') }}" class="hover:underline"
             wire:navigate.hover>{{ __('footer.links.privacy') }} </a>
-        <a href="{{ route('legal.refunds') }}" class="hover:underline"
+        <a href="{{ lroute('legal.refunds') }}" class="hover:underline"
             wire:navigate.hover>{{ __('footer.links.refunds') }} </a>
-        <a href="{{ route('legal.disclaimer') }}" class="hover:underline"
+        <a href="{{ lroute('legal.disclaimer') }}" class="hover:underline"
             wire:navigate.hover>{{ __('footer.links.disclaimer') }} </a>
-        <a href="{{ route('contact') }}" class="hover:underline" wire:navigate.hover>{{ __('footer.links.contact') }}
+        <a href="{{ lroute('contact') }}" class="hover:underline" wire:navigate.hover>{{ __('footer.links.contact') }}
         </a>
     </div>
 

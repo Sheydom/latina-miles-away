@@ -7,7 +7,7 @@
     <div class="swiper services-swiper w-full overflow-hidden">
         <div id="serviceContainer" class="swiper-wrapper">
 
-            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.startHere') }}"
+            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ lroute('services.startHere') }}"
                 onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">
@@ -24,7 +24,7 @@
                 </div>
             </a>
 
-            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.guidanceSession') }}"
+            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ lroute('services.guidanceSession') }}"
                 onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border-2 border-primary bg-white p-5 shadow-md relative transition md:hover:border-primary-light md:hover:scale-105 md:hover:z-50">
@@ -46,7 +46,7 @@
                 </div>
             </a>
 
-            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.accomodationGuide') }}"
+            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ lroute('services.accomodationGuide') }}"
                 onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">
@@ -63,7 +63,7 @@
                 </div>
             </a>
 
-            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.resumeReview') }}"
+            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ lroute('services.resumeReview') }}"
                 onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">
@@ -80,7 +80,7 @@
                 </div>
             </a>
 
-            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.documentReview') }}"
+            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ lroute('services.documentReview') }}"
                 onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">
@@ -97,7 +97,7 @@
                 </div>
             </a>
 
-            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ route('services.workReadiness') }}"
+            <a class="swiper-slide !w-[85vw] max-w-xs p-5" href="{{ lroute('services.workReadiness') }}"
                 onclick="Livewire.navigate(this.href); return false;">
                 <div
                     class="h-full min-h-70 flex flex-col text-start rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md relative transition md:hover:border-primary-light md:hover:scale-105">
@@ -138,7 +138,7 @@
     <div class="flex w-full justify-center">
         <div id="serviceContainer" style="-webkit-overflow-scrolling: touch;"
             class=" flex gap-4 overflow-x-scroll services pb-2 scrollbar-visible snap-x snap-mandatory   md:overflow-visible md:grid lg:grid-cols-3 md:grid-cols-2 md:justify-items-center">
-            <a href="{{ route('services.startHere') }}" wire:navigate.hover>
+            <a href="{{ lroute('services.startHere') }}" wire:navigate.hover>
                 <div
                     class="w-[85vw] max-w-xs flex flex-col text-start min-h-60 shrink-0 rounded-2xl snap-center border borde border-neutral-200  bg-white  p-5
                     shadow-sm
@@ -168,7 +168,7 @@
                     </div>
                 </div>
             </a>
-            <a href="{{ route('services.guidanceSession') }}" wire:navigate.hover>
+            <a href="{{ lroute('services.guidanceSession') }}" wire:navigate.hover>
                 <div
                     class="w-[85vw] max-w-xs min-h-60 flex flex-col text-start shrink-0 rounded-2xl snap-center
                     border-2 border-primary
@@ -204,7 +204,7 @@
                 </div>
             </a>
 
-            <a href="{{ route('services.accomodationGuide') }}" wire:navigate.hover>
+            <a href="{{ lroute('services.accomodationGuide') }}" wire:navigate.hover>
                 <div
                     class="w-[85vw] max-w-xs min-h-60  shrink-0  rounded-2xl snap-center
                     border border-neutral-200
@@ -234,7 +234,7 @@
                     </div>
                 </div>
             </a>
-            <a href="{{ route('services.resumeReview') }}" wire:navigate.hover>
+            <a href="{{ lroute('services.resumeReview') }}" wire:navigate.hover>
                 <div
                     class="w-[85vw] max-w-xs min-h-60  shrink-0 rounded-2xl snap-center
                     border border-neutral-200
@@ -264,7 +264,7 @@
                     </div>
                 </div>
             </a>
-            <a href="{{ route('services.documentReview') }}" wire:navigate.hover>
+            <a href="{{ lroute('services.documentReview') }}" wire:navigate.hover>
                 <div
                     class="w-[85vw] max-w-xs min-h-60  shrink-0 rounded-2xl snap-center
                         border border-neutral-200
@@ -294,7 +294,7 @@
                     </div>
                 </div>
             </a>
-            <a href="{{ route('services.workReadiness') }}" wire:navigate.hover>
+            <a href="{{ lroute('services.workReadiness') }}" wire:navigate.hover>
                 <div
                     class="w-[85vw] max-w-xs min-h-60  shrink-0  rounded-2xl snap-center
                     border border-neutral-200 

@@ -9,7 +9,7 @@
 
     $ogImage = asset('images/lmaLogo.png');
 
-    $ogUrl = 'https://latinamilesaway.com';
+    $ogUrl = lroute('home');
 @endphp
 <x-layout.app :metaTitle="$metaTitle" :metaDescription="$metaDescription" :ogTitle="$ogTitle" :ogDescription="$ogDescription" :ogImage="$ogImage"
     :ogUrl="$ogUrl">

@@ -2,7 +2,7 @@
     <div class="mx-auto flex w-full items-center justify-between">
 
         <div class="flex items-center gap-3 md:gap-5">
-            <a href="{{ route('home') }}" wire:navigate.hover
+            <a href="{{ lroute('home') }}" wire:navigate.hover
                 class="shrink-0 flex items-center gap-3 hover:-translate-y-2 transition ease-in-out duration-300">
                 <img class="block h-14 w-14 md:h-20 md:w-20" src="{{ asset('images/lma.svg') }}"
                     alt="Latina Miles Away Logo">
@@ -11,11 +11,8 @@
 
 
 
-            @if (request()->routeIs('legal.*') ||
-                    request()->routeIs('contact') ||
-                    request()->routeIs('services.*') ||
-                    request()->routeIs('thankyou'))
-                <a href="{{ route('home') }}" wire:navigate.hover
+            @unless (request()->routeIs('home', 'es.home'))
+                <a href="{{ lroute('home') }}" wire:navigate.hover
                     class="ml-2 flex items-center gap-1 rounded-2xl p-2 text-primary transition duration-300 ease-in-out hover:bg-primary-light hover:text-white group md:flex">
                     <svg class="h-6 w-6 shrink-0 text-primary transition duration-300 ease-in-out group-hover:text-white"
                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
@@ -24,7 +21,7 @@
                     </svg>
                     <span class="text-lg">{{ __('nav.home') }}</span>
                 </a>
-            @endif
+            @endunless
         </div>
 
         <div class="flex items-center gap-2 md:gap-3">
